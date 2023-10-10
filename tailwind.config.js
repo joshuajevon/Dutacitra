@@ -4,6 +4,7 @@ module.exports = {
         "./resources/**/*.blade.php",
         "./resources/**/*.js",
         "./resources/**/*.vue",
+        "./public/js/**/*.js",
     ],
     theme: {
         extend: {
@@ -15,6 +16,9 @@ module.exports = {
                 "custom-light-blue": "#BFDFE9",
                 "custom-dark-blue": "#213371",
                 "custom-darker-blue": "#18275C",
+            },
+            fontFamily: {
+                nunito: ["Nunito Sans", "sans-serif"],
             },
         },
     },

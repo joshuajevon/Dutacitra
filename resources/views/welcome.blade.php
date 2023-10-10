@@ -1,4 +1,4 @@
-@extends('template.template')
+@extends('template.template-en')
 
 @section('head')
     {{-- css --}}
@@ -6,6 +6,8 @@
 @endsection
 
 @section('body')
+    <x-navbar-en :page="'home'" />
+
     <h1 class="text-3xl font-bold underline">
         Hello world!
     </h1>
