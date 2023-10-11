@@ -1,4 +1,4 @@
-<footer class="bg-custom-darker-blue text-custom-white c-container font-nunito text-sm sm:text-base md:text-lg py-16">
+<footer class="text-paragraph bg-custom-darker-blue text-custom-white c-container py-16">
     <div class="grid gap-16 grid-cols-1 xl:grid-cols-9">
         <div class="flex flex-col gap-4 col-span-1 xl:col-span-3">
             <div class="flex justify-center sm:justify-start mb-4">
@@ -84,7 +84,7 @@
 
                 <ul class="mt-8 space-y-4">
                     <li>
-                        <a class="text-custom-white/70 hover:text-custom-white transition" href="/">
+                        <a class="text-custom-white/70 hover:text-custom-white transition" href="/our-project">
                             Projects
                         </a>
                     </li>

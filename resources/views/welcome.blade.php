@@ -8,7 +8,7 @@
 @section('body')
     <x-navbar-en :page="'home'" />
 
-    <div class="min-h-screen">
+    <div class="c-container py-32 min-h-screen">
         <h1 class="text-3xl font-bold underline">
             Hello world!
         </h1>

@@ -1,15 +1,15 @@
-<nav class="block bg-custom-darker-blue c-container z-50 w-full font-nunito text-custom-white">
+<nav class="block bg-custom-darker-blue c-container z-50 w-full text-custom-white">
     <div class="flex justify-between items-center py-3 xl:py-6">
         <a href="#hero">
             <img src="{{ asset('assets/logo/logo-horizontal-green.svg') }}?t={{ env('VERSION_TIME') }}" alt="logo" class="w-32 sm:w-36 md:w-40">
         </a>
         <span class="hidden xl:flex justify-center items-center gap-16">
             <span class="flex justify-center items-center gap-8 sm:gap-16 md:gap-20 text-base sm:text-lg md:text-xl">
-                <a href="#" class="@if($page === 'home') font-extrabold @endif ">Home</a>
+                <a href="/" class="@if($page === 'home') font-extrabold @endif ">Home</a>
 
                 <a href="#" class="@if($page === 'product') font-extrabold @endif">Product</a>
 
-                <a href="#" class="@if($page === 'project') font-extrabold @endif">Project</a>
+                <a href="/our-project" class="@if($page === 'project') font-extrabold @endif">Project</a>
 
                 <a href="#" class="@if($page === 'about-us') font-extrabold @endif">About Us</a>
 
@@ -52,12 +52,12 @@
 </nav>
 
 {{-- Mobile Links --}}
-<nav id="mobile-nav-links" class="c-container font-nunito pb-2 bg-custom-darker-blue hidden text-custom-white text-base sm:text-lg md:text-xl fixed top-[72px] left-0 z-40 w-full shadow-lg">
-    <a href="#" class="@if($page === 'home') font-extrabold @endif block py-3">Home</a>
+<nav id="mobile-nav-links" class="c-container pb-2 bg-custom-darker-blue hidden text-custom-white text-base sm:text-lg md:text-xl fixed top-[72px] left-0 z-40 w-full shadow-lg">
+    <a href="/" class="@if($page === 'home') font-extrabold @endif block py-3">Home</a>
 
     <a href="#" class="@if($page === 'product') font-extrabold @endif block py-3">Product</a>
 
-    <a href="#" class="@if($page === 'project') font-extrabold @endif block py-3">Project</a>
+    <a href="/our-project" class="@if($page === 'project') font-extrabold @endif block py-3">Project</a>
 
     <a href="#" class="@if($page === 'about-us') font-extrabold @endif block py-3">About Us</a>
 

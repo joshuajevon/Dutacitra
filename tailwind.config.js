@@ -19,6 +19,7 @@ module.exports = {
             },
             fontFamily: {
                 nunito: ["Nunito Sans", "sans-serif"],
+                ttRamillas: ["TT Ramillas", "serif"],
             },
         },
     },
