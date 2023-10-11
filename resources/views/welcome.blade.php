@@ -8,7 +8,11 @@
 @section('body')
     <x-navbar-en :page="'home'" />
 
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
+    <div class="min-h-screen">
+        <h1 class="text-3xl font-bold underline">
+            Hello world!
+        </h1>
+    </div>
+
+    <x-footer />
 @endsection
