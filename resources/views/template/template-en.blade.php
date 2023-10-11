@@ -13,7 +13,7 @@
     <link rel="icon" href="/favicon.ico" sizes="48x48">
 
     {{-- Build CSS --}}
-    <link rel="stylesheet" href="{{ asset('css/build.css') }}?t={{ env('VERSION_TIME') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('css/build.css') }}?t={{ env('VERSION_TIME') }}"> --}}
 
     <!-- vite-->
     @vite('resources/css/app.css')
