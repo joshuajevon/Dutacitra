@@ -7,9 +7,9 @@
             <span class="flex justify-center items-center gap-8 sm:gap-16 md:gap-20 text-base sm:text-lg md:text-xl">
                 <a href="/" class="@if($page === 'home') font-extrabold @endif ">Home</a>
 
-                <a href="#" class="@if($page === 'product') font-extrabold @endif">Product</a>
+                <a href="/product" class="@if($page === 'product') font-extrabold @endif">Product</a>
 
-                <a href="/our-project" class="@if($page === 'project') font-extrabold @endif">Project</a>
+                <a href="/project" class="@if($page === 'project') font-extrabold @endif">Project</a>
 
                 <a href="#" class="@if($page === 'about-us') font-extrabold @endif">About Us</a>
 
@@ -55,9 +55,9 @@
 <nav id="mobile-nav-links" class="c-container pb-2 bg-custom-darker-blue hidden text-custom-white text-base sm:text-lg md:text-xl fixed top-[72px] left-0 z-40 w-full shadow-lg">
     <a href="/" class="@if($page === 'home') font-extrabold @endif block py-3">Home</a>
 
-    <a href="#" class="@if($page === 'product') font-extrabold @endif block py-3">Product</a>
+    <a href="/product" class="@if($page === 'product') font-extrabold @endif block py-3">Product</a>
 
-    <a href="/our-project" class="@if($page === 'project') font-extrabold @endif block py-3">Project</a>
+    <a href="/project" class="@if($page === 'project') font-extrabold @endif block py-3">Project</a>
 
     <a href="#" class="@if($page === 'about-us') font-extrabold @endif block py-3">About Us</a>
 

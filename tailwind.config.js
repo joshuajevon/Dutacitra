@@ -13,6 +13,7 @@ module.exports = {
                 "custom-white": "#FCFEFF",
                 "custom-light-taupe": "#C6C0AF",
                 "custom-light-yellow": "#F8F4E9",
+                "custom-lighter-blue": "#D4E7ED",
                 "custom-light-blue": "#BFDFE9",
                 "custom-dark-blue": "#213371",
                 "custom-darker-blue": "#18275C",

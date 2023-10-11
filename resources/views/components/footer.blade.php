@@ -84,7 +84,7 @@
 
                 <ul class="mt-8 space-y-4">
                     <li>
-                        <a class="text-custom-white/70 hover:text-custom-white transition" href="/our-project">
+                        <a class="text-custom-white/70 hover:text-custom-white transition" href="/project">
                             Projects
                         </a>
                     </li>
