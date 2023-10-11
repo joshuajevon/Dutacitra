@@ -18,4 +18,4 @@ yarn-error.log
 /.idea
 /.vscode
 
-scss/build.css
+/public/css/build.css
