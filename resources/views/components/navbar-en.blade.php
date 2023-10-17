@@ -22,9 +22,9 @@
 
                 <a href="{{ route('project') }}" class="@if($page === 'project') font-extrabold @endif">Project</a>
 
-                <a href="#" class="@if($page === 'about-us') font-extrabold @endif">About Us</a>
+                <a href="{{ route('about') }}" class="@if($page === 'about') font-extrabold @endif">About Us</a>
 
-                <a href="#" class="border border-custom-white rounded-full px-6 py-1 hover:bg-custom-white hover:text-custom-darker-blue transition">Contact</a>
+                <a href="{{ route('contact') }}" class="@if($page === 'contact') font-extrabold @endif border border-custom-white rounded-full px-6 py-1 hover:bg-custom-white hover:text-custom-darker-blue transition">Contact</a>
 
                 <div class="relative cursor-pointer" onclick="toggleWebLanguageDropdown()">
                     <div class="inline-flex items-center overflow-hidden">
@@ -63,14 +63,14 @@
 </nav>
 
 {{-- Mobile Links --}}
-<nav id="mobile-nav-links" class="c-container pb-2 bg-custom-darker-blue hidden text-custom-white text-base sm:text-lg md:text-xl fixed top-[72px] left-0 z-40 w-full shadow-lg">
+<nav id="mobile-nav-links" class="c-container pb-2 bg-custom-darker-blue hidden text-custom-white text-base sm:text-lg md:text-xl absolute top-[72px] left-0 z-40 w-full shadow-lg">
     <a href="/" class="@if($page === 'home') font-extrabold @endif block py-3">Home</a>
 
     <a href="{{ route('product') }}" class="@if($page === 'product') font-extrabold @endif block py-3">Product</a>
 
     <a href="{{ route('project') }}" class="@if($page === 'project') font-extrabold @endif block py-3">Project</a>
 
-    <a href="#" class="@if($page === 'about-us') font-extrabold @endif block py-3">About Us</a>
+    <a href="{{ route('project') }}" class="@if($page === 'about') font-extrabold @endif block py-3">About Us</a>
 
     <div class="relative transition-colors text-custom-light-green hover:text-custom-dark-green cursor-pointer py-3" onclick="toggleMobileLanguageDropdown()">
         <div class="inline-flex items-center overflow-hidden">

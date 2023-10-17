@@ -92,13 +92,13 @@
                     </li>
 
                     <li>
-                        <a href="/" class="text-custom-white/70 hover:text-custom-white transition">
+                        <a href="{{ route('project') }}" class="text-custom-white/70 hover:text-custom-white transition">
                             About Us
                         </a>
                     </li>
 
                     <li>
-                        <a href="/" class="text-custom-white/70 hover:text-custom-white transition">
+                        <a href="{{ route('contact') }}" class="text-custom-white/70 hover:text-custom-white transition">
                             Contact
                         </a>
                     </li>

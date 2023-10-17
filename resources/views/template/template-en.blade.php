@@ -31,7 +31,7 @@
     @yield('head')
 </head>
 
-<body>
+<body class="bg-custom-white">
     @yield('body')
 
     {{-- Scripts --}}

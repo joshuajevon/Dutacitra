@@ -7,6 +7,17 @@
     letter-spacing: 1.6px;
 }
 
+input:focus,
+textarea:focus {
+    outline: 0;
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: #fcfeff !important;
+    -webkit-box-shadow: 0 0 0 30px #213371 inset !important;
+    font-family: "Nunito Sans", sans-serif !important;
+}
+
 @layer base {
     @font-face {
         font-family: "TT Ramillas";
@@ -35,5 +46,9 @@
 
     .text-paragraph {
         @apply text-sm sm:text-base md:text-lg;
+    }
+
+    .text-heading {
+        @apply text-2xl sm:text-3xl md:text-4xl;
     }
 }
