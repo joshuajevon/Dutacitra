@@ -64,15 +64,17 @@
 
 {{-- Mobile Links --}}
 <nav id="mobile-nav-links" class="c-container pb-2 bg-custom-darker-blue hidden text-custom-white text-base sm:text-lg md:text-xl absolute top-[72px] left-0 z-40 w-full shadow-lg">
-    <a href="/" class="@if($page === 'home') font-extrabold @endif block py-3">Home</a>
+    <a href="/" class="@if($page === 'home') font-extrabold @endif block py-3.5">Home</a>
 
-    <a href="{{ route('product') }}" class="@if($page === 'product') font-extrabold @endif block py-3">Product</a>
+    <a href="{{ route('product') }}" class="@if($page === 'product') font-extrabold @endif block py-3.5">Product</a>
 
-    <a href="{{ route('project') }}" class="@if($page === 'project') font-extrabold @endif block py-3">Project</a>
+    <a href="{{ route('project') }}" class="@if($page === 'project') font-extrabold @endif block py-3.5">Project</a>
 
-    <a href="{{ route('project') }}" class="@if($page === 'about') font-extrabold @endif block py-3">About Us</a>
+    <a href="{{ route('project') }}" class="@if($page === 'about') font-extrabold @endif block py-3.5">About Us</a>
 
-    <div class="relative transition-colors text-custom-light-green hover:text-custom-dark-green cursor-pointer py-3" onclick="toggleMobileLanguageDropdown()">
+    <a href="{{ route('contact') }}" class="@if($page === 'contact') font-extrabold @endif block py-3.5">Contact</a>
+
+    <div class="relative transition-colors text-custom-light-green hover:text-custom-dark-green cursor-pointer py-3.5" onclick="toggleMobileLanguageDropdown()">
         <div class="inline-flex items-center overflow-hidden">
             <p>
                 EN
