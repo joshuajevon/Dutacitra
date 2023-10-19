@@ -1,7 +1,7 @@
 <nav class="block bg-custom-darker-blue c-container z-50 w-full text-custom-white">
-    <div class="flex justify-between items-center py-3 xl:py-6">
+    <div class="flex justify-between items-center py-3 xl:py-4">
         <a href="{{ route('home') }}">
-            <img src="{{asset('assets/logo/logo-icon.png')}}" alt="logo" class="h-10 xl:h-12">
+            <img src="{{asset('assets/logo/logo-icon.png')}}" alt="logo" class="h-11 xl:h-auto">
         </a>
         <span class="hidden xl:flex justify-center items-center gap-16">
             <span class="flex justify-center items-center gap-8 sm:gap-16 md:gap-20 text-base sm:text-lg md:text-xl">
