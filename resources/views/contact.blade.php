@@ -119,6 +119,20 @@
             </div>
         </div>
     </div>
+
+    <div class="flex flex-col justify-center items-center gap-8 sm:gap-12 md:gap-16 text-custom-dark-blue pt-8 sm:pt-16 md:pt-24">
+        <div class="flex flex-col justify-center items-center gap-2 sm:gap-3 md:gap-4 max-w-3xl">
+            <h1 class="text-heading font-ttRamillas font-extrabold text-center">
+                Find Us on Google Maps
+            </h1>
+            <p class="text-paragraph text-center">Jl. Utan Jati Ruko Daan Mogot Baru Blok LB 2 No. 15, Kalideres, Kec. Kalideres, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11830</p>
+        </div>
+
+        <div class="w-full">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d606.9580324079261!2d106.71164160312428!3d-6.147837243510641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f9f26ee22301%3A0xd48a5a308918c15a!2sPT.%20DutaCitra%20NusaJaya!5e0!3m2!1sen!2sid!4v1697682781696!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-[500px]  rounded-3xl"></iframe>
+        </div>
+
+    </div>
 </div>
 
 <x-footer />
