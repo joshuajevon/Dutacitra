@@ -6,7 +6,7 @@
 @endsection
 
 @section('body')
-<x-navbar-en :page="'contact'" />
+<x-navbar :page="'contact'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" />
 
 <div class="relative c-container flex flex-col text-custom-white py-12 sm:py-24 md:py-28 lg:py-32 gap-16">
     <div class="z-10 absolute top-0 left-0 w-full h-[22rem] sm:h-[28rem] md:h-[30rem] lg:h-[32rem] xl:h-[48rem] bg-center bg-cover" style="background-image: url('{{asset('assets/contact/header.jpg')}}')">

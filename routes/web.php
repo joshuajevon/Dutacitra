@@ -15,8 +15,17 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('/project', [HomeController::class, 'project'])->name('project');
-Route::get('/product', [HomeController::class, 'product'])->name('product');
-Route::get('/about', [HomeController::class, 'about'])->name('about');
-Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
+Route::get('/', [HomeController::class, 'index'])->name('homeEn');
+
+
+Route::get('/project', [HomeController::class, 'project'])->name('projectEn');
+
+
+Route::get('/product', [HomeController::class, 'product'])->name('productEn');
+
+
+Route::get('/about', [HomeController::class, 'about'])->name('aboutEn');
+Route::get('/about/id', [HomeController::class, 'aboutId'])->name('aboutId');
+
+
+Route::get('/contact', [HomeController::class, 'contact'])->name('contactEn');

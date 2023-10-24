@@ -6,7 +6,7 @@
 @endsection
 
 @section('body')
-<x-navbar :page="'about'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" />
+<x-navbar :page="'about'" :lang="'id'" :enRoute="'aboutEn'" :idRoute="'aboutId'" />
 
 <div class="h-32 sm:h-56 md:h-64 lg:h-72 xl:h-80 bg-center bg-cover flex items-center justify-center" style="background-image: url({{asset('assets/product/header.jpg')}});">
     <h1 class="font-ttRamillas text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-custom-white">Our Product</h1>

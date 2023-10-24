@@ -1,24 +1,28 @@
 <nav class="block bg-custom-darker-blue c-container z-50 w-full text-custom-white">
     <div class="flex justify-between items-center py-3 xl:py-4">
-        <a href="{{ route('home') }}">
+        <a href="{{ route('homeEn') }}">
             <img src="{{asset('assets/logo/logo-icon.png')}}" alt="logo" class="h-11 xl:h-auto">
         </a>
         <span class="hidden xl:flex justify-center items-center gap-16">
             <span class="flex justify-center items-center gap-8 sm:gap-16 md:gap-20 text-base sm:text-lg md:text-xl">
-                <a href="{{ route('home') }}" class="@if($page === 'home') font-extrabold @endif ">Home</a>
+                <a href="{{ route('homeEn') }}" class="@if($page === 'home') font-extrabold @endif ">Home</a>
 
-                <a href="{{ route('product') }}" class="@if($page === 'product') font-extrabold @endif">Product</a>
+                <a href="{{ route('productEn') }}" class="@if($page === 'product') font-extrabold @endif">Product</a>
 
-                <a href="{{ route('project') }}" class="@if($page === 'project') font-extrabold @endif">Project</a>
+                <a href="{{ route('projectEn') }}" class="@if($page === 'project') font-extrabold @endif">Project</a>
 
-                <a href="{{ route('about') }}" class="@if($page === 'about') font-extrabold @endif">About Us</a>
+                <a href="{{ route('aboutEn') }}" class="@if($page === 'about') font-extrabold @endif">About Us</a>
 
-                <a href="{{ route('contact') }}" class="@if($page === 'contact') font-extrabold @endif border border-custom-white rounded-full px-6 py-1 hover:bg-custom-white hover:text-custom-darker-blue transition">Contact</a>
+                <a href="{{ route('contactEn') }}" class="@if($page === 'contact') font-extrabold @endif border border-custom-white rounded-full px-6 py-1 hover:bg-custom-white hover:text-custom-darker-blue transition">Contact</a>
 
                 <div class="relative cursor-pointer" onclick="toggleWebLanguageDropdown()">
                     <div class="inline-flex items-center overflow-hidden">
                         <p>
+                            @if($lang === 'en')
                             EN
+                            @else
+                            ID
+                            @endif
                         </p>
 
                         <svg id="language-dropdown-arrow-web" xmlns="http://www.w3.org/2000/svg" class="ml-1 h-4 w-4 transition" viewBox="0 0 20 20" fill="currentColor">
@@ -28,11 +32,11 @@
 
                     <div id="language-dropdown-web" class="hidden absolute end-0 z-10 mt-2 rounded-md border border-custom-white bg-custom-darker-blue shadow-lg" role="menu">
                         <div class="p-2">
-                            <a href="/" class="block rounded-lg px-4 py-2 hover:bg-custom-white hover:text-custom-darker-blue" role="menuitem">
+                            <a href="{{ route($enRoute) }}" class="@if($lang === 'en') bg-custom-white text-custom-darker-blue @endif transition block rounded-lg px-4 py-2 hover:bg-custom-white hover:text-custom-darker-blue" role="menuitem">
                                 EN
                             </a>
 
-                            <a href="/id" class="block rounded-lg px-4 py-2 hover:bg-custom-white hover:text-custom-darker-blue" role="menuitem">
+                            <a href="{{ route($idRoute) }}" class="@if($lang === 'id') bg-custom-white text-custom-darker-blue @endif block rounded-lg px-4 py-2 hover:bg-custom-white hover:text-custom-darker-blue" role="menuitem">
                                 ID
                             </a>
                         </div>
@@ -53,20 +57,24 @@
 
 {{-- Mobile Links --}}
 <nav id="mobile-nav-links" class="c-container pb-2 bg-custom-darker-blue hidden text-custom-white text-base sm:text-lg md:text-xl absolute top-[72px] left-0 z-40 w-full shadow-lg">
-    <a href="/" class="@if($page === 'home') font-extrabold @endif block py-3.5">Home</a>
+    <a href="{{ route('homeEn') }}" class="@if($page === 'home') font-extrabold @endif block py-3.5">Home</a>
 
-    <a href="{{ route('product') }}" class="@if($page === 'product') font-extrabold @endif block py-3.5">Product</a>
+    <a href="{{ route('productEn') }}" class="@if($page === 'product') font-extrabold @endif block py-3.5">Product</a>
 
-    <a href="{{ route('project') }}" class="@if($page === 'project') font-extrabold @endif block py-3.5">Project</a>
+    <a href="{{ route('projectEn') }}" class="@if($page === 'project') font-extrabold @endif block py-3.5">Project</a>
 
-    <a href="{{ route('project') }}" class="@if($page === 'about') font-extrabold @endif block py-3.5">About Us</a>
+    <a href="{{ route('projectEn') }}" class="@if($page === 'about') font-extrabold @endif block py-3.5">About Us</a>
 
-    <a href="{{ route('contact') }}" class="@if($page === 'contact') font-extrabold @endif block py-3.5">Contact</a>
+    <a href="{{ route('contactEn') }}" class="@if($page === 'contact') font-extrabold @endif block py-3.5">Contact</a>
 
     <div class="relative transition-colors text-custom-light-green hover:text-custom-dark-green cursor-pointer py-3.5" onclick="toggleMobileLanguageDropdown()">
         <div class="inline-flex items-center overflow-hidden">
             <p>
+                @if($lang === 'en')
                 EN
+                @else
+                ID
+                @endif
             </p>
 
             <svg id="language-dropdown-arrow-mobile" xmlns="http://www.w3.org/2000/svg" class="ml-1 h-4 w-4 transition" viewBox="0 0 20 20" fill="currentColor">
@@ -76,11 +84,11 @@
 
         <div id="language-dropdown-mobile" class="hidden absolute start-0 z-10 mt-2 rounded-md border border-custom-white bg-custom-darker-blue shadow-lg" role="menu">
             <div class="p-2">
-                <a href="#" class="block rounded-lg px-4 py-2 hover:bg-custom-white hover:text-custom-darker-blue" role="menuitem">
+                <a href="{{ route($enRoute) }}" class="@if($lang === 'en') bg-custom-white text-custom-darker-blue @endif transition block rounded-lg px-4 py-2 hover:bg-custom-white hover:text-custom-darker-blue" role="menuitem">
                     EN
                 </a>
 
-                <a href="/id" class="block rounded-lg px-4 py-2 hover:bg-custom-white hover:text-custom-darker-blue" role="menuitem">
+                <a href="{{ route($idRoute) }}" class="@if($lang === 'id') bg-custom-white text-custom-darker-blue @endif block rounded-lg px-4 py-2 hover:bg-custom-white hover:text-custom-darker-blue" role="menuitem">
                     ID
                 </a>
             </div>

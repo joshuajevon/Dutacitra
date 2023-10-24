@@ -2,7 +2,7 @@
     <div class="grid gap-16 grid-cols-1 xl:grid-cols-9">
         <div class="flex flex-col gap-4 col-span-1 xl:col-span-3">
             <div class="flex justify-center sm:justify-start mb-4">
-                <a href="{{ route('home') }}" class="flex items-center gap-4">
+                <a href="{{ route('homeEn') }}" class="flex items-center gap-4">
                     <img src="{{asset('assets/logo/logo-icon-text.png')}}" alt="logo" class="h-10 sm:h-12 xl:h-auto">
                 </a>
             </div>
@@ -75,19 +75,19 @@
 
                 <ul class="mt-8 space-y-4">
                     <li>
-                        <a href="{{ route('project') }}" class="text-custom-white/70 hover:text-custom-white transition">
+                        <a href="{{ route('projectEn') }}" class="text-custom-white/70 hover:text-custom-white transition">
                             Projects
                         </a>
                     </li>
 
                     <li>
-                        <a href="{{ route('project') }}" class="text-custom-white/70 hover:text-custom-white transition">
+                        <a href="{{ route('projectEn') }}" class="text-custom-white/70 hover:text-custom-white transition">
                             About Us
                         </a>
                     </li>
 
                     <li>
-                        <a href="{{ route('contact') }}" class="text-custom-white/70 hover:text-custom-white transition">
+                        <a href="{{ route('contactEn') }}" class="text-custom-white/70 hover:text-custom-white transition">
                             Contact
                         </a>
                     </li>

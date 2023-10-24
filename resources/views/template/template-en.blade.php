@@ -38,7 +38,7 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
     {{-- Scripts --}}
-    <script src="{{ asset('js/navbar-en.js') }}?t={{ env('VERSION_TIME') }}"></script>
+    <script src="{{ asset('js/navbar.js') }}?t={{ env('VERSION_TIME') }}"></script>
 </body>
 
 </html>

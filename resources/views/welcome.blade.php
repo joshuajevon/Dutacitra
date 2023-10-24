@@ -67,7 +67,7 @@
 @endsection
 
 @section('body')
-<x-navbar-en :page="'home'" />
+<x-navbar :page="'home'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" />
 
 <div class="c-container py-32 min-h-screen">
     <h1 class="text-3xl font-bold underline">

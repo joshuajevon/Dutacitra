@@ -25,6 +25,10 @@ class HomeController extends Controller
     {
         return view('about');
     }
+    public function aboutId()
+    {
+        return view('id/about');
+    }
 
     public function contact()
     {
