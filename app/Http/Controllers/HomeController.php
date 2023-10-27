@@ -20,6 +20,10 @@ class HomeController extends Controller
     {
         return view('product');
     }
+    public function slidingAutomaticDoors()
+    {
+        return view('automatic-sliding-doors');
+    }
 
     public function about()
     {

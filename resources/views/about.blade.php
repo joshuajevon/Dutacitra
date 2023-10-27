@@ -14,7 +14,9 @@
 
 {{-- About Us --}}
 <div class="c-container grid grid-cols-1 lg:grid-cols-2 py-16 sm:py-20 md:py-24 gap-8 sm:gap-10 md:gap-12">
-    <div class="col-span-1 bg-gray-300 rounded-3xl h-96 lg:h-full"></div>
+    <div class="col-span-1 bg-gray-300 rounded-3xl h-72 sm:h-80 md:h-96 lg:h-full bg-cover bg-no-repeat bg-center" style="background-image: url({{asset('assets/about/about-us.jpg')}});">
+        {{-- <img src="{{asset('assets/about/about-us.jpg')}}" alt="about-us" class=""> --}}
+    </div>
     <div class="col-span-1 text-custom-dark-blue flex flex-col gap-4 sm:gap-5 md:gap-6 lg:py-4">
         <h1 class="text-heading font-ttRamillas font-extrabold">
             About Us
@@ -78,7 +80,7 @@
 
 {{-- Vision & Mission --}}
 <div class="c-container grid grid-cols-1 xl:grid-cols-2 gap-8 sm:gap-10 md:gap-12 xl:gap-0 text-custom-dark-blue py-12 sm:py-14 md:py-16">
-    <div class="px-8">
+    <div class="px-4 sm:pc-6 md:px-8">
         <div class="flex flex-col gap-2 sm:gap-3 md:gap-4 justify-center items-center bg-custom-light-yellow rounded-3xl py-8 sm:py-10 md:py-12 lg:py-14 xl:py-16 px-16 sm:px-20 md:px-24 lg:px-28 xl:px-32 h-full">
             <h1 class="text-heading font-ttRamillas font-extrabold text-center">
                 Vision
@@ -90,7 +92,7 @@
 
     </div>
 
-    <div class="px-8">
+    <div class="px-4 sm:pc-6 md:px-8">
         <div class="flex flex-col gap-2 sm:gap-3 md:gap-4 justify-center items-center bg-custom-lighter-blue rounded-3xl py-8 sm:py-10 md:py-12 lg:py-14 xl:py-16 px-16 sm:px-20 md:px-24 lg:px-28 xl:px-32">
             <h1 class="text-heading font-ttRamillas font-extrabold text-center">
                 Mission
@@ -120,22 +122,22 @@
         Certificates & Authorizations
     </h1>
 
-    <div class="grid grid-cols-3 gap-8">
-        <div class="col-span-1 flex flex-col items-center gap-8">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div class="col-span-1 flex flex-col items-center gap-2 lg:gap-8">
             <p class="text-base sm:text-lg md:text-xl font-ttRamillas font-extrabold text-center">Certificates Distributor</p>
 
             <img src="{{asset('assets/about/certificates-distributor.jpg')}}" alt="certificates distributor" class="h-[600px] w-[400px]">
 
         </div>
 
-        <div class="col-span-1 flex flex-col items-center gap-8">
+        <div class="col-span-1 flex flex-col items-center gap-2 lg:gap-8">
             <p class="text-base sm:text-lg md:text-xl font-ttRamillas font-extrabold text-center">Notice of Testing</p>
 
             <img src="{{asset('assets/about/notice-of-testing.jpg')}}" alt="notice of testing" class="h-[600px] w-[400px]">
 
         </div>
 
-        <div class="col-span-1 flex flex-col items-center gap-8">
+        <div class="col-span-1 flex flex-col items-center gap-2 lg:gap-8">
             <p class="text-base sm:text-lg md:text-xl font-ttRamillas font-extrabold text-center">Certificates of Origins</p>
 
             <img src="{{asset('assets/about/certificates-of-origin.jpg')}}" alt="certificates of origins" class="h-[600px] w-[400px]">

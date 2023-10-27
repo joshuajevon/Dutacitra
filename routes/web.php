@@ -20,8 +20,8 @@ Route::get('/', [HomeController::class, 'index'])->name('homeEn');
 
 Route::get('/project', [HomeController::class, 'project'])->name('projectEn');
 
-
 Route::get('/product', [HomeController::class, 'product'])->name('productEn');
+Route::get('/product/sliding-automatic-doors', [HomeController::class, 'automaticSlidingDoors'])->name('automaticSlidingDoors');
 
 
 Route::get('/about', [HomeController::class, 'about'])->name('aboutEn');
