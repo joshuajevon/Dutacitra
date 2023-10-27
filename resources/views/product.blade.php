@@ -8,12 +8,12 @@
 @section('body')
 <x-navbar :page="'product'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" />
 
-<div class="h-32 sm:h-56 md:h-64 lg:h-72 xl:h-80 bg-center bg-cover flex items-center justify-center" style="background-image: url({{asset('assets/product/header.jpg')}});">
+<div class="h-24 sm:h-28 md:h-32 lg:h-40 xl:h-48 bg-center bg-cover flex items-center justify-center" style="background-image: url({{asset('assets/product/header.jpg')}});">
     <h1 class="font-ttRamillas text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-custom-white">Our Product</h1>
 </div>
 
 <div class="c-container text-paragraph py-16 sm:py-24 md:py-32 flex flex-col gap-8 justify-center items-center">
-    <h1 class="text-custom-dark-blue font-ttRamillas font-extrabold text-2xl sm:text-3xl md:text-4xl text-center">Product Category</h1>
+    <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold text-center">Product Category</h1>
 
     <div class="grid grid-cols-2 lg:grid-cols-4 w-full gap-4 sm:gap-5 md:gap-6 text-custom-darker-blue">
         <a href="{{ route('automaticSlidingDoors') }}" class="flex flex-col gap-2.5 sm:gap-3 md:gap-4 overflow-hidden">

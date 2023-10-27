@@ -5,6 +5,7 @@
 * {
     font-family: "Nunito Sans", sans-serif;
     letter-spacing: 1.6px;
+    scroll-behavior: smooth;
 }
 
 input:focus,
@@ -36,6 +37,12 @@ input:-webkit-autofill {
         src: url("/assets/fonts/TT-Ramillas-ExtraBold.ttf") format("truetype");
         font-weight: 800;
         font-style: normal;
+    }
+    @font-face {
+        font-family: "TT Ramillas";
+        src: url("/assets/fonts/TT-Ramillas-ExtraBold-Italic.ttf") format("truetype");
+        font-weight: 800;
+        font-style: italic;
     }
 }
 
