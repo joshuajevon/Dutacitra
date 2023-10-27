@@ -117,33 +117,38 @@
 </div>
 
 {{-- Certificates --}}
-<div class="c-container py-12 sm:py-14 md:py-16 flex flex-col gap-8 text-custom-dark-blue">
-    <h1 class="text-heading font-ttRamillas font-extrabold text-center">
-        Certificates & Authorizations
-    </h1>
+<div class="py-12 sm:py-14 md:py-16 flex flex-col gap-8 text-custom-dark-blue">
+    <div class="c-container">
+        <h1 class="text-heading font-ttRamillas font-extrabold text-center">
+            Certificates & Authorizations
+        </h1>
+    </div>
 
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-        <div class="col-span-1 flex flex-col items-center gap-2 lg:gap-8">
-            <p class="text-base sm:text-lg md:text-xl font-ttRamillas font-extrabold text-center">Certificates Distributor</p>
+    <div class="relative">
+        <div class="absolute left-0 top-0 bottom-0 my-auto w-full h-96 bg-[#D9D9D9] z-[-10]"></div>
 
-            <img src="{{asset('assets/about/certificates-distributor.jpg')}}" alt="certificates distributor" class="h-[600px] w-[400px]">
+        <div class="c-container grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div class="col-span-1 flex flex-col items-center gap-2 lg:gap-8">
+                <p class="text-base sm:text-lg md:text-xl font-ttRamillas font-extrabold text-center">Certificates Distributor</p>
 
+                <img src="{{asset('assets/about/certificates-distributor.jpg')}}" alt="certificates distributor" class="border border-black">
+
+            </div>
+
+            <div class="col-span-1 flex flex-col items-center gap-2 lg:gap-8">
+                <p class="text-base sm:text-lg md:text-xl font-ttRamillas font-extrabold text-center">Notice of Testing</p>
+
+                <img src="{{asset('assets/about/notice-of-testing.jpg')}}" alt="notice of testing" class="border border-black">
+
+            </div>
+
+            <div class="col-span-1 flex flex-col items-center gap-2 lg:gap-8">
+                <p class="text-base sm:text-lg md:text-xl font-ttRamillas font-extrabold text-center">Certificates of Origins</p>
+
+                <img src="{{asset('assets/about/certificates-of-origin.jpg')}}" alt="certificates of origins" class="border border-black">
+
+            </div>
         </div>
-
-        <div class="col-span-1 flex flex-col items-center gap-2 lg:gap-8">
-            <p class="text-base sm:text-lg md:text-xl font-ttRamillas font-extrabold text-center">Notice of Testing</p>
-
-            <img src="{{asset('assets/about/notice-of-testing.jpg')}}" alt="notice of testing" class="h-[600px] w-[400px]">
-
-        </div>
-
-        <div class="col-span-1 flex flex-col items-center gap-2 lg:gap-8">
-            <p class="text-base sm:text-lg md:text-xl font-ttRamillas font-extrabold text-center">Certificates of Origins</p>
-
-            <img src="{{asset('assets/about/certificates-of-origin.jpg')}}" alt="certificates of origins" class="h-[600px] w-[400px]">
-
-        </div>
-
     </div>
 </div>
 
