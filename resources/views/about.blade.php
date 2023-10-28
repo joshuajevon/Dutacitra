@@ -8,7 +8,7 @@
 @section('body')
 <x-navbar :page="'about'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" />
 
-<div class="h-24 sm:h-28 md:h-32 lg:h-40 xl:h-48 bg-center bg-cover flex items-center justify-center" style="background-image: url({{asset('assets/product/header.jpg')}});">
+<div class="h-28 sm:h-32 md:h-36 lg:h-40 xl:h-44 2xl:h-48 bg-center bg-cover flex items-center justify-center" style="background-image: url({{asset('assets/product/header.jpg')}});">
     <h1 class="font-ttRamillas text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-custom-white">About Us</h1>
 </div>
 

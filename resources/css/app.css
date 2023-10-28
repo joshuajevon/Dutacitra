@@ -19,6 +19,10 @@ input:-webkit-autofill {
     font-family: "Nunito Sans", sans-serif !important;
 }
 
+.swiper {
+    @apply w-[70%] xl:w-4/5 aspect-[5/3];
+}
+
 @layer base {
     @font-face {
         font-family: "TT Ramillas";

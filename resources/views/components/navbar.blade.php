@@ -63,7 +63,7 @@
 
     <a href="{{ route('projectEn') }}" class="@if($page === 'project') font-extrabold @endif block py-3.5">Project</a>
 
-    <a href="{{ route('projectEn') }}" class="@if($page === 'about') font-extrabold @endif block py-3.5">About Us</a>
+    <a href="{{ route('aboutEn') }}" class="@if($page === 'about') font-extrabold @endif block py-3.5">About Us</a>
 
     <a href="{{ route('contactEn') }}" class="@if($page === 'contact') font-extrabold @endif block py-3.5">Contact</a>
 
