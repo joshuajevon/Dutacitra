@@ -20,7 +20,10 @@ input:-webkit-autofill {
 }
 
 .swiper {
-    @apply w-[70%] xl:w-4/5 aspect-[5/3];
+    @apply w-[70%] xl:w-4/5;
+}
+.swiper-slide{
+    @apply w-full aspect-[5/3];
 }
 
 @layer base {
@@ -44,7 +47,8 @@ input:-webkit-autofill {
     }
     @font-face {
         font-family: "TT Ramillas";
-        src: url("/assets/fonts/TT-Ramillas-ExtraBold-Italic.ttf") format("truetype");
+        src: url("/assets/fonts/TT-Ramillas-ExtraBold-Italic.ttf")
+            format("truetype");
         font-weight: 800;
         font-style: italic;
     }

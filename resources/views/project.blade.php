@@ -190,12 +190,16 @@
     <div class="px-10 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-32 bg-custom-dark-blue flex flex-col items-center rounded-3xl py-8 text-custom-white gap-6">
         <h1 class="font-ttRamillas font-extrabold text-base sm:text-lg md:text-xl">Downloads</h1>
 
-        <div class="border-b border-b-custom-white flex justify-between w-full pb-2 sm:pb-3 md:pb-4 gap-4">
-            <p>Project Reference List</p>
+        <div class="border-b border-b-custom-white flex flex-col gap-4 sm:gap-5 md:gap-6 w-full pb-2 sm:pb-3 md:pb-4 px-4 sm:px-6 md:px-8">
+            <div class="w-full flex justify-between items-center gap-6 sm:gap-9 md:gap-12">
+                <p>Project Reference List</p>
 
-            <svg class="w-4 sm:w-5 md:w-6 mr-1 flex-none" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0.25 22H17.75V19.5H0.25V22ZM17.75 8.25H12.75V0.75H5.25V8.25H0.25L9 17L17.75 8.25Z" fill="#F8F4E9" />
-            </svg>
+                <a href="{{asset('assets/brosure/project/REFERENCE PROJECT MANUSA.pdf')}}?t={{ env('VERSION_TIME') }}" download>
+                    <svg class="w-4 sm:w-5 md:w-6 mr-1 flex-none" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.25 22H17.75V19.5H0.25V22ZM17.75 8.25H12.75V0.75H5.25V8.25H0.25L9 17L17.75 8.25Z" fill="#F8F4E9" />
+                    </svg>
+                </a>
+            </div>
         </div>
     </div>
 </div>

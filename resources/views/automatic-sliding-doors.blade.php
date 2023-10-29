@@ -328,6 +328,61 @@
     </div>
 </div>
 
+<div class="c-container pb-16 sm:pb-20 md:pb-24">
+    <div class="px-10 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-32 bg-custom-dark-blue flex flex-col items-center rounded-3xl py-8 text-custom-white gap-6">
+        <h1 class="font-ttRamillas font-extrabold text-base sm:text-lg md:text-xl">Downloads</h1>
+
+        <div class="border-b border-b-custom-white flex flex-col gap-4 sm:gap-5 md:gap-6 w-full pb-2 sm:pb-3 md:pb-4 px-4 sm:px-6 md:px-8">
+            <div class="w-full flex justify-between items-center gap-6 sm:gap-9 md:gap-12">
+                <p>Brosur Visio 100, 125, dan 175</p>
+
+                <a href="{{asset('assets/brosure/sliding/Brosur Visio 100, 125, dan 175.pdf')}}?t={{ env('VERSION_TIME') }}" download>
+                    <svg class="w-4 sm:w-5 md:w-6 mr-1 flex-none" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.25 22H17.75V19.5H0.25V22ZM17.75 8.25H12.75V0.75H5.25V8.25H0.25L9 17L17.75 8.25Z" fill="#F8F4E9" />
+                    </svg>
+                </a>
+            </div>
+            <div class="w-full flex justify-between items-center gap-6 sm:gap-9 md:gap-12">
+                <p>Opening Doors To The Future</p>
+
+                <a href="{{asset('assets/brosure/sliding/Opening Doors To The Future..pdf')}}?t={{ env('VERSION_TIME') }}" download>
+                    <svg class="w-4 sm:w-5 md:w-6 mr-1 flex-none" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.25 22H17.75V19.5H0.25V22ZM17.75 8.25H12.75V0.75H5.25V8.25H0.25L9 17L17.75 8.25Z" fill="#F8F4E9" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="c-container pb-16 sm:pb-20 md:pb-24">
+    <div class="grid grid-cols-1 xl:grid-cols-2 gap-8 xl:gap-16">
+        <div class="col-span-1 py-4 sm:py-6 md:py-8 pl-4 sm:pl-6 md:pl-8 relative">
+            <div class="absolute h-full top-0 left-0 w-11/12 bg-custom-light-gray -z-10 rounded-3xl">
+
+            </div>
+
+            <img src="{{asset('assets/product/automatic-sliding-doors/project.jpg')}}?t={{ env('VERSION_TIME') }}" alt="project" style="box-shadow: 15px 20px 30px 0px rgba(0, 0, 0, 0.15);" class="rounded-3xl w-full">
+        </div>
+        <div class="col-span-1 flex flex-col justify-center gap-4 sm:gap-6 md:gap-8">
+            <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold">Automatic Door Projects</h1>
+            <p class="text-paragraph text-custom-dark-blue">
+                Kami telah melayani berbagai pelanggan dan menyediakan pintu otomatis untuk beragam perusahaan di seluruh Indonesia. Sudah lebih dari 250 perusahaan yang mempercayakan layanan kami.
+            </p>
+
+            <a href="{{ route('projectEn') }}" class="flex items-center gap-4 text-custom-dark-blue border border-custom-dark-blue rounded-full px-6 sm:px-7 md:px-8 py-2 sm:py-2.5 md:py-3 w-fit hover:bg-custom-dark-blue hover:text-custom-white transition">
+                <p class="text-paragraph font-bold">
+                    Our Project
+                </p>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 aspect-square">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+            </a>
+        </div>
+    </div>
+</div>
+
 <x-footer />
 
 {{-- Swiper JS --}}

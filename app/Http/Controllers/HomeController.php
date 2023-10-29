@@ -24,6 +24,18 @@ class HomeController extends Controller
     {
         return view('automatic-sliding-doors');
     }
+    public function automaticSwingDoors()
+    {
+        return view('automatic-swing-doors');
+    }
+    public function automaticRevolvingDoors()
+    {
+        return view('automatic-revolving-doors');
+    }
+    public function automaticHermeticDoors()
+    {
+        return view('automatic-hermetic-doors');
+    }
 
     public function about()
     {

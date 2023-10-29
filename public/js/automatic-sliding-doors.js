@@ -1,4 +1,4 @@
-var stadardSwiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".mySwiper", {
     effect: "cards",
     grabCursor: true,
 
@@ -17,7 +17,6 @@ const productTypeSelectors = $(".product-type-selector");
 let currentProductType = 1;
 
 $(".product-type").each(function () {
-    console.log(this.getAttribute("data-product-type"));
     if (this.getAttribute("data-product-type") != currentProductType) {
         $(this).addClass("hidden");
         $(this).removeClass("invisible absolute");

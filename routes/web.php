@@ -20,7 +20,13 @@ Route::get('/', [HomeController::class, 'index'])->name('homeEn');
 Route::get('/project', [HomeController::class, 'project'])->name('projectEn');
 
 Route::get('/product', [HomeController::class, 'product'])->name('productEn');
-Route::get('/product/sliding-automatic-doors', [HomeController::class, 'automaticSlidingDoors'])->name('automaticSlidingDoors');
+
+Route::prefix('/product')->group(function () {
+    Route::get('/automatic-sliding-doors', [HomeController::class, 'automaticSlidingDoors'])->name('automaticSlidingDoorsEn');
+    Route::get('/automatic-swing-doors', [HomeController::class, 'automaticSwingDoors'])->name('automaticSwingDoorsEn');
+    Route::get('/automatic-revolving-doors', [HomeController::class, 'automaticRevolvingDoors'])->name('automaticRevolvingDoorsEn');
+    Route::get('/automatic-hermetic-doors', [HomeController::class, 'automaticHermeticDoors'])->name('automaticHermeticDoorsEn');
+});
 
 
 Route::get('/about', [HomeController::class, 'about'])->name('aboutEn');
