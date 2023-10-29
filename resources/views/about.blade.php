@@ -8,13 +8,13 @@
 @section('body')
 <x-navbar :page="'about'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" />
 
-<div class="h-28 sm:h-32 md:h-36 lg:h-40 xl:h-44 2xl:h-48 bg-center bg-cover flex items-center justify-center" style="background-image: url({{asset('assets/product/header.jpg')}});">
+<div class="h-28 sm:h-32 md:h-36 lg:h-40 xl:h-44 2xl:h-48 bg-center bg-cover flex items-center justify-center" style="background-image: url({{asset('assets/product/header.jpg')}}?t={{ env('VERSION_TIME') }});">
     <h1 class="font-ttRamillas text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-custom-white">About Us</h1>
 </div>
 
 {{-- About Us --}}
 <div class="c-container grid grid-cols-1 lg:grid-cols-2 py-16 sm:py-20 md:py-24 gap-8 sm:gap-10 md:gap-12">
-    <div class="col-span-1 bg-gray-300 rounded-3xl h-72 sm:h-80 md:h-96 lg:h-full bg-cover bg-no-repeat bg-center" style="background-image: url({{asset('assets/about/about-us.jpg')}});">
+    <div class="col-span-1 bg-gray-300 rounded-3xl h-72 sm:h-80 md:h-96 lg:h-full bg-cover bg-no-repeat bg-center" style="background-image: url({{asset('assets/about/about-us.jpg')}}?t={{ env('VERSION_TIME') }});">
         {{-- <img src="{{asset('assets/about/about-us.jpg')}}" alt="about-us" class=""> --}}
     </div>
     <div class="col-span-1 text-custom-dark-blue flex flex-col gap-4 sm:gap-5 md:gap-6 lg:py-4">
@@ -131,21 +131,21 @@
             <div class="col-span-1 flex flex-col items-center gap-2 lg:gap-8">
                 <p class="text-base sm:text-lg md:text-xl font-ttRamillas font-extrabold text-center">Certificates Distributor</p>
 
-                <img src="{{asset('assets/about/certificates-distributor.jpg')}}" alt="certificates distributor" class="border border-black">
+                <img src="{{asset('assets/about/certificates-distributor.jpg')}}?t={{ env('VERSION_TIME') }}" alt="certificates distributor" class="border border-black">
 
             </div>
 
             <div class="col-span-1 flex flex-col items-center gap-2 lg:gap-8">
                 <p class="text-base sm:text-lg md:text-xl font-ttRamillas font-extrabold text-center">Notice of Testing</p>
 
-                <img src="{{asset('assets/about/notice-of-testing.jpg')}}" alt="notice of testing" class="border border-black">
+                <img src="{{asset('assets/about/notice-of-testing.jpg')}}?t={{ env('VERSION_TIME') }}" alt="notice of testing" class="border border-black">
 
             </div>
 
             <div class="col-span-1 flex flex-col items-center gap-2 lg:gap-8">
                 <p class="text-base sm:text-lg md:text-xl font-ttRamillas font-extrabold text-center">Certificates of Origins</p>
 
-                <img src="{{asset('assets/about/certificates-of-origin.jpg')}}" alt="certificates of origins" class="border border-black">
+                <img src="{{asset('assets/about/certificates-of-origin.jpg')}}?t={{ env('VERSION_TIME') }}" alt="certificates of origins" class="border border-black">
 
             </div>
         </div>

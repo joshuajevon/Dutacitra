@@ -8,7 +8,7 @@
 @section('body')
 <x-navbar :page="'project'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" />
 
-<div class="h-28 sm:h-32 md:h-36 lg:h-40 xl:h-44 2xl:h-48 bg-center bg-cover flex items-center justify-center" style="background-image: url({{asset('assets/project/header.jpg')}});">
+<div class="h-28 sm:h-32 md:h-36 lg:h-40 xl:h-44 2xl:h-48 bg-center bg-cover flex items-center justify-center" style="background-image: url({{asset('assets/project/header.jpg')}}?t={{ env('VERSION_TIME') }});">
     <h1 class="font-ttRamillas text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-custom-white">Our Project</h1>
 </div>
 
@@ -20,163 +20,163 @@
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 md:gap-12 text-center">
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/1.jpg')}}" alt="Mall E Walk (North Entrance) - Balikpapan" class="w-full">
+            <img src="{{asset('assets/project/1.jpg')}}?t={{ env('VERSION_TIME') }}" alt="Mall E Walk (North Entrance) - Balikpapan" class="w-full">
             <p class="font-bold">Mall E Walk (North Entrance) - Balikpapan</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/2.jpg')}}" alt="Mall E Walk (East Entrance) - Balikpapan" class="w-full">
+            <img src="{{asset('assets/project/2.jpg')}}?t={{ env('VERSION_TIME') }}" alt="Mall E Walk (East Entrance) - Balikpapan" class="w-full">
             <p class="font-bold">Mall E Walk (East Entrance) - Balikpapan</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/3.jpg')}}" alt="Mall Senayan City - Jakarta" class="w-full">
+            <img src="{{asset('assets/project/3.jpg')}}?t={{ env('VERSION_TIME') }}" alt="Mall Senayan City - Jakarta" class="w-full">
             <p class="font-bold">Mall Senayan City - Jakarta</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/4.jpg')}}" alt="Mall E Walk (North Entrance) - Balikpapan" class="w-full">
+            <img src="{{asset('assets/project/4.jpg')}}?t={{ env('VERSION_TIME') }}" alt="Mall E Walk (North Entrance) - Balikpapan" class="w-full">
             <p class="font-bold">Mall E Walk (North Entrance) - Balikpapan</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/5.jpg')}}" alt="Bandara Soekarno-Hatta - Tangerang" class="w-full">
+            <img src="{{asset('assets/project/5.jpg')}}?t={{ env('VERSION_TIME') }}" alt="Bandara Soekarno-Hatta - Tangerang" class="w-full">
             <p class="font-bold">Bandara Soekarno-Hatta - Tangerang</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/6.jpg')}}" alt="Bandara Soekarno-Hatta - Tangerang" class="w-full">
+            <img src="{{asset('assets/project/6.jpg')}}?t={{ env('VERSION_TIME') }}" alt="Bandara Soekarno-Hatta - Tangerang" class="w-full">
             <p class="font-bold">Bandara Soekarno-Hatta - Tangerang</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/7.jpg')}}" alt="Toilet Disabled Bandara Soekarno Hatta - Tangerang" class="w-full">
+            <img src="{{asset('assets/project/7.jpg')}}?t={{ env('VERSION_TIME') }}" alt="Toilet Disabled Bandara Soekarno Hatta - Tangerang" class="w-full">
             <p class="font-bold">Toilet Disabled Bandara Soekarno Hatta - Tangerang</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/8.jpg')}}" alt="Puri Indah Mall - Jakarta" class="w-full">
+            <img src="{{asset('assets/project/8.jpg')}}?t={{ env('VERSION_TIME') }}" alt="Puri Indah Mall - Jakarta" class="w-full">
             <p class="font-bold">Puri Indah Mall - Jakarta</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/9.jpg')}}" alt="Apartment St. Moritz - Jakarta" class="w-full">
+            <img src="{{asset('assets/project/9.jpg')}}?t={{ env('VERSION_TIME') }}" alt="Apartment St. Moritz - Jakarta" class="w-full">
             <p class="font-bold">Apartment St. Moritz - Jakarta</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/10.jpg')}}" alt="Office St. Moritz - Jakarta" class="w-full">
+            <img src="{{asset('assets/project/10.jpg')}}?t={{ env('VERSION_TIME') }}" alt="Office St. Moritz - Jakarta" class="w-full">
             <p class="font-bold">Office St. Moritz - Jakarta</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/11.jpg')}}" alt="Hotel La Lisa - Surabaya" class="w-full">
+            <img src="{{asset('assets/project/11.jpg')}}?t={{ env('VERSION_TIME') }}" alt="Hotel La Lisa - Surabaya" class="w-full">
             <p class="font-bold">Hotel La Lisa - Surabaya</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/12.jpg')}}" alt="Hotel Horison - Kertajati" class="w-full">
+            <img src="{{asset('assets/project/12.jpg')}}?t={{ env('VERSION_TIME') }}" alt="Hotel Horison - Kertajati" class="w-full">
             <p class="font-bold">Hotel Horison - Kertajati</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/13.jpg')}}" alt="RSIA Brawijaya - Jakarta" class="w-full">
+            <img src="{{asset('assets/project/13.jpg')}}?t={{ env('VERSION_TIME') }}" alt="RSIA Brawijaya - Jakarta" class="w-full">
             <p class="font-bold">RSIA Brawijaya - Jakarta</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/14.jpg')}}" alt="RS Santo Borromeus - Bandung" class="w-full">
+            <img src="{{asset('assets/project/14.jpg')}}?t={{ env('VERSION_TIME') }}" alt="RS Santo Borromeus - Bandung" class="w-full">
             <p class="font-bold">RS Santo Borromeus - Bandung</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/15.jpg')}}" alt="RS Santo Borromeus - Bandung" class="w-full">
+            <img src="{{asset('assets/project/15.jpg')}}?t={{ env('VERSION_TIME') }}" alt="RS Santo Borromeus - Bandung" class="w-full">
             <p class="font-bold">RS Santo Borromeus - Bandung</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Hermetic Double Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/16.jpg')}}" alt="RS Siloam Mampang - Jakarta" class="w-full">
+            <img src="{{asset('assets/project/16.jpg')}}?t={{ env('VERSION_TIME') }}" alt="RS Siloam Mampang - Jakarta" class="w-full">
             <p class="font-bold">RS Siloam Mampang - Jakarta</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/17.jpg')}}" alt="RS Siloam TB Simatupang - Jakarta" class="w-full">
+            <img src="{{asset('assets/project/17.jpg')}}?t={{ env('VERSION_TIME') }}" alt="RS Siloam TB Simatupang - Jakarta" class="w-full">
             <p class="font-bold">RS Siloam TB Simatupang - Jakarta</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/18.jpg')}}" alt="RS EMC Pekayon - Bekasi" class="w-full">
+            <img src="{{asset('assets/project/18.jpg')}}?t={{ env('VERSION_TIME') }}" alt="RS EMC Pekayon - Bekasi" class="w-full">
             <p class="font-bold">RS EMC Pekayon - Bekasi</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/19.jpg')}}" alt="RS EMC Pekayon - Bekasi" class="w-full">
+            <img src="{{asset('assets/project/19.jpg')}}?t={{ env('VERSION_TIME') }}" alt="RS EMC Pekayon - Bekasi" class="w-full">
             <p class="font-bold">RS EMC Pekayon - Bekasi</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Swing Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/20.jpg')}}" alt="RS EMC Pekayon - Bekasi" class="w-full">
+            <img src="{{asset('assets/project/20.jpg')}}?t={{ env('VERSION_TIME') }}" alt="RS EMC Pekayon - Bekasi" class="w-full">
             <p class="font-bold">RS EMC Pekayon - Bekasi</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Hermetic Single Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/21.jpg')}}" alt="Gedung Bintang Toedjoe - Bekasi" class="w-full">
+            <img src="{{asset('assets/project/21.jpg')}}?t={{ env('VERSION_TIME') }}" alt="Gedung Bintang Toedjoe - Bekasi" class="w-full">
             <p class="font-bold">Gedung Bintang Toedjoe - Bekasi</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/22.jpg')}}" alt="MaxxBox Lippo Village - Tangerang" class="w-full">
+            <img src="{{asset('assets/project/22.jpg')}}?t={{ env('VERSION_TIME') }}" alt="MaxxBox Lippo Village - Tangerang" class="w-full">
             <p class="font-bold">MaxxBox Lippo Village - Tangerang</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/23.jpg')}}" alt="Honda Daya Motor - Bandung" class="w-full">
+            <img src="{{asset('assets/project/23.jpg')}}?t={{ env('VERSION_TIME') }}" alt="Honda Daya Motor - Bandung" class="w-full">
             <p class="font-bold">Honda Daya Motor - Bandung</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/24.jpg')}}" alt="Galaxy Mall - Surabaya" class="w-full">
+            <img src="{{asset('assets/project/24.jpg')}}?t={{ env('VERSION_TIME') }}" alt="Galaxy Mall - Surabaya" class="w-full">
             <p class="font-bold">Galaxy Mall - Surabaya</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/25.jpg')}}" alt="Apartment Nine Residence - Jakarta" class="w-full">
+            <img src="{{asset('assets/project/25.jpg')}}?t={{ env('VERSION_TIME') }}" alt="Apartment Nine Residence - Jakarta" class="w-full">
             <p class="font-bold">Apartment Nine Residence - Jakarta</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Sliding Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/26.jpg')}}" alt="Bank Indonesia - Yogyakarta" class="w-full">
+            <img src="{{asset('assets/project/26.jpg')}}?t={{ env('VERSION_TIME') }}" alt="Bank Indonesia - Yogyakarta" class="w-full">
             <p class="font-bold">Bank Indonesia - Yogyakarta</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Swing Door</p>
         </div>
 
         <div class="flex flex-col gap-3 sm:gap-3.5 md:gap-4 items-center col-span-1">
-            <img src="{{asset('assets/project/27.jpg')}}" alt="Bank Indonesia - Bandung" class="w-full">
+            <img src="{{asset('assets/project/27.jpg')}}?t={{ env('VERSION_TIME') }}" alt="Bank Indonesia - Bandung" class="w-full">
             <p class="font-bold">Bank Indonesia - Bandung</p>
             <p class="-mt-2 sm:-mt-2.5 md:-mt-3">Double Swing Door</p>
         </div>

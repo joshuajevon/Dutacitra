@@ -3,7 +3,7 @@
         <div class="flex flex-col gap-4 col-span-1 xl:col-span-3">
             <div class="flex justify-center sm:justify-start mb-4">
                 <a href="{{ route('homeEn') }}" class="flex items-center gap-4">
-                    <img src="{{asset('assets/logo/logo-icon-text.png')}}" alt="logo" class="h-10 sm:h-12 xl:h-auto">
+                    <img src="{{asset('assets/logo/logo-icon-text.png')}}?t={{ env('VERSION_TIME') }}" alt="logo" class="h-10 sm:h-12 xl:h-auto">
                 </a>
             </div>
 
