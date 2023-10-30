@@ -8,15 +8,8 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
 <style>
-    .swiper-slide {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 18px;
-    }
-
     .swiper-pagination {
-        transform: translateY(36px);
+        transform: translateY(48px);
     }
 
 </style>
@@ -32,7 +25,7 @@
 <div class="c-container flex justify-center items-center py-16 sm:py-20 md:py-24">
     <div class="flex flex-col justify-center items-center gap-4 max-w-5xl">
         <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold text-center">Automatic Sliding Doors</h1>
-        <p class="text-paragraph text-custom-dark-blue/90 text-center font-light"><span class="italic">Automatic Sliding Doors</span> adalah pintu yang dapat membuka dan menutup dengan cara bergeser. <span class="italic">Automatic Sliding Doors</span> dirancang untuk membuka dan menutup secara otomatis dengan kecepatan tinggi, menggabungkan teknologi canggih untuk memastikan keamanan bagi tempat usaha dan penggunanya.</p>
+        <p class="text-paragraph text-custom-dark-blue/90 text-center font-light"><span class="italic">Automatic Sliding Door</span> adalah pintu yang dapat membuka dan menutup dengan cara bergeser. <span class="italic">Automatic Sliding Door</span> dirancang untuk membuka dan menutup secara otomatis dengan kecepatan tinggi, menggabungkan teknologi canggih untuk memastikan keamanan bagi tempat usaha dan penggunanya.</p>
     </div>
 </div>
 
@@ -59,7 +52,7 @@
             </div>
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-8">
-                <div class="col-span-1">
+                <div class="col-span-1 pb-4 xl:pb-8">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 1"></div>
@@ -77,7 +70,7 @@
                     </div>
                 </div>
                 <div class="col-span-1 flex flex-col gap-6">
-                    <p class="text-paragraph text-custom-dark-blue/90 font-light"><span class="italic">Standard Automatic Sliding Doors</span> direkomendasikan untuk area dengan tingkat kegiatan yang tinggi. Pintu ini memudahkan pergerakan orang tanpa kontak dengan pintu dan menawarkan kecepatan bukaan tertinggi di pasar, bersamaan dengan tingkat keamanan maksimum.
+                    <p class="text-paragraph text-custom-dark-blue/90 font-light"><span class="italic">Standard Automatic Sliding Door</span> direkomendasikan untuk area dengan tingkat kegiatan yang tinggi. Pintu ini memudahkan pergerakan orang tanpa kontak dengan pintu dan menawarkan kecepatan bukaan tertinggi di pasar, bersamaan dengan tingkat keamanan maksimum.
                     </p>
 
                     <div class="flex flex-col gap-4 bg-custom-lighter-blue text-custom-dark-blue/90 p-6 rounded-2xl">
@@ -118,7 +111,7 @@
             </div>
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-8">
-                <div class="col-span-1">
+                <div class="col-span-1 pb-4 xl:pb-8">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/telescopic/sliding-telescopic-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding telescopic 1"></div>
@@ -133,7 +126,7 @@
                 </div>
 
                 <div class="col-span-1 flex flex-col gap-6">
-                    <p class="text-paragraph text-custom-dark-blue/90 font-light"><span class="italic">Telescopic Sliding Doors</span> ideal untuk pintu masuk dengan ruang terbatas, untuk memisahkan lorong, atau untuk memperluas dan memaksimalkan akses di area yang sempit, atau di mana diperlukan untuk memperluas area lebar yang lebih dari biasanya. Pada pintu ini dapat memiliki bukaan sebesar 2/3 ruangan yang ada pada pintu tersebut.
+                    <p class="text-paragraph text-custom-dark-blue/90 font-light"><span class="italic">Telescopic Sliding Door</span> ideal untuk pintu masuk dengan ruang terbatas, untuk memisahkan lorong, atau untuk memperluas dan memaksimalkan akses di area yang sempit, atau di mana diperlukan untuk memperluas area lebar yang lebih dari biasanya. Pada pintu ini dapat memiliki bukaan sebesar 2/3 ruangan yang ada pada pintu tersebut.
                     </p>
 
                     <div class="flex flex-col gap-4 bg-custom-lighter-blue text-custom-dark-blue/90 p-6 rounded-2xl">
@@ -174,7 +167,7 @@
             </div>
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-8">
-                <div class="col-span-1">
+                <div class="col-span-1 pb-4 xl:pb-8">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 1"></div>
@@ -192,7 +185,7 @@
                 </div>
 
                 <div class="col-span-1 flex flex-col gap-6">
-                    <p class="text-paragraph text-custom-dark-blue/90 font-light"><span class="italic">Curved dan Semicurved Sliding Doors</span> adalah solusi yang elegan dan unik tanpa mengorbankan fungsi, kenyamanan, dan efisiensi pintu geser. Pintu ini dapat dipasang dengan kaca dan struktur cekung atau cembung dengan berbagai jari-jari dan tingkat kelengkungan yang berbeda.
+                    <p class="text-paragraph text-custom-dark-blue/90 font-light"><span class="italic">Curved dan Semicurved Sliding Door</span> adalah solusi yang elegan dan unik tanpa mengorbankan fungsi, kenyamanan, dan efisiensi pintu geser. Pintu ini dapat dipasang dengan kaca dan struktur cekung atau cembung dengan berbagai jari-jari dan tingkat kelengkungan yang berbeda.
                     </p>
 
                     <div class="flex flex-col gap-4 bg-custom-lighter-blue text-custom-dark-blue/90 p-6 rounded-2xl">
@@ -222,7 +215,7 @@
             </div>
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-8">
-                <div class="col-span-1">
+                <div class="col-span-1 pb-4 xl:pb-8">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 1"></div>
@@ -238,7 +231,7 @@
                 </div>
 
                 <div class="col-span-1 flex flex-col gap-6">
-                    <p class="text-paragraph text-custom-dark-blue/90 font-light"><span class="italic">Panic Break-Out Sliding Doors</span> memiliki fungsi kombinasi pintu geser dengan fitur keselamatan pintu keluar darurat untuk memaksimalkan luas area lalu lintas, dan memastikan bahwa rute evakuasi dengan pintu otomatis mematuhi peraturan dalam situasi darurat. Biasanya digunakan di bangunan umum seperti bandara, stasiun, atau area besar.
+                    <p class="text-paragraph text-custom-dark-blue/90 font-light"><span class="italic">Panic Break-Out Sliding Door</span> memiliki fungsi kombinasi pintu geser dengan fitur keselamatan pintu keluar darurat untuk memaksimalkan luas area lalu lintas, dan memastikan bahwa rute evakuasi dengan pintu otomatis mematuhi peraturan dalam situasi darurat. Biasanya digunakan di bangunan umum seperti bandara, stasiun, atau area besar.
                     </p>
 
                     <div class="flex flex-col gap-4 bg-custom-lighter-blue text-custom-dark-blue/90 p-6 rounded-2xl">
@@ -279,7 +272,7 @@
             </div>
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-8">
-                <div class="col-span-1">
+                <div class="col-span-1 pb-4 xl:pb-8">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/fire/sliding-fire-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding fire 1"></div>
@@ -293,7 +286,7 @@
                 </div>
 
                 <div class="col-span-1 flex flex-col gap-6">
-                    <p class="text-paragraph text-custom-dark-blue/90 font-light"><span class="italic">Fire Resistant Sliding Doors</span> ini dirancang dengan menggabungkan fungsi <span class="italic">automatic sliding door</span> dengan sifat-sifat pintu tahan api. Direkomendasikan untuk memisahkan area dengan risiko kebakaran tinggi dan mencegah penyebaran api dan asap ke area lainnya. Pintu ini telah menjalani pengujian lengkap dan memenuhi semua sertifikasi sesuai dengan standar terkait ketahanan terhadap kebakaran.
+                    <p class="text-paragraph text-custom-dark-blue/90 font-light"><span class="italic">Fire Resistant Sliding Door</span> ini dirancang dengan menggabungkan fungsi <span class="italic">automatic sliding door</span> dengan sifat-sifat pintu tahan api. Direkomendasikan untuk memisahkan area dengan risiko kebakaran tinggi dan mencegah penyebaran api dan asap ke area lainnya. Pintu ini telah menjalani pengujian lengkap dan memenuhi semua sertifikasi sesuai dengan standar terkait ketahanan terhadap kebakaran.
 
                     </p>
 

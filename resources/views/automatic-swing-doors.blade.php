@@ -8,15 +8,8 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
 <style>
-    .swiper-slide {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 18px;
-    }
-
     .swiper-pagination {
-        transform: translateY(36px);
+        transform: translateY(48px);
     }
 
 </style>
@@ -46,7 +39,7 @@
             </div>
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-8">
-                <div class="col-span-1">
+                <div class="col-span-1 pb-4 xl:pb-8">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-swing-doors/swing-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 1"></div>
@@ -62,7 +55,7 @@
                     </div>
                 </div>
                 <div class="col-span-1 flex flex-col justify-center gap-6">
-                    <p class="text-paragraph text-custom-dark-blue/90 font-light"><span class="italic">Automatic Swing Doors</span> menggunakan operator bernama vector. Operator vector ini memungkinkan otomasi swing door apapun, baik baru maupun yang sudah ada. <span class="italic">Automatic Swing Doors</span> memberikan efisiensi tinggi, kinerja yang unggul, dan cocok untuk area lalu lintas yang padat. Operator Vector juga dapat digunakan pada pintu hermetic.
+                    <p class="text-paragraph text-custom-dark-blue/90 font-light"><span class="italic">Automatic Swing Door</span> menggunakan operator bernama vector. Operator vector ini memungkinkan otomasi swing door apapun, baik baru maupun yang sudah ada. <span class="italic">Automatic Swing Doors</span> memberikan efisiensi tinggi, kinerja yang unggul, dan cocok untuk area lalu lintas yang padat. Operator Vector juga dapat digunakan pada pintu hermetic.
                     </p>
                 </div>
             </div>

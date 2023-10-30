@@ -8,6 +8,10 @@
     scroll-behavior: smooth;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 input:focus,
 textarea:focus {
     outline: 0;
@@ -20,10 +24,14 @@ input:-webkit-autofill {
 }
 
 .swiper {
-    @apply w-[70%] xl:w-4/5;
+    @apply w-4/5;
 }
-.swiper-slide{
-    @apply w-full aspect-[5/3];
+.swiper-slide {
+    @apply flex justify-center items-center w-full aspect-[5/3] rounded-2xl xl:rounded-3xl;
+}
+.swiper-slide-active {
+    box-shadow: 8px 5px 10px 0px rgba(0, 0, 0, 0.25),
+        -8px 5px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
 @layer base {

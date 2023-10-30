@@ -8,15 +8,8 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
 <style>
-    .swiper-slide {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 18px;
-    }
-
     .swiper-pagination {
-        transform: translateY(36px);
+        transform: translateY(48px);
     }
 
 </style>
@@ -32,7 +25,7 @@
 <div class="c-container flex justify-center items-center py-16 sm:py-20 md:py-24">
     <div class="flex flex-col justify-center items-center gap-4 max-w-5xl">
         <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold text-center">Automatic Revolving Doors</h1>
-        <p class="text-paragraph text-custom-dark-blue/90 text-center font-light"><span class="italic">Automatic Swing Doors</span> dirancang untuk dapat disesuaikan dengan berbagai jenis proyek, dan menjamin efisiensi energi maksimal serta kualitas yang tinggi.</p>
+        <p class="text-paragraph text-custom-dark-blue/90 text-center font-light"><span class="italic">Automatic Swing Door</span> dirancang untuk dapat disesuaikan dengan berbagai jenis proyek, dan menjamin efisiensi energi maksimal serta kualitas yang tinggi.</p>
     </div>
 </div>
 
@@ -46,7 +39,7 @@
             </div>
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-8">
-                <div class="col-span-1">
+                <div class="col-span-1 pb-4 xl:pb-8">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-revolving-doors/revolving-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="revolving 1"></div>
@@ -60,7 +53,7 @@
                     </div>
                 </div>
                 <div class="col-span-1 flex flex-col justify-center gap-6">
-                    <p class="text-paragraph text-custom-dark-blue/90 font-light"><span class="italic">Automatic Revolving Doors</span> dirancang khusus untuk menjaga sistem pengkondisian udara di dalam bangunan dan memenuhi standar tertinggi dalam hal fungsionalitas, kebersihan, dan keselamatan. Pintu ini menjamin isolasi termal dan akustik yang sempurna dengan mencegah aliran udara dan fluktuasi suhu. Selain itu, dilengkapi dengan sistem darurat untuk keluar yang terintegrasi, meningkatkan keamanan pengguna. Pintu ini dapat disesuaikan dengan proyek arsitektur tingkat tinggi, memberikan jaminan efisiensi energi maksimal, estetika yang elegan, dan kualitas unggul.
+                    <p class="text-paragraph text-custom-dark-blue/90 font-light"><span class="italic">Automatic Revolving Door</span> dirancang khusus untuk menjaga sistem pengkondisian udara di dalam bangunan dan memenuhi standar tertinggi dalam hal fungsionalitas, kebersihan, dan keselamatan. Pintu ini menjamin isolasi termal dan akustik yang sempurna dengan mencegah aliran udara dan fluktuasi suhu. Selain itu, dilengkapi dengan sistem darurat untuk keluar yang terintegrasi, meningkatkan keamanan pengguna. Pintu ini dapat disesuaikan dengan proyek arsitektur tingkat tinggi, memberikan jaminan efisiensi energi maksimal, estetika yang elegan, dan kualitas unggul.
                     </p>
                 </div>
             </div>

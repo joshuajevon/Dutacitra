@@ -8,15 +8,8 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
 <style>
-    .swiper-slide {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 18px;
-    }
-
     .swiper-pagination {
-        transform: translateY(36px);
+        transform: translateY(48px);
     }
 
 </style>
@@ -32,7 +25,7 @@
 <div class="c-container flex justify-center items-center py-16 sm:py-20 md:py-24">
     <div class="flex flex-col justify-center items-center gap-4 max-w-5xl">
         <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold text-center">Automatic Hermetic Doors</h1>
-        <p class="text-paragraph text-custom-dark-blue/90 text-center font-light"><span class="italic">Automatic Hermetic Doors</span> memenuhi kebutuhan fungsional, estetika, dan higienis yang diperlukan. Pintu ini sangat cocok untuk rumah sakit karena dapat meningkatkan tingkat kebersihan di lingkungan rumah sakit.</p>
+        <p class="text-paragraph text-custom-dark-blue/90 text-center font-light"><span class="italic">Automatic Hermetic Door</span> memenuhi kebutuhan fungsional, estetika, dan higienis yang diperlukan. Pintu ini sangat cocok untuk rumah sakit karena dapat meningkatkan tingkat kebersihan di lingkungan rumah sakit.</p>
     </div>
 </div>
 
@@ -72,7 +65,7 @@
                             </div>
 
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-base sm:text-lg md:text-xl text-custom-dark-blue/90 font-ttRamillas font-bold">Lead lined Door</p>
+                                <p class="text-base sm:text-lg md:text-xl text-custom-dark-blue/90 font-ttRamillas font-bold">Lead Lined Door</p>
                                 <div class="flex items-center gap-4">
                                     <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none aspect-square w-20 sm:w-auto">
 
@@ -84,7 +77,7 @@
                     </div>
                 </div>
 
-                <div class="col-span-1 flex flex-col gap-16 order-1 xl:order-2">
+                <div class="col-span-1 flex flex-col gap-16 order-1 xl:order-2 pb-4 xl:pb-8">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 1"></div>
@@ -104,7 +97,7 @@
                     </div>
 
                     <div>
-                        <p class="text-paragraph text-custom-dark-blue/90 font-light xl:text-end"><span class="italic">Hermetic Doors</span> ideal digunakan untuk lingkungan ruangan yang harus bersih dan higienis karena mampu menjaga tekanan, kebersihan, suhu, dan kondisi kelembaban yang diinginkan. Seluruh perakitan pintu dirancang untuk menjamin kebersihan, termasuk <span class="italic">vision panel</span>, pegangan pintu, dan bahan mudah dibersihkan. Pintu ini juga menjamin kedap udara maksimum berkat segel hermetis di sekitar tepinya saat pintu tertutup. Pintu ini memiliki klasifikasi kedap udara tertinggi yang diuji sesuai dengan standar UNE 85170:2016 dan UNE-EN 121207:2017.
+                        <p class="text-paragraph text-custom-dark-blue/90 font-light xl:text-end"><span class="italic">Hermetic Door</span> ideal digunakan untuk lingkungan ruangan yang harus bersih dan higienis karena mampu menjaga tekanan, kebersihan, suhu, dan kondisi kelembaban yang diinginkan. Seluruh perakitan pintu dirancang untuk menjamin kebersihan, termasuk <span class="italic">vision panel</span>, pegangan pintu, dan bahan mudah dibersihkan. Pintu ini juga menjamin kedap udara maksimum berkat segel hermetis di sekitar tepinya saat pintu tertutup. Pintu ini memiliki klasifikasi kedap udara tertinggi yang diuji sesuai dengan standar UNE 85170:2016 dan UNE-EN 121207:2017.
                         </p>
                     </div>
                 </div>
