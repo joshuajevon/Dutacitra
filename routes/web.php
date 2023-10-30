@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,3 +35,6 @@ Route::get('/about/id', [HomeController::class, 'aboutId'])->name('aboutId');
 
 
 Route::get('/contact', [HomeController::class, 'contact'])->name('contactEn');
+
+// Contact Form
+Route::post('/contact-form', [ContactController::class, 'contact'])->name('contact');
