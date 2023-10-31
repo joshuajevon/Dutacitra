@@ -109,9 +109,9 @@
 
 
                     <div class="flex justify-center items-center mt-2">
-                        <button id="contact-submit-button" type="submit" class="rounded-full bg-custom-white hover:bg-[#D4E7ED] active:bg-[#BFDFE9] transition text-custom-dark-blue py-2 px-16 font-bold flex justify-center items-center gap-4">
+                        <button id="contact-submit-button" type="submit" class="rounded-full bg-custom-white hover:bg-[#D4E7ED] active:bg-[#BFDFE9] transition text-custom-dark-blue py-2 px-12 sm:px-14 md:px-16 font-bold flex justify-center items-center gap-3 sm:gap-3.5 md:gap-4">
                             Send
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-5 aspect-square" viewBox="0 0 16 16" stroke-width="0.5" stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-4 sm:w-[1.125rem] md:w-5 aspect-square" viewBox="0 0 16 16" stroke-width="0.5" stroke="currentColor">
                                 <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
                             </svg>
                         </button>

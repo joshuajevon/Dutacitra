@@ -157,7 +157,7 @@ function validateContact(e) {
 
         contactSubmitButton
             .html(
-                "Sending <svg class='animate-spin mr-3 h-5 w-5' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24'><circle class='opacity-25' cx='12' cy='12' r='10' stroke='currentColor' stroke-width='4'></circle><path class='opacity-75' fill='currentColor' d='M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z'></path></svg>"
+                "Sending <svg class='animate-spin mr-3 w-4 sm:w-[1.125rem] md:w-5 aspect-square' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24'><circle class='opacity-25' cx='12' cy='12' r='10' stroke='currentColor' stroke-width='4'></circle><path class='opacity-75' fill='currentColor' d='M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z'></path></svg>"
             )
             .addClass("opacity-50 pointer-events-none");
 
@@ -179,7 +179,7 @@ function validateContact(e) {
                     // Change submit button to default
                     contactSubmitButton
                         .html(
-                            "Send <svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' class='w-5 aspect-square' viewBox='0 0 16 16' stroke-width='0.5' stroke='currentColor'><path d='M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z' /></svg>"
+                            "Send <svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' class='w-4 sm:w-[1.125rem] md:w-5 aspect-square' viewBox='0 0 16 16' stroke-width='0.5' stroke='currentColor'><path d='M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z' /></svg>"
                         )
                         .removeClass("opacity-50 pointer-events-none");
                 } else {
@@ -193,7 +193,7 @@ function validateContact(e) {
                     // Change submit button to default
                     contactSubmitButton
                         .html(
-                            "Send <svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' class='w-5 aspect-square' viewBox='0 0 16 16' stroke-width='0.5' stroke='currentColor'><path d='M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z' /></svg>"
+                            "Send <svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' class='w-4 sm:w-[1.125rem] md:w-5 aspect-square' viewBox='0 0 16 16' stroke-width='0.5' stroke='currentColor'><path d='M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z' /></svg>"
                         )
                         .removeClass("opacity-50 pointer-events-none");
                 }
@@ -209,7 +209,7 @@ function validateContact(e) {
                 // Change submit button to default
                 contactSubmitButton
                     .html(
-                        "Send <svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' class='w-5 aspect-square' viewBox='0 0 16 16' stroke-width='0.5' stroke='currentColor'><path d='M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z' /></svg>"
+                        "Send <svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' class='w-4 sm:w-[1.125rem] md:w-5 aspect-square' viewBox='0 0 16 16' stroke-width='0.5' stroke='currentColor'><path d='M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z' /></svg>"
                     )
                     .removeClass("opacity-50 pointer-events-none");
             },
