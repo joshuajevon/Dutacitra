@@ -8,12 +8,12 @@
 @section('body')
 <x-navbar :page="'about'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" />
 
-<div class="h-28 sm:h-32 md:h-36 lg:h-40 xl:h-44 2xl:h-48 bg-center bg-cover flex items-center justify-center" style="background-image: url({{asset('assets/header/product-header.jpg')}}?t={{ env('VERSION_TIME') }});">
-    <h1 class="font-ttRamillas text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-custom-white">About Us</h1>
+<div class="header" style="background-image: url({{asset('assets/header/product-header.jpg')}}?t={{ env('VERSION_TIME') }});">
+    <h1 class="font-ttRamillas text-center font-extrabold">About Us</h1>
 </div>
 
 {{-- About Us --}}
-<div class="c-container grid grid-cols-1 lg:grid-cols-2 py-16 sm:py-20 md:py-24 gap-8 sm:gap-10 md:gap-12">
+<div class="c-container grid grid-cols-1 lg:grid-cols-2 py-8 sm:py-12 md:py-16 gap-8 sm:gap-10 md:gap-12">
     <div class="col-span-1 bg-gray-300 rounded-3xl h-72 sm:h-80 md:h-96 lg:h-full bg-cover bg-no-repeat bg-center" style="background-image: url({{asset('assets/about/about-us.jpg')}}?t={{ env('VERSION_TIME') }});">
         {{-- <img src="{{asset('assets/about/about-us.jpg')}}" alt="about-us" class=""> --}}
     </div>
@@ -30,7 +30,7 @@
 </div>
 
 {{-- History --}}
-<div class="c-container bg-custom-dark-blue text-custom-white flex flex-col gap-12 py-12 sm:py-14 md:py-16">
+<div class="c-container bg-custom-dark-blue text-custom-white flex flex-col gap-12 py-8 sm:py-12 md:py-16">
     <h1 class="text-heading font-ttRamillas font-extrabold text-center">
         Our history
     </h1>
@@ -42,7 +42,7 @@
             <div class="w-8 sm:w-9 lg:w-10 aspect-square rounded-full bg-custom-white"></div>
             <p class="text-lg sm:text-xl md:text-2xl font-ttRamillas font-extrabold text-center">2000</p>
             <p class="text-paragraph text-center font-light">
-                PT. Dutacitra Nusajaya didirikan dan bergerak pada bidang <span class="italic">Automatic Gate</span> dan <span class="italic">Rolling Shutter</span>
+                PT. Dutacitra Nusa Jaya didirikan dan bergerak pada bidang Automatic Gate dan Rolling Shutter
             </p>
         </div>
 
@@ -52,7 +52,7 @@
             <div class="w-8 sm:w-9 lg:w-10 aspect-square rounded-full bg-custom-white"></div>
             <p class="text-lg sm:text-xl md:text-2xl font-ttRamillas font-extrabold text-center">2003</p>
             <p class="text-paragraph text-center font-light">
-                PT. Dutacitra Nusajaya ditunjuk sebagai Sole Distributor Manusa Automatic Door
+                PT. Dutacitra Nusa Jaya ditunjuk sebgai Sole Distributor Manusa Automatic Door
             </p>
         </div>
 
@@ -62,26 +62,26 @@
             <div class="w-8 sm:w-9 lg:w-10 aspect-square rounded-full bg-custom-white"></div>
             <p class="text-lg sm:text-xl md:text-2xl font-ttRamillas font-extrabold text-center">2015</p>
             <p class="text-paragraph text-center font-light">
-                PT. Dutacitra Nusajaya berhenti bergerak pada bidang <span class="italic">Automatic Gate</span> dan <span class="italic">Rolling Shutter</span>
+                PT. Dutacitra Nusa Jaya menspesialisasikan diri dalam bidang Automatic Door
             </p>
         </div>
 
-        <div class="flex flex-col items-center gap-4 relative px-8">
+        <div class="flex flex-col items-center gap-4 relative px-4 sm:px-6 md:px-8">
             <div class="absolute h-1 bg-custom-white w-full top-[13px] sm:top-[16px] lg:top-[18px]"></div>
 
             <div class="w-8 sm:w-9 lg:w-10 aspect-square rounded-full bg-custom-white"></div>
-            <p class="text-lg sm:text-xl md:text-2xl font-ttRamillas font-extrabold text-center">2000</p>
+            <p class="text-lg sm:text-xl md:text-2xl font-ttRamillas font-extrabold text-center">Present</p>
             <p class="text-paragraph text-center font-light">
-                PT. Dutacitra Nusajaya menspesialisasikan diri dalam bidang <span class="italic">Automatic Door</span>
+                Siap membantu Anda dalam memenuhi kebutuhan dalam Automatic Door
             </p>
         </div>
     </div>
 </div>
 
 {{-- Vision & Mission --}}
-<div class="c-container grid grid-cols-1 xl:grid-cols-2 gap-8 sm:gap-10 md:gap-12 xl:gap-0 text-custom-dark-blue py-12 sm:py-14 md:py-16">
-    <div class="px-4 sm:pc-6 md:px-8">
-        <div class="flex flex-col gap-2 sm:gap-3 md:gap-4 justify-center items-center bg-custom-light-yellow rounded-3xl py-8 sm:py-10 md:py-12 lg:py-14 xl:py-16 px-16 sm:px-20 md:px-24 lg:px-28 xl:px-32 h-full">
+<div class="c-container grid grid-cols-1 xl:grid-cols-2 gap-8 sm:gap-10 md:gap-12 xl:gap-0 text-custom-dark-blue py-8 sm:py-12 md:py-16">
+    <div class="px-4 sm:px-6 md:px-8">
+        <div class="flex flex-col gap-2 sm:gap-3 md:gap-4 justify-center items-center bg-custom-light-yellow rounded-3xl p-8 sm:p-10 md:p-12 h-full">
             <h1 class="text-heading font-ttRamillas font-extrabold text-center">
                 Vision
             </h1>
@@ -92,8 +92,8 @@
 
     </div>
 
-    <div class="px-4 sm:pc-6 md:px-8">
-        <div class="flex flex-col gap-2 sm:gap-3 md:gap-4 justify-center items-center bg-custom-lighter-blue rounded-3xl py-8 sm:py-10 md:py-12 lg:py-14 xl:py-16 px-16 sm:px-20 md:px-24 lg:px-28 xl:px-32">
+    <div class="px-4 sm:px-6 md:px-8">
+        <div class="flex flex-col gap-2 sm:gap-3 md:gap-4 justify-center items-center bg-custom-lighter-blue rounded-3xl py-8 sm:py-10 md:py-12 px-16 sm:px-20 md:px-24">
             <h1 class="text-heading font-ttRamillas font-extrabold text-center">
                 Mission
             </h1>
@@ -117,7 +117,7 @@
 </div>
 
 {{-- Certificates --}}
-<div class="py-12 sm:py-14 md:py-16 flex flex-col gap-8 text-custom-dark-blue">
+<div class="py-8 sm:py-12 md:py-16 flex flex-col gap-8 text-custom-dark-blue">
     <div class="c-container">
         <h1 class="text-heading font-ttRamillas font-extrabold text-center">
             Certificates & Authorizations

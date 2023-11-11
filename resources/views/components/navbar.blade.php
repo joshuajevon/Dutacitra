@@ -4,6 +4,7 @@
             <img src="{{asset('assets/logo/logo-icon-text.png')}}?t={{ env('VERSION_TIME') }}" alt="logo" class="hidden 2xl:block h-11">
             <img src="{{asset('assets/logo/logo-icon.png')}}?t={{ env('VERSION_TIME') }}" alt="logo" class="2xl:hidden block h-10 xl:h-11">
         </a>
+
         <span class="hidden xl:flex justify-center items-center gap-16">
             <span class="flex justify-center items-center gap-8 sm:gap-16 md:gap-20 text-sm sm:text-base md:text-lg">
                 <a href="{{ route('homeEn') }}" class="@if($page === 'home') font-extrabold @endif ">Home</a>
@@ -46,7 +47,8 @@
 
             </span>
         </span>
-        <button class="inline xl:hidden rounded bg-custom-red p-3 transition" onclick="toggleNavbar()">
+
+        <button class="inline xl:hidden rounded bg-custom-red p-2.5 transition" onclick="toggleNavbar()">
             <div class="h-6 w-6 relative">
                 <span id="nav-icon-top" class="w-6 h-[0.125rem] bg-custom-white rounded-full absolute inset-x-0 mx-auto top-0.5 transition"></span>
                 <span id="nav-icon-mid" class="w-6 h-[0.125rem] bg-custom-white rounded-full absolute inset-0 m-auto transition"></span>
@@ -57,7 +59,7 @@
 </nav>
 
 {{-- Mobile Links --}}
-<nav id="mobile-nav-links" class="c-container pb-2 bg-custom-darker-blue hidden text-custom-white text-sm sm:text-base md:text-lg absolute top-[66px] left-0 w-full shadow-lg z-50">
+<nav id="mobile-nav-links" class="c-container pb-2 bg-custom-darker-blue hidden text-custom-white text-sm sm:text-base md:text-lg absolute top-16 left-0 w-full shadow-lg z-50">
     <a href="{{ route('homeEn') }}" class="@if($page === 'home') font-extrabold @endif block py-3.5">Home</a>
 
     <a href="{{ route('productEn') }}" class="@if($page === 'product') font-extrabold @endif block py-3.5">Product</a>

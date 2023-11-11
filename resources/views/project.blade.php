@@ -8,11 +8,11 @@
 @section('body')
 <x-navbar :page="'project'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" />
 
-<div class="h-28 sm:h-32 md:h-36 lg:h-40 xl:h-44 2xl:h-48 bg-center bg-cover flex items-center justify-center" style="background-image: url({{asset('assets/header/project-header.jpg')}}?t={{ env('VERSION_TIME') }});">
-    <h1 class="font-ttRamillas text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-custom-white">Our Project</h1>
+<div class="header" style="background-image: url({{asset('assets/header/project-header.jpg')}}?t={{ env('VERSION_TIME') }});">
+    <h1 class="font-ttRamillas text-center font-extrabold">Our Project</h1>
 </div>
 
-<div class="c-container text-paragraph py-16 sm:py-24 md:py-32 flex flex-col gap-8">
+<div class="c-container text-paragraph py-10 sm:py-12 md:py-16 flex flex-col gap-8">
     <div class="bg-custom-lighter-blue px-6 sm:px-7 md:px-8 pt-4 sm:pt-5 md:pt-6 pb-2 sm:pb-2.5 md:pb-3 relative">
         <h1 class="text-custom-dark-blue font-ttRamillas font-extrabold absolute -top-4 sm:-top-[1.125rem] md:-top-5 text-2xl sm:text-3xl md:text-4xl">Photos</h1>
         <p class="text-custom-dark-blue/90">Beberapa foto dari hasil proyek Automatic Door yang telah kami kerjakan</p>

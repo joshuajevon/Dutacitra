@@ -8,7 +8,7 @@
 @section('body')
 <x-navbar :page="'contact'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" />
 
-<div class="relative c-container flex flex-col text-custom-white py-12 sm:py-24 md:py-28 lg:py-32 gap-16">
+<div class="relative c-container flex flex-col text-custom-white pt-12 sm:pt-16 md:pt-20 pb-8 sm:pb-12 md:pb-16 gap-8">
     <div class="z-10 absolute top-0 left-0 w-full h-[22rem] sm:h-[28rem] md:h-[30rem] lg:h-[32rem] xl:h-[48rem] bg-center bg-cover" style="background-image: url('{{asset('assets/contact/header.jpg')}}?t={{ env('VERSION_TIME') }}')">
     </div>
 
@@ -124,18 +124,34 @@
         </div>
     </div>
 
-    <div class="flex flex-col justify-center items-center gap-8 sm:gap-12 md:gap-16 text-custom-dark-blue pt-8 sm:pt-16 md:pt-24">
+    <div class="flex flex-col justify-center items-center gap-6 sm:gap-7 md:gap-8 text-custom-dark-blue pt-8 sm:pt-10 md:pt-12">
         <div class="flex flex-col justify-center items-center gap-2 sm:gap-3 md:gap-4 max-w-3xl">
             <h1 class="text-heading font-ttRamillas font-extrabold text-center">
                 Find Us on Google Maps
             </h1>
-            <p class="text-paragraph text-center">Jl. Utan Jati Ruko Daan Mogot Baru Blok LB 2 No. 15, Kalideres, Kec. Kalideres, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11830</p>
         </div>
 
-        <div class="w-full">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d606.9580324079261!2d106.71164160312428!3d-6.147837243510641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f9f26ee22301%3A0xd48a5a308918c15a!2sPT.%20DutaCitra%20NusaJaya!5e0!3m2!1sen!2sid!4v1697682781696!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-[500px]  rounded-3xl"></iframe>
-        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div class="col-span-1 flex flex-col gap-4">
+                <h1 class="text-base sm:text-lg md:text-xl font-extrabold text-center">Marketing Office</h1>
 
+                <div class="w-full">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.8318105212643!2d106.71306488403506!3d-6.1532748779348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f9b7741f8003%3A0xbdcd90985668cde0!2sPJS%20Tower!5e0!3m2!1sen!2sid!4v1699698972980!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-[500px] rounded-3xl"></iframe>
+                </div>
+
+                <p class="text-paragraph text-center px-6 sm:px-8 md:px-10 lg:px-12 xl:px-14 2xl:px-16">Jl. Raya Daan Mogot No.1, RT.3/RW.12, Kalideres, Kec. Kalideres, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11840</p>
+            </div>
+
+            <div class="col-span-1 flex flex-col gap-4 ">
+                <h1 class="text-base sm:text-lg md:text-xl font-extrabold text-center">Operational Office</h1>
+
+                <div class="w-full">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d606.9580324079261!2d106.71164160312428!3d-6.147837243510641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f9f26ee22301%3A0xd48a5a308918c15a!2sPT.%20DutaCitra%20NusaJaya!5e0!3m2!1sen!2sid!4v1697682781696!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-[500px] rounded-3xl"></iframe>
+                </div>
+
+                <p class="text-paragraph text-center px-6 sm:px-8 md:px-10 lg:px-12 xl:px-14 2xl:px-16">Jl. Utan Jati Ruko Daan Mogot Baru Blok LB 2 No. 15, Kalideres, Kec. Kalideres, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11830</p>
+            </div>
+        </div>
     </div>
 </div>
 
