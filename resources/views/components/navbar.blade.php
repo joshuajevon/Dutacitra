@@ -1,10 +1,11 @@
 <nav class="block bg-custom-darker-blue c-container z-50 w-full text-custom-white">
-    <div class="flex justify-between items-center py-3 xl:py-4">
+    <div class="flex justify-between items-center py-2.5 xl:py-4">
         <a href="{{ route('homeEn') }}">
-            <img src="{{asset('assets/logo/logo-icon.png')}}?t={{ env('VERSION_TIME') }}" alt="logo" class="h-11 xl:h-auto">
+            <img src="{{asset('assets/logo/logo-icon-text.png')}}?t={{ env('VERSION_TIME') }}" alt="logo" class="hidden 2xl:block h-11">
+            <img src="{{asset('assets/logo/logo-icon.png')}}?t={{ env('VERSION_TIME') }}" alt="logo" class="2xl:hidden block h-10 xl:h-11">
         </a>
         <span class="hidden xl:flex justify-center items-center gap-16">
-            <span class="flex justify-center items-center gap-8 sm:gap-16 md:gap-20 text-base sm:text-lg md:text-xl">
+            <span class="flex justify-center items-center gap-8 sm:gap-16 md:gap-20 text-sm sm:text-base md:text-lg">
                 <a href="{{ route('homeEn') }}" class="@if($page === 'home') font-extrabold @endif ">Home</a>
 
                 <a href="{{ route('productEn') }}" class="@if($page === 'product') font-extrabold @endif">Product</a>
@@ -56,7 +57,7 @@
 </nav>
 
 {{-- Mobile Links --}}
-<nav id="mobile-nav-links" class="c-container pb-2 bg-custom-darker-blue hidden text-custom-white text-base sm:text-lg md:text-xl absolute top-[72px] left-0 z-40 w-full shadow-lg">
+<nav id="mobile-nav-links" class="c-container pb-2 bg-custom-darker-blue hidden text-custom-white text-sm sm:text-base md:text-lg absolute top-[66px] left-0 w-full shadow-lg z-50">
     <a href="{{ route('homeEn') }}" class="@if($page === 'home') font-extrabold @endif block py-3.5">Home</a>
 
     <a href="{{ route('productEn') }}" class="@if($page === 'product') font-extrabold @endif block py-3.5">Product</a>
