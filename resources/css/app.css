@@ -25,7 +25,7 @@ input:-webkit-autofill {
 }
 
 .swiper {
-    @apply w-4/5;
+    @apply xl:w-11/12 w-4/5;
 }
 .swiper-slide {
     @apply flex justify-center items-center w-full aspect-[5/3] rounded-2xl xl:rounded-3xl;
@@ -78,5 +78,9 @@ input:-webkit-autofill {
 
     .header {
         @apply h-20 sm:h-24 md:h-32 bg-center bg-cover flex items-center justify-center text-3xl sm:text-4xl md:text-5xl text-custom-white;
+    }
+
+    .product-type {
+        @apply pt-12 xl:pt-16;
     }
 }

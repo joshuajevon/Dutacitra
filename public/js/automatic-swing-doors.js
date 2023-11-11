@@ -11,4 +11,9 @@ var swiper = new Swiper(".mySwiper", {
         perSlideOffset: 6, // Space between cards in px
         perSlideRotate: 2, // Rotation of cards in degrees
     },
+
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
 });

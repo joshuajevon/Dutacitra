@@ -8,7 +8,12 @@ var swiper = new Swiper(".mySwiper", {
     },
 
     cardsEffect: {
-        perSlideOffset: 8, // Space between cards in px
+        perSlideOffset: 6, // Space between cards in px
         perSlideRotate: 2, // Rotation of cards in degrees
+    },
+
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
     },
 });

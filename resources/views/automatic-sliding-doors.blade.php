@@ -18,41 +18,41 @@
 @section('body')
 <x-navbar :page="'product'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" />
 
-<div class="h-28 sm:h-32 md:h-36 lg:h-40 xl:h-44 2xl:h-48 bg-center bg-cover flex items-center justify-center" style="background-image: url({{asset('assets/header/product-header.jpg')}});">
-    <h1 class="font-ttRamillas text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-custom-white">Our Product</h1>
+<div class="header" style="background-image: url({{asset('assets/header/product-header.jpg')}});">
+    <h1 class="font-ttRamillas text-center font-extrabold">Our Product</h1>
 </div>
 
-<div class="c-container flex justify-center items-center py-16 sm:py-20 md:py-24">
+<div class="c-container flex justify-center items-center py-8 sm:py-12 md:py-16">
     <div class="flex flex-col justify-center items-center gap-4 max-w-5xl">
         <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold text-center">Automatic Sliding Doors</h1>
         <p class="text-paragraph text-custom-dark-blue/90 text-center font-light"><span class="italic">Automatic Sliding Door</span> adalah pintu yang dapat membuka dan menutup dengan cara bergeser. <span class="italic">Automatic Sliding Door</span> dirancang untuk membuka dan menutup secara otomatis dengan kecepatan tinggi, menggabungkan teknologi canggih untuk memastikan keamanan bagi tempat usaha dan penggunanya.</p>
     </div>
 </div>
 
-<div class="px-2 sm:px-4 md:px-6 lg:px-8 xl:px-10 2xl:px-12 flex flex-col justify-center items-center gap-6 sm:gap-7 md:gap-8 pt-8 bg-custom-darker-blue text-custom-white">
+<div class="px-2 sm:px-4 md:px-6 lg:px-8 xl:px-10 2xl:px-12 flex flex-col justify-center items-center gap-6 sm:gap-7 md:gap-8 pt-8 bg-custom-darker-blue text-custom-white sticky top-0">
     <h1 class="text-lg sm:text-xl md:text-2xl font-ttRamillas font-bold text-center w-full">Product Type</h1>
 
     <div class="w-full">
         <div class="flex gap-4 sm:gap-6 md:gap-8 text-paragraph leading-none overflow-auto w-full pb-8">
-            <span class="product-type-selector flex w-44 sm:w-52 md:w-64 lg:w-auto flex-none lg:flex-1 justify-center items-center text-center border border-custom-white rounded-full px-5 sm:px-6 md:px-7 py-2 sm:py-3 md:py-4 cursor-pointer transition hover:bg-custom-light-blue hover:text-custom-dark-blue bg-custom-light-blue text-custom-dark-blue pointer-events-none" data-product-type="1" onclick="changeProductType(this)">Standard</span>
-            <span class="product-type-selector flex w-44 sm:w-52 md:w-64 lg:w-auto flex-none lg:flex-1 justify-center items-center text-center border border-custom-white rounded-full px-5 sm:px-6 md:px-7 py-2 sm:py-3 md:py-4 cursor-pointer transition hover:bg-custom-light-blue hover:text-custom-dark-blue" data-product-type="2" onclick="changeProductType(this)">Telescopic</span>
-            <span class="product-type-selector flex w-44 sm:w-52 md:w-64 lg:w-auto flex-none lg:flex-1 justify-center items-center text-center border border-custom-white rounded-full px-5 sm:px-6 md:px-7 py-2 sm:py-3 md:py-4 cursor-pointer transition hover:bg-custom-light-blue hover:text-custom-dark-blue" data-product-type="3" onclick="changeProductType(this)">Curved & Semicircular</span>
-            <span class="product-type-selector flex w-44 sm:w-52 md:w-64 lg:w-auto flex-none lg:flex-1 justify-center items-center text-center border border-custom-white rounded-full px-5 sm:px-6 md:px-7 py-2 sm:py-3 md:py-4 cursor-pointer transition hover:bg-custom-light-blue hover:text-custom-dark-blue" data-product-type="4" onclick="changeProductType(this)">Panic Break Out</span>
-            <span class="product-type-selector flex w-44 sm:w-52 md:w-64 lg:w-auto flex-none lg:flex-1 justify-center items-center text-center border border-custom-white rounded-full px-5 sm:px-6 md:px-7 py-2 sm:py-3 md:py-4 cursor-pointer transition hover:bg-custom-light-blue hover:text-custom-dark-blue" data-product-type="5" onclick="changeProductType(this)">Fire Resistant</span>
+            <a href="#automatic-standard" class="product-type-selector flex w-44 sm:w-52 md:w-64 lg:w-auto flex-none lg:flex-1 justify-center items-center text-center border border-custom-white rounded-full px-5 sm:px-6 md:px-7 py-2 sm:py-3 md:py-4 cursor-pointer transition hover:bg-custom-light-blue hover:text-custom-dark-blue">Standard</a>
+            <a href="#automatic-telescopic" class="product-type-selector flex w-44 sm:w-52 md:w-64 lg:w-auto flex-none lg:flex-1 justify-center items-center text-center border border-custom-white rounded-full px-5 sm:px-6 md:px-7 py-2 sm:py-3 md:py-4 cursor-pointer transition hover:bg-custom-light-blue hover:text-custom-dark-blue">Telescopic</a>
+            <a href="#automatic-curved" class="product-type-selector flex w-44 sm:w-52 md:w-64 lg:w-auto flex-none lg:flex-1 justify-center items-center text-center border border-custom-white rounded-full px-5 sm:px-6 md:px-7 py-2 sm:py-3 md:py-4 cursor-pointer transition hover:bg-custom-light-blue hover:text-custom-dark-blue">Curved & Semicircular</a>
+            <a href="#automatic-panic" class="product-type-selector flex w-44 sm:w-52 md:w-64 lg:w-auto flex-none lg:flex-1 justify-center items-center text-center border border-custom-white rounded-full px-5 sm:px-6 md:px-7 py-2 sm:py-3 md:py-4 cursor-pointer transition hover:bg-custom-light-blue hover:text-custom-dark-blue">Panic Break Out</a>
+            <a href="#automatic-fire" class="product-type-selector flex w-44 sm:w-52 md:w-64 lg:w-auto flex-none lg:flex-1 justify-center items-center text-center border border-custom-white rounded-full px-5 sm:px-6 md:px-7 py-2 sm:py-3 md:py-4 cursor-pointer transition hover:bg-custom-light-blue hover:text-custom-dark-blue">Fire Resistant</a>
         </div>
     </div>
 </div>
 
-<div class="c-container py-16 flex flex-col gap-32">
+<div class="c-container pb-8 sm:pb-12 md:pb-16 flex flex-col">
     {{-- Standard --}}
-    <div id="automatic-standard" data-product-type="1" class="product-type">
-        <div class="flex flex-col gap-8">
+    <div id="automatic-standard" class="product-type">
+        <div class="flex flex-col gap-6 xl:gap-8">
             <div>
                 <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold italic">Standard Automatic Sliding Doors</h1>
             </div>
 
-            <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-8">
-                <div class="col-span-1 pb-4 xl:pb-8">
+            <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-10">
+                <div class="col-span-1 pb-2 xl:pb-8">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 1"></div>
@@ -104,14 +104,14 @@
     </div>
 
     {{-- Telescopic --}}
-    <div id="automatic-telescopic" data-product-type="2" class="product-type invisible absolute">
-        <div class="flex flex-col gap-8">
+    <div id="automatic-telescopic" class="product-type">
+        <div class="flex flex-col gap-6 xl:gap-8">
             <div>
-                <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold italic">Telescopic Automatic Sliding Doors</h1>
+                <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold italic xl:text-end">Telescopic Automatic Sliding Doors</h1>
             </div>
 
-            <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-8">
-                <div class="col-span-1 pb-4 xl:pb-8">
+            <div class="grid grid-cols-1 xl:grid-cols-2 gap-12">
+                <div class="col-span-1 pb-2 xl:pb-8 order-1 xl:order-2">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/telescopic/sliding-telescopic-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding telescopic 1"></div>
@@ -125,8 +125,8 @@
                     </div>
                 </div>
 
-                <div class="col-span-1 flex flex-col gap-6">
-                    <p class="text-paragraph text-custom-dark-blue/90 font-light"><span class="italic">Telescopic Sliding Door</span> ideal untuk pintu masuk dengan ruang terbatas, untuk memisahkan lorong, atau untuk memperluas dan memaksimalkan akses di area yang sempit, atau di mana diperlukan untuk memperluas area lebar yang lebih dari biasanya. Pada pintu ini dapat memiliki bukaan sebesar 2/3 ruangan yang ada pada pintu tersebut.
+                <div class="col-span-1 flex flex-col gap-6 order-2 xl:order-1">
+                    <p class="text-paragraph text-custom-dark-blue/90 font-light xl:text-end"><span class="italic">Telescopic Sliding Door</span> ideal untuk pintu masuk dengan ruang terbatas, untuk memisahkan lorong, atau untuk memperluas dan memaksimalkan akses di area yang sempit, atau di mana diperlukan untuk memperluas area lebar yang lebih dari biasanya. Pada pintu ini dapat memiliki bukaan sebesar 2/3 ruangan yang ada pada pintu tersebut.
                     </p>
 
                     <div class="flex flex-col gap-4 bg-custom-lighter-blue text-custom-dark-blue/90 p-6 rounded-2xl">
@@ -160,14 +160,14 @@
     </div>
 
     {{-- Curved & Semicurved --}}
-    <div id="automatic-curved" data-product-type="3" class="product-type invisible absolute">
-        <div class="flex flex-col gap-8">
+    <div id="automatic-curved" class="product-type">
+        <div class="flex flex-col gap-6 xl:gap-8">
             <div>
                 <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold italic">Curved & Semicurved Automatic Sliding Doors</h1>
             </div>
 
-            <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-8">
-                <div class="col-span-1 pb-4 xl:pb-8">
+            <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-10">
+                <div class="col-span-1 pb-2 xl:pb-8">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 1"></div>
@@ -208,14 +208,14 @@
     </div>
 
     {{-- Panic Break-Out / Emergency Automatic Sliding Doors --}}
-    <div id="automatic-panic" data-product-type="4" class="product-type invisible absolute">
-        <div class="flex flex-col gap-8">
+    <div id="automatic-panic" class="product-type">
+        <div class="flex flex-col gap-6 xl:gap-8">
             <div>
                 <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold italic">Panic Break-Out / Emergency Automatic Sliding Doors</h1>
             </div>
 
-            <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-8">
-                <div class="col-span-1 pb-4 xl:pb-8">
+            <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-10">
+                <div class="col-span-1 pb-2 xl:pb-8">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 1"></div>
@@ -265,14 +265,14 @@
     </div>
 
     {{-- Fire Resistant Automatic Sliding Doors --}}
-    <div id="automatic-panic" data-product-type="5" class="product-type invisible absolute">
-        <div class="flex flex-col gap-8">
+    <div id="automatic-fire" class="product-type">
+        <div class="flex flex-col gap-6 xl:gap-8">
             <div>
-                <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold italic">Fire Resistant Automatic Sliding Doors</h1>
+                <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold italic xl:text-end">Fire Resistant Automatic Sliding Doors</h1>
             </div>
 
-            <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-8">
-                <div class="col-span-1 pb-4 xl:pb-8">
+            <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-10">
+                <div class="col-span-1 pb-2 xl:pb-8 order-1 xl:order-2">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/fire/sliding-fire-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding fire 1"></div>
@@ -285,8 +285,8 @@
                     </div>
                 </div>
 
-                <div class="col-span-1 flex flex-col gap-6">
-                    <p class="text-paragraph text-custom-dark-blue/90 font-light"><span class="italic">Fire Resistant Sliding Door</span> ini dirancang dengan menggabungkan fungsi <span class="italic">automatic sliding door</span> dengan sifat-sifat pintu tahan api. Direkomendasikan untuk memisahkan area dengan risiko kebakaran tinggi dan mencegah penyebaran api dan asap ke area lainnya. Pintu ini telah menjalani pengujian lengkap dan memenuhi semua sertifikasi sesuai dengan standar terkait ketahanan terhadap kebakaran.
+                <div class="col-span-1 flex flex-col gap-6 order-2 xl:order-1">
+                    <p class="text-paragraph text-custom-dark-blue/90 font-light xl:text-end"><span class="italic">Fire Resistant Sliding Door</span> ini dirancang dengan menggabungkan fungsi <span class="italic">automatic sliding door</span> dengan sifat-sifat pintu tahan api. Direkomendasikan untuk memisahkan area dengan risiko kebakaran tinggi dan mencegah penyebaran api dan asap ke area lainnya. Pintu ini telah menjalani pengujian lengkap dan memenuhi semua sertifikasi sesuai dengan standar terkait ketahanan terhadap kebakaran.
 
                     </p>
 
@@ -321,11 +321,21 @@
     </div>
 </div>
 
-<div class="c-container pb-16 sm:pb-20 md:pb-24">
+<div class="c-container pb-8 sm:pb-10 md:pb-12">
     <div class="px-10 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-32 bg-custom-dark-blue flex flex-col items-center rounded-3xl py-8 text-custom-white gap-6">
         <h1 class="font-ttRamillas font-extrabold text-base sm:text-lg md:text-xl">Downloads</h1>
 
         <div class="border-b border-b-custom-white flex flex-col gap-4 sm:gap-5 md:gap-6 w-full pb-2 sm:pb-3 md:pb-4 px-4 sm:px-6 md:px-8">
+            <div class="w-full flex justify-between items-center gap-6 sm:gap-9 md:gap-12">
+                <p>Brosure Sliding Door</p>
+
+                <a href="{{asset('assets/brosure/sliding/Opening Doors To The Future..pdf')}}?t={{ env('VERSION_TIME') }}" download>
+                    <svg class="w-4 sm:w-5 md:w-6 mr-1 flex-none" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.25 22H17.75V19.5H0.25V22ZM17.75 8.25H12.75V0.75H5.25V8.25H0.25L9 17L17.75 8.25Z" fill="#F8F4E9" />
+                    </svg>
+                </a>
+            </div>
+
             <div class="w-full flex justify-between items-center gap-6 sm:gap-9 md:gap-12">
                 <p>Brosur Visio 100, 125, dan 175</p>
 
@@ -335,21 +345,12 @@
                     </svg>
                 </a>
             </div>
-            <div class="w-full flex justify-between items-center gap-6 sm:gap-9 md:gap-12">
-                <p>Opening Doors To The Future</p>
-
-                <a href="{{asset('assets/brosure/sliding/Opening Doors To The Future..pdf')}}?t={{ env('VERSION_TIME') }}" download>
-                    <svg class="w-4 sm:w-5 md:w-6 mr-1 flex-none" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0.25 22H17.75V19.5H0.25V22ZM17.75 8.25H12.75V0.75H5.25V8.25H0.25L9 17L17.75 8.25Z" fill="#F8F4E9" />
-                    </svg>
-                </a>
-            </div>
         </div>
     </div>
 </div>
 
-<div class="c-container pb-16 sm:pb-20 md:pb-24">
-    <div class="grid grid-cols-1 xl:grid-cols-2 gap-8 xl:gap-16">
+<div class="c-container pb-8 sm:pb-10 md:pb-12">
+    <div class="grid grid-cols-1 xl:grid-cols-2 gap-6 xl:gap-14">
         <div class="col-span-1 py-4 sm:py-6 md:py-8 pl-4 sm:pl-6 md:pl-8 relative">
             <div class="absolute h-full top-0 left-0 w-11/12 bg-custom-light-gray -z-10 rounded-3xl">
 
@@ -360,15 +361,15 @@
         <div class="col-span-1 flex flex-col justify-center gap-4 sm:gap-6 md:gap-8">
             <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold">Automatic Door Projects</h1>
             <p class="text-paragraph text-custom-dark-blue">
-                Kami telah melayani berbagai pelanggan dan menyediakan pintu otomatis untuk beragam perusahaan di seluruh Indonesia. Sudah lebih dari 250 perusahaan yang mempercayakan layanan kami.
+                Kami telah melayani berbagai pelanggan dan menyediakan pintu otomatis untuk beragam perusahaan di seluruh Indonesia. Sudah banyak proyek dan perusahaan yang mempercayakan layanan kami.
             </p>
 
-            <a href="{{ route('projectEn') }}" class="flex items-center gap-4 text-custom-dark-blue border border-custom-dark-blue rounded-full px-6 sm:px-7 md:px-8 py-2 sm:py-2.5 md:py-3 w-fit hover:bg-custom-dark-blue hover:text-custom-white transition">
+            <a href="{{ route('projectEn') }}" class="flex items-center gap-3 sm:gap-3.5 md:gap-4 text-custom-dark-blue border border-custom-dark-blue rounded-full px-8 sm:px-9 md:px-10 py-1 sm:py-1.5 md:py-2 w-fit hover:bg-custom-dark-blue hover:text-custom-white transition">
                 <p class="text-paragraph font-bold">
                     Our Project
                 </p>
 
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 aspect-square">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 sm:w-7 md:w-8 aspect-square">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
             </a>
