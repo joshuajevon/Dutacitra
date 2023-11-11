@@ -168,7 +168,7 @@
 
             <img src="{{asset('assets/product/automatic-hermetic-doors/project.jpg')}}?t={{ env('VERSION_TIME') }}" alt="project" style="box-shadow: 15px 20px 30px 0px rgba(0, 0, 0, 0.15);" class="rounded-3xl w-full">
         </div>
-        <div class="col-span-1 flex flex-col justify-center gap-4 sm:gap-6 md:gap-8">
+        <div class="col-span-1 flex flex-col justify-center gap-4 sm:gap-5 md:gap-6">
             <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold">Automatic Door Projects</h1>
             <p class="text-paragraph text-custom-dark-blue">
                 Kami telah melayani berbagai pelanggan dan menyediakan pintu otomatis untuk beragam perusahaan di seluruh Indonesia. Sudah banyak proyek dan perusahaan yang mempercayakan layanan kami.
