@@ -12,11 +12,16 @@
         transform: translateY(48px);
     }
 
+    .swiper-slide-active {
+        box-shadow: 8px 5px 10px 0px rgba(0, 0, 0, 0.25),
+            -8px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    }
+
 </style>
 @endsection
 
 @section('body')
-<x-navbar :page="'product'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" />
+<x-navbar :page="'product'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" :bgColor="'blue'" />
 
 <div class="header" style="background-image: url({{asset('assets/header/product-header.jpg')}});">
     <h1 class="font-ttRamillas text-center font-extrabold">Our Product</h1>
@@ -112,19 +117,19 @@
                 </div>
 
                 <div class="col-span-1 flex flex-col gap-16 order-1 xl:order-2 pb-4 xl:pb-8">
-                    <div class="swiper mySwiper">
+                    <div class="swiper mySwiper product-swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 1"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 2"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 3"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 4"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 5"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 6"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-7.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 7"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-8.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 8"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-9.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 9"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-10.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 10"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-11.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 11"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 1"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 2"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 3"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 4"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 5"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 6"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-7.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 7"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-8.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 8"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-9.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 9"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-10.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 10"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-11.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 11"></div>
                         </div>
 
                         <div class="swiper-pagination"></div>

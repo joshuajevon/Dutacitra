@@ -12,11 +12,16 @@
         transform: translateY(48px);
     }
 
+    .swiper-slide-active {
+        box-shadow: 8px 5px 10px 0px rgba(0, 0, 0, 0.25),
+            -8px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    }
+
 </style>
 @endsection
 
 @section('body')
-<x-navbar :page="'product'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" />
+<x-navbar :page="'product'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" :bgColor="'blue'" />
 
 <div class="header" style="background-image: url({{asset('assets/header/product-header.jpg')}});">
     <h1 class="font-ttRamillas text-center font-extrabold">Our Product</h1>
@@ -53,17 +58,17 @@
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-10">
                 <div class="col-span-1 pb-2 xl:pb-8">
-                    <div class="swiper mySwiper">
+                    <div class="swiper mySwiper product-swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 1"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 2"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 3"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 4"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 5"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 6"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-7.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 7"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-8.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 8"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-9.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 9"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 1"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 2"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 3"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 4"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 5"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 6"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-7.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 7"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-8.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 8"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-9.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 9"></div>
                         </div>
 
                         <div class="swiper-pagination"></div>
@@ -112,13 +117,13 @@
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12">
                 <div class="col-span-1 pb-2 xl:pb-8 order-1 xl:order-2">
-                    <div class="swiper mySwiper">
+                    <div class="swiper mySwiper product-swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/telescopic/sliding-telescopic-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding telescopic 1"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/telescopic/sliding-telescopic-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding telescopic 2"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/telescopic/sliding-telescopic-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding telescopic 3"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/telescopic/sliding-telescopic-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding telescopic 4"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/telescopic/sliding-telescopic-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding telescopic 5"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/telescopic/sliding-telescopic-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding telescopic 1"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/telescopic/sliding-telescopic-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding telescopic 2"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/telescopic/sliding-telescopic-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding telescopic 3"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/telescopic/sliding-telescopic-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding telescopic 4"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/telescopic/sliding-telescopic-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding telescopic 5"></div>
                         </div>
 
                         <div class="swiper-pagination"></div>
@@ -168,16 +173,16 @@
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-10">
                 <div class="col-span-1 pb-2 xl:pb-8">
-                    <div class="swiper mySwiper">
+                    <div class="swiper mySwiper product-swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 1"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 2"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 3"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 4"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 5"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 6"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-7.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 7"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-8.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 8"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 1"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 2"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 3"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 4"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 5"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 6"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-7.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 7"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-8.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 8"></div>
                         </div>
 
                         <div class="swiper-pagination"></div>
@@ -216,14 +221,14 @@
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-10">
                 <div class="col-span-1 pb-2 xl:pb-8">
-                    <div class="swiper mySwiper">
+                    <div class="swiper mySwiper product-swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 1"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 2"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 3"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 4"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 5"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 6"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 1"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 2"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 3"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 4"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 5"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 6"></div>
                         </div>
 
                         <div class="swiper-pagination"></div>
@@ -273,12 +278,12 @@
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-10">
                 <div class="col-span-1 pb-2 xl:pb-8 order-1 xl:order-2">
-                    <div class="swiper mySwiper">
+                    <div class="swiper mySwiper product-swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/fire/sliding-fire-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding fire 1"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/fire/sliding-fire-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding fire 2"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/fire/sliding-fire-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding fire 3"></div>
-                            <div class="swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/fire/sliding-fire-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding fire 4"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/fire/sliding-fire-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding fire 1"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/fire/sliding-fire-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding fire 2"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/fire/sliding-fire-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding fire 3"></div>
+                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/fire/sliding-fire-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding fire 4"></div>
                         </div>
 
                         <div class="swiper-pagination"></div>

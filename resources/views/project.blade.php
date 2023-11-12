@@ -6,7 +6,7 @@
 @endsection
 
 @section('body')
-<x-navbar :page="'project'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" />
+<x-navbar :page="'project'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" :bgColor="'blue'" />
 
 <div class="header" style="background-image: url({{asset('assets/header/project-header.jpg')}}?t={{ env('VERSION_TIME') }});">
     <h1 class="font-ttRamillas text-center font-extrabold">Our Project</h1>

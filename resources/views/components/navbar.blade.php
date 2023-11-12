@@ -1,4 +1,4 @@
-<nav class="block bg-custom-darker-blue c-container z-50 w-full text-custom-white">
+<nav class="block @if($bgColor === 'blue') bg-custom-darker-blue @elseif ($bgColor === 'transparent') bg-transparent @endif c-container z-50 w-full text-custom-white">
     <div class="flex justify-between items-center py-2.5 xl:py-4">
         <a href="{{ route('homeEn') }}">
             <img src="{{asset('assets/logo/logo-icon-text.png')}}?t={{ env('VERSION_TIME') }}" alt="logo" class="hidden 2xl:block h-11">

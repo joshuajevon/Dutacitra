@@ -1,10 +1,15 @@
 var swiper = new Swiper(".mySwiper", {
-    effect: "cards",
-    grabCursor: true,
+    slidesPerView: "auto",
+    centeredSlides: true,
+    spaceBetween: 0,
 
-    // Navigation arrows
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
     },
 });
