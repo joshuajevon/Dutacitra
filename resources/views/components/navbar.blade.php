@@ -59,7 +59,7 @@
 </nav>
 
 {{-- Mobile Links --}}
-<nav id="mobile-nav-links" class="c-container pb-2 bg-custom-darker-blue hidden text-custom-white text-sm sm:text-base md:text-lg absolute top-16 left-0 w-full shadow-lg z-50">
+<nav id="mobile-nav-links" class="c-container pb-2 @if($bgColor === 'blue') bg-custom-darker-blue @elseif ($bgColor === 'transparent') bg-transparent @endif hidden text-custom-white text-sm sm:text-base md:text-lg absolute top-16 left-0 w-full z-50">
     <a href="{{ route('homeEn') }}" class="@if($page === 'home') font-extrabold @endif block py-3.5">Home</a>
 
     <a href="{{ route('productEn') }}" class="@if($page === 'product') font-extrabold @endif block py-3.5">Product</a>
