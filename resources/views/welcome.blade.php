@@ -77,7 +77,7 @@
     </div>
 
     <div class="c-container flex flex-col justify-center items-center gap-4 text-center">
-        <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold italic">Why PT. Dutacitra Nusa Jaya ?</h1>
+        <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold italic">Why PT. Dutacitra Nusa Jaya?</h1>
         <p class="text-custom-dark-blue text-paragraph">Perusahaan kami telah beroperasi sejak tahun 2000 dan men-Specialisasikan diri dalam industri Automatic Door. Tentunya dengan perjalanan yang cukup panjang dan luas ini,
             kami memiliki pengalaman dan kemampuan untuk membantu dalam menentukan Automatic Door yang sesuai dengan kebutuhan Anda. Kami juga memiliki tim Pemasangan dan Layanan Purna Jual yang sangat kompeten untuk mendukung Anda dalam hal ini.</p>
 
@@ -138,7 +138,7 @@
 
             <div class="flex flex-col gap-8 xl:mt-40">
                 <div class="flex flex-col gap-4 pr-4 sm:pr-8 md:pr-12 lg:pr-16 xl:pr-20 2xl:pr-24">
-                    <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold italic">Why Manusa Automatic Door ?</h1>
+                    <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold italic">Why Manusa Automatic Door?</h1>
                     <p class="text-custom-dark-blue text-paragraph">Manusa adalah salah satu perusahaan terkemuka di dunia dalam industri automatic door. Dengan pengalaman dan keberadaan perusahaan serta distributor tunggal di hampir seluruh dunia, Manusa telah berhasil memimpin pasar automatic door. Prestasi ini didorong oleh teknologi canggih yang dikembangkan sendiri dan tim profesional yang bekerja untuk mencapai kepuasan pelanggan sepenuhnya.</p>
 
                     <a href="{{ route('aboutEn') }}" class="flex items-center gap-3 sm:gap-3.5 md:gap-4 text-custom-dark-blue border border-custom-dark-blue rounded-full px-8 sm:px-9 md:px-10 py-1 sm:py-1.5 md:py-2 w-fit hover:bg-custom-dark-blue hover:text-custom-white transition bg-custom-white mt-2 sm:mt-3 md:mt-4">
