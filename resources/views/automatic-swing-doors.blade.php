@@ -70,7 +70,7 @@
 
 <div class="c-container pb-8 sm:pb-10 md:pb-12">
     <div class="px-10 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-32 bg-custom-dark-blue flex flex-col items-center rounded-3xl py-8 text-custom-white gap-6">
-        <h1 class="font-ttRamillas font-extrabold text-base sm:text-lg md:text-xl">Downloads</h1>
+        <h1 class="font-ttRamillas font-extrabold text-subtitle">Downloads</h1>
 
         <div class="border-b border-b-custom-white flex flex-col gap-4 sm:gap-5 md:gap-6 w-full pb-2 sm:pb-3 md:pb-4 px-4 sm:px-6 md:px-8">
             <div class="w-full flex justify-between items-center gap-6 sm:gap-9 md:gap-12">

@@ -73,30 +73,30 @@
                     <div class="flex gap-6 sm:gap-7 md:gap-8 w-full">
                         <div class="flex flex-col gap-2 w-full">
                             <input type="text" name="first-name" id="first-name" placeholder="First Name" class="bg-transparent border-b border-custom-white p-2 w-full">
-                            <p id="error-first-name" class="hidden text-xs sm:text-sm md:text-base text-red-500 px-2"></p>
+                            <p id="error-first-name" class="hidden text-subparagraph text-red-500 px-2"></p>
                         </div>
 
                         <div class="flex flex-col gap-2 w-full">
                             <input type="text" name="last-name" id="last-name" placeholder="Last Name" class="bg-transparent border-b border-custom-white p-2 w-full">
-                            <p id="error-last-name" class="hidden text-xs sm:text-sm md:text-base text-red-500 px-2"></p>
+                            <p id="error-last-name" class="hidden text-subparagraph text-red-500 px-2"></p>
                         </div>
                     </div>
 
                     <div class="flex gap-6 sm:gap-7 md:gap-8 w-full">
                         <div class="flex flex-col gap-2 w-full">
                             <input type="text" name="email" id="email" placeholder="Email" class="bg-transparent border-b border-custom-white p-2 w-full">
-                            <p id="error-email" class="hidden text-xs sm:text-sm md:text-base text-red-500 px-2"></p>
+                            <p id="error-email" class="hidden text-subparagraph text-red-500 px-2"></p>
                         </div>
 
                         <div class="flex flex-col gap-2 w-full">
                             <input type="text" name="phone" id="phone" placeholder="Phone" class="bg-transparent border-b border-custom-white p-2 w-full">
-                            <p id="error-phone" class="hidden text-xs sm:text-sm md:text-base text-red-500 px-2"></p>
+                            <p id="error-phone" class="hidden text-subparagraph text-red-500 px-2"></p>
                         </div>
                     </div>
 
                     <div class="flex flex-col gap-2 w-full">
                         <input type="text" name="subject" id="subject" placeholder="Subject" class="bg-transparent border-b border-custom-white p-2 w-full">
-                        <p id="error-subject" class="hidden text-xs sm:text-sm md:text-base text-red-500 px-2"></p>
+                        <p id="error-subject" class="hidden text-subparagraph text-red-500 px-2"></p>
                     </div>
 
                     <div class="flex flex-col gap-2 w-full">
@@ -104,7 +104,7 @@
                             <label for="message" class="px-2">Message</label>
                             <textarea name="message" id="message" rows="10" class="p-4 rounded-xl text-custom-dark-blue resize-none"></textarea>
                         </div>
-                        <p id="error-message" class="hidden text-xs sm:text-sm md:text-base text-red-500 px-2"></p>
+                        <p id="error-message" class="hidden text-subparagraph text-red-500 px-2"></p>
                     </div>
 
 
@@ -117,7 +117,7 @@
                         </button>
                     </div>
 
-                    <p id="contact-validation-message" class="text-xs sm:text-sm md:text-base text-center">
+                    <p id="contact-validation-message" class="text-subparagraph text-center">
                     </p>
                 </form>
             </div>
@@ -133,7 +133,7 @@
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div class="col-span-1 flex flex-col gap-4">
-                <h1 class="text-base sm:text-lg md:text-xl font-extrabold text-center">Marketing Office</h1>
+                <h1 class="text-subtitle font-extrabold text-center">Marketing Office</h1>
 
                 <div class="w-full">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.8318105212643!2d106.71306488403506!3d-6.1532748779348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f9b7741f8003%3A0xbdcd90985668cde0!2sPJS%20Tower!5e0!3m2!1sen!2sid!4v1699698972980!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-[500px] rounded-3xl"></iframe>
@@ -143,7 +143,7 @@
             </div>
 
             <div class="col-span-1 flex flex-col gap-4 ">
-                <h1 class="text-base sm:text-lg md:text-xl font-extrabold text-center">Operational Office</h1>
+                <h1 class="text-subtitle font-extrabold text-center">Operational Office</h1>
 
                 <div class="w-full">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d606.9580324079261!2d106.71164160312428!3d-6.147837243510641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f9f26ee22301%3A0xd48a5a308918c15a!2sPT.%20DutaCitra%20NusaJaya!5e0!3m2!1sen!2sid!4v1697682781696!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-[500px] rounded-3xl"></iframe>

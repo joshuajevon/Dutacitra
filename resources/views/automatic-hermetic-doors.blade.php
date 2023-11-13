@@ -46,11 +46,11 @@
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-10">
                 <div class="col-span-1 flex flex-col order-2 xl:order-1">
                     <div class="flex flex-col gap-4 bg-custom-lighter-blue text-custom-dark-blue/90 p-6 rounded-2xl">
-                        <p class="text-base sm:text-lg md:text-xl text-custom-dark-blue/90 font-ttRamillas font-extrabold">Tipe Hermetic Door</p>
+                        <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-extrabold">Tipe Hermetic Door</p>
 
                         <div class="grid grid-cols-1 gap-6">
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-base sm:text-lg md:text-xl text-custom-dark-blue/90 font-ttRamillas font-bold">Hermetic Door</p>
+                                <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Hermetic Door</p>
 
                                 <div class="flex-none">
                                     <img src="{{asset('assets/product/automatic-hermetic-doors/type-hermetic.jpg')}}" alt="type-hermetic" class="h-32 rounded-xl aspect-[3/2] sm:hidden">
@@ -61,7 +61,7 @@
                                         <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none aspect-square w-20 sm:w-auto">
 
 
-                                        <p class="text-xs sm:text-sm md:text-base text-custom-dark-blue/90 font-light">Dilengkapi untuk menutup secara hermetis.
+                                        <p class="text-subparagraph text-custom-dark-blue/90 font-light">Dilengkapi untuk menutup secara hermetis.
                                         </p>
                                     </div>
 
@@ -72,7 +72,7 @@
                             </div>
 
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-base sm:text-lg md:text-xl text-custom-dark-blue/90 font-ttRamillas font-bold">Glass Hermetic Door</p>
+                                <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Glass Hermetic Door</p>
 
                                 <div class="flex-none">
                                     <img src="{{asset('assets/product/automatic-hermetic-doors/type-glass-hermetic.jpg')}}" alt="type-glass-hermetic" class="h-32 rounded-xl aspect-[3/2] sm:hidden">
@@ -82,7 +82,7 @@
                                     <div class="flex items-center gap-4">
                                         <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none aspect-square w-20 sm:w-auto">
 
-                                        <p class="text-xs sm:text-sm md:text-base text-custom-dark-blue/90 font-light">Memberikan visibilitas yang luas ke dalam ruangan. Pilihan terbaik untuk area observasi dalam bangunan.
+                                        <p class="text-subparagraph text-custom-dark-blue/90 font-light">Memberikan visibilitas yang luas ke dalam ruangan. Pilihan terbaik untuk area observasi dalam bangunan.
                                         </p>
                                     </div>
 
@@ -93,7 +93,7 @@
                             </div>
 
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-base sm:text-lg md:text-xl text-custom-dark-blue/90 font-ttRamillas font-bold">Lead Lined Door</p>
+                                <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Lead Lined Door</p>
 
                                 <div class="flex-none" s>
                                     <img src="{{asset('assets/product/automatic-hermetic-doors/type-lead-lined.jpg')}}" alt="type-lead-lined" class="h-32 rounded-xl aspect-[3/2] sm:hidden">
@@ -103,7 +103,7 @@
                                     <div class="flex items-center gap-4">
                                         <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none aspect-square w-20 sm:w-auto">
 
-                                        <p class="text-xs sm:text-sm md:text-base text-custom-dark-blue/90 font-light">Untuk ruang radiologi, dengan pilihan panel visi berlapis timah (ketebalan standar lapisan timah sekitar 2-3 mm) untuk mencegah lepasnya sinar-X. Tersedia sebagai pintu hermetis atau non-hermetis.
+                                        <p class="text-subparagraph text-custom-dark-blue/90 font-light">Untuk ruang radiologi, dengan pilihan panel visi berlapis timah (ketebalan standar lapisan timah sekitar 2-3 mm) untuk mencegah lepasnya sinar-X. Tersedia sebagai pintu hermetis atau non-hermetis.
                                         </p>
                                     </div>
 
@@ -148,7 +148,7 @@
 
 <div class="c-container pb-8 sm:pb-10 md:pb-12">
     <div class="px-10 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-32 bg-custom-dark-blue flex flex-col items-center rounded-3xl py-8 text-custom-white gap-6">
-        <h1 class="font-ttRamillas font-extrabold text-base sm:text-lg md:text-xl">Downloads</h1>
+        <h1 class="font-ttRamillas font-extrabold text-subtitle">Downloads</h1>
 
         <div class="border-b border-b-custom-white flex flex-col gap-4 sm:gap-5 md:gap-6 w-full pb-2 sm:pb-3 md:pb-4 px-4 sm:px-6 md:px-8">
             <div class="w-full flex justify-between items-center gap-6 sm:gap-9 md:gap-12">

@@ -45,11 +45,12 @@
 @endsection
 
 @section('body')
+{{-- Hero --}}
 <div class="flex flex-col justify-between text-custom-white pb-28 sm:pb-26 md:pb-24 gap-8 h-screen bg-cover bg-no-repeat bg-center" style="background-image: url('{{asset('assets/home/header.jpg')}}?t={{ env('VERSION_TIME') }}')">
     <x-navbar :page="'home'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" :bgColor="'transparent'" />
 
     <div class="c-container flex flex-col gap-4 z-20 text-custom-white">
-        <h1 class="font-ttRamillas text-2xl sm:text-3xl md:text-4xl lg:text-5xl">Paving the way <br>to the <span class="font-ttRamillas font-bold italic">future</span>,
+        <h1 class="font-ttRamillas text-heading lg:text-5xl">Paving the way <br>to the <span class="font-ttRamillas font-bold italic">future</span>,
             with<br><span class="font-ttRamillas font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl italic">Automatic Door</span></h1>
 
         <p class="text-paragraph">Specialist in Automatic Door</p>
@@ -61,6 +62,7 @@
     </div>
 </div>
 
+{{-- Carousel + Why Us? --}}
 <div class="py-8 sm:py-12 md:py-16 flex flex-col gap-4 sm:gap-6 md:gap-8">
     <div class="swiper mySwiper">
         <div class="swiper-wrapper pb-12">
@@ -79,7 +81,15 @@
     <div class="c-container flex flex-col justify-center items-center gap-4 text-center">
         <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold italic">Why PT. Dutacitra Nusa Jaya?</h1>
         <p class="text-custom-dark-blue text-paragraph">Perusahaan kami telah beroperasi sejak tahun 2000 dan men-Specialisasikan diri dalam industri Automatic Door. Tentunya dengan perjalanan yang cukup panjang dan luas ini,
-            kami memiliki pengalaman dan kemampuan untuk membantu dalam menentukan Automatic Door yang sesuai dengan kebutuhan Anda. Kami juga memiliki tim Pemasangan dan Layanan Purna Jual yang sangat kompeten untuk mendukung Anda dalam hal ini.</p>
+            kami memiliki pengalaman dan kemampuan untuk membantu dalam menentukan Automatic Door yang sesuai dengan kebutuhan Anda. Kami juga memiliki tim Pemasangan dan Layanan Purna Jual yang sangat kompeten untuk mendukung Anda dalam hal ini. 18px</p>
+        <p class="text-custom-dark-blue text-subparagraph">Perusahaan kami telah beroperasi sejak tahun 2000 dan men-Specialisasikan diri dalam industri Automatic Door. Tentunya dengan perjalanan yang cukup panjang dan luas ini,
+            kami memiliki pengalaman dan kemampuan untuk membantu dalam menentukan Automatic Door yang sesuai dengan kebutuhan Anda. Kami juga memiliki tim Pemasangan dan Layanan Purna Jual yang sangat kompeten untuk mendukung Anda dalam hal ini. 16px</p>
+        <p class="text-custom-dark-blue text-sm">Perusahaan kami telah beroperasi sejak tahun 2000 dan men-Specialisasikan diri dalam industri Automatic Door. Tentunya dengan perjalanan yang cukup panjang dan luas ini,
+            kami memiliki pengalaman dan kemampuan untuk membantu dalam menentukan Automatic Door yang sesuai dengan kebutuhan Anda. Kami juga memiliki tim Pemasangan dan Layanan Purna Jual yang sangat kompeten untuk mendukung Anda dalam hal ini. 14px</p>
+        <p class="text-custom-dark-blue text-xs">Perusahaan kami telah beroperasi sejak tahun 2000 dan men-Specialisasikan diri dalam industri Automatic Door. Tentunya dengan perjalanan yang cukup panjang dan luas ini,
+            kami memiliki pengalaman dan kemampuan untuk membantu dalam menentukan Automatic Door yang sesuai dengan kebutuhan Anda. Kami juga memiliki tim Pemasangan dan Layanan Purna Jual yang sangat kompeten untuk mendukung Anda dalam hal ini. 12px</p>
+        <p class="text-custom-dark-blue text-[10px]">Perusahaan kami telah beroperasi sejak tahun 2000 dan men-Specialisasikan diri dalam industri Automatic Door. Tentunya dengan perjalanan yang cukup panjang dan luas ini,
+            kami memiliki pengalaman dan kemampuan untuk membantu dalam menentukan Automatic Door yang sesuai dengan kebutuhan Anda. Kami juga memiliki tim Pemasangan dan Layanan Purna Jual yang sangat kompeten untuk mendukung Anda dalam hal ini. 10px</p>
 
         <a href="{{ route('aboutEn') }}" class="flex items-center gap-3 sm:gap-3.5 md:gap-4 text-custom-dark-blue border border-custom-dark-blue rounded-full px-8 sm:px-9 md:px-10 py-1 sm:py-1.5 md:py-2 w-fit hover:bg-custom-dark-blue hover:text-custom-white transition bg-custom-white mt-2 sm:mt-3 md:mt-4">
             <p class="text-paragraph font-bold">Find more about us </p><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 sm:w-7 md:w-8 aspect-square">
@@ -88,6 +98,7 @@
     </div>
 </div>
 
+{{-- Our Service --}}
 <div class="c-container bg-custom-darker-blue text-custom-white flex flex-col gap-8 sm:gap-10 md:gap-12 py-8 sm:py-12 md:py-16">
     <h1 class="text-heading font-ttRamillas font-extrabold text-center">
         Our Service
@@ -95,28 +106,28 @@
 
     <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-12 sm:gap-10 md:gap-8">
         <div class="flex flex-col justify-center items-center gap-4 p-6 sm:p-7 md:p-8 rounded-xl sm:rounded-2xl md:rounded-3xl border border-custom-white relative">
-            <p class="text-lg sm:text-xl md:text-2xl font-ttRamillas font-extrabold text-center absolute -top-4 left-0 right-0 mx-auto bg-custom-darker-blue w-44 sm:w-56 xl:w-48 2xl:w-56">Sales</p>
+            <p class="text-title font-ttRamillas font-extrabold text-center absolute -top-4 left-0 right-0 mx-auto bg-custom-darker-blue w-44 sm:w-56 xl:w-48 2xl:w-56">Sales</p>
             <p class="text-paragraph text-center font-light">
                 Kami menyediakan produk dan solusi berkualitas terbaik yang disesuaikan dengan kebutuhan Anda.
             </p>
         </div>
 
         <div class="flex flex-col justify-center items-center gap-4 p-6 sm:p-7 md:p-8 rounded-xl sm:rounded-2xl md:rounded-3xl border border-custom-white relative">
-            <p class="text-lg sm:text-xl md:text-2xl font-ttRamillas font-extrabold text-center absolute -top-4 left-0 right-0 mx-auto bg-custom-darker-blue w-44 sm:w-56 xl:w-48 2xl:w-56">Installation</p>
+            <p class="text-title font-ttRamillas font-extrabold text-center absolute -top-4 left-0 right-0 mx-auto bg-custom-darker-blue w-44 sm:w-56 xl:w-48 2xl:w-56">Installation</p>
             <p class="text-paragraph text-center font-light">
                 Kami memberikan bantuan ahli dalam pemasangan pintu otomatis.
             </p>
         </div>
 
         <div class="flex flex-col justify-center items-center gap-4 p-6 sm:p-7 md:p-8 rounded-xl sm:rounded-2xl md:rounded-3xl border border-custom-white relative">
-            <p class="text-lg sm:text-xl md:text-2xl font-ttRamillas font-extrabold text-center absolute -top-4 left-0 right-0 mx-auto bg-custom-darker-blue w-44 sm:w-56 xl:w-48 2xl:w-56">Spare Parts</p>
+            <p class="text-title font-ttRamillas font-extrabold text-center absolute -top-4 left-0 right-0 mx-auto bg-custom-darker-blue w-44 sm:w-56 xl:w-48 2xl:w-56">Spare Parts</p>
             <p class="text-paragraph text-center font-light">
                 Kami menyediakan komponen dan aksesoris yang diperlukan.
             </p>
         </div>
 
         <div class="flex flex-col justify-center items-center gap-4 p-6 sm:p-7 md:p-8 rounded-xl sm:rounded-2xl md:rounded-3xl border border-custom-white relative">
-            <p class="text-lg sm:text-xl md:text-2xl font-ttRamillas font-extrabold text-center absolute -top-4 left-0 right-0 mx-auto bg-custom-darker-blue w-44 sm:w-56 xl:w-48 2xl:w-56">Maintenance</p>
+            <p class="text-title font-ttRamillas font-extrabold text-center absolute -top-4 left-0 right-0 mx-auto bg-custom-darker-blue w-44 sm:w-56 xl:w-48 2xl:w-56">Maintenance</p>
             <p class="text-paragraph text-center font-light">
                 Layanan perawatan pasca pemasangan untuk pintu otomatis.
             </p>
@@ -124,6 +135,7 @@
     </div>
 </div>
 
+{{-- Why Us --}}
 <div class="py-8 sm:py-12 md:py-16">
     <div class="relative">
         <div class="flex flex-col gap-6 absolute top-12 left-0 w-full -z-10">
@@ -151,7 +163,7 @@
                     <div class="grid grid-cols-1 2xl:grid-cols-3 gap-2 right-0">
                         <div class="col-span-1 flex items-center gap-2 text-custom-dark-blue bg-custom-light-blue p-4">
                             <span>
-                                <h1 class="text-2xl sm:text-3xl md:text-4xl font-semibold">
+                                <h1 class="text-heading font-semibold">
                                     90+
                                 </h1>
                             </span>
@@ -162,7 +174,7 @@
 
                         <div class="col-span-1 flex items-center gap-2 text-custom-dark-blue bg-custom-light-yellow p-4">
                             <span>
-                                <h1 class="text-2xl sm:text-3xl md:text-4xl font-semibold">
+                                <h1 class="text-heading font-semibold">
                                     20k+
                                 </h1>
                             </span>
@@ -173,7 +185,7 @@
 
                         <div class="col-span-1 flex items-center gap-2 text-custom-light-yellow bg-custom-dark-blue p-4">
                             <span>
-                                <h1 class="text-2xl sm:text-3xl md:text-4xl font-semibold">
+                                <h1 class="text-heading font-semibold">
                                     350+
                                 </h1>
                             </span>
@@ -197,7 +209,7 @@
     {{-- Left --}}
     <div class="col-span-1 flex flex-col gap-8 md:pt-8">
         <div class="flex flex-col md:items-end gap-4 pl-4 sm:pl-8 md:pl-12 lg:pl-16 xl:pl-20 2xl:pl-24 pr-4 sm:pr-8 md:pr-0 md:text-end order-2 md:order-1">
-            <h1 class="text-xl sm:text-2xl md:text-3xl text-custom-dark-blue font-ttRamillas font-extrabold">Strive to provide best product</h1>
+            <h1 class="text-subheading text-custom-dark-blue font-ttRamillas font-extrabold">Strive to provide best product</h1>
             <p class="text-custom-dark-blue text-paragraph">Kami menawarkan beragam produk pintu otomatis yang dapat menjadi solusi untuk kebutuhan Anda. Mulai dari sliding doors, swing doors, revolving doors, dan access control.</p>
 
             <a href="{{ route('productEn') }}" class="flex items-center gap-3 sm:gap-3.5 md:gap-4 text-custom-dark-blue border border-custom-dark-blue rounded-full px-8 sm:px-9 md:px-10 py-1 sm:py-1.5 md:py-2 w-fit hover:bg-custom-dark-blue hover:text-custom-white transition bg-custom-white mt-2 sm:mt-3 md:mt-4">
@@ -241,7 +253,7 @@
         </div>
 
         <div class="flex flex-col items-end gap-4 pr-4 sm:pr-8 md:pr-12 lg:pr-16 xl:pr-20 2xl:pr-24 pl-4 sm:pl-8 md:pl-0 text-end">
-            <h1 class="text-xl sm:text-2xl md:text-3xl text-custom-dark-blue font-ttRamillas font-extrabold">Our Distinctive Projects</h1>
+            <h1 class="text-subheading text-custom-dark-blue font-ttRamillas font-extrabold">Our Distinctive Projects</h1>
             <p class="text-custom-dark-blue text-paragraph">Kami telah melayani berbagai pelanggan dan menyediakan pintu otomatis untuk beragam perusahaan di seluruh Indonesia. Sudah banyak proyek dan perusahaan yang mempercayakan layanan kami.</p>
 
             <a href="{{ route('projectEn') }}" class="flex items-center gap-3 sm:gap-3.5 md:gap-4 text-custom-dark-blue border border-custom-dark-blue rounded-full px-8 sm:px-9 md:px-10 py-1 sm:py-1.5 md:py-2 w-fit hover:bg-custom-dark-blue hover:text-custom-white transition bg-custom-white mt-2 sm:mt-3 md:mt-4">
