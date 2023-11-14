@@ -1,8 +1,8 @@
-<nav class="text-paragraph block @if($bgColor === 'blue') bg-custom-darker-blue @elseif ($bgColor === 'transparent') bg-transparent @endif c-container z-50 w-full text-custom-white">
-    <div class="flex justify-between items-center py-2.5 xl:py-4">
+<nav class="text-subparagraph block @if($bgColor === 'blue') bg-custom-darker-blue @elseif ($bgColor === 'transparent') bg-transparent @endif c-container z-50 w-full text-custom-white">
+    <div class="flex justify-between items-center py-3">
         <a href="{{ route('homeEn') }}">
-            <img src="{{asset('assets/logo/logo-icon-text.png')}}?t={{ env('VERSION_TIME') }}" alt="logo" class="hidden 2xl:block h-11">
-            <img src="{{asset('assets/logo/logo-icon.png')}}?t={{ env('VERSION_TIME') }}" alt="logo" class="2xl:hidden block h-10 xl:h-11">
+            <img src="{{asset('assets/logo/logo-icon-text.png')}}?t={{ env('VERSION_TIME') }}" alt="logo" class="hidden 2xl:block h-10  ">
+            <img src="{{asset('assets/logo/logo-icon.png')}}?t={{ env('VERSION_TIME') }}" alt="logo" class="2xl:hidden block h-10">
         </a>
 
         <span class="hidden xl:flex justify-center items-center gap-16">
@@ -48,7 +48,7 @@
             </span>
         </span>
 
-        <button class="inline xl:hidden rounded bg-custom-red p-2.5 transition" onclick="toggleNavbar()">
+        <button class="inline xl:hidden rounded bg-custom-red p-2 transition" onclick="toggleNavbar()">
             <div class="h-6 w-6 relative">
                 <span id="nav-icon-top" class="w-6 h-[0.125rem] bg-custom-white rounded-full absolute inset-x-0 mx-auto top-0.5 transition"></span>
                 <span id="nav-icon-mid" class="w-6 h-[0.125rem] bg-custom-white rounded-full absolute inset-0 m-auto transition"></span>
@@ -59,7 +59,7 @@
 </nav>
 
 {{-- Mobile Links --}}
-<nav id="mobile-nav-links" class="c-container pb-2 @if($bgColor === 'blue') bg-custom-darker-blue @elseif ($bgColor === 'transparent') bg-transparent @endif hidden text-custom-white text-paragraph absolute top-16 left-0 w-full z-50">
+<nav id="mobile-nav-links" class="c-container pb-2 @if($bgColor === 'blue') bg-custom-darker-blue @elseif ($bgColor === 'transparent') bg-transparent @endif hidden text-custom-white text-subparagraph absolute top-16 left-0 w-full z-50">
     <a href="{{ route('homeEn') }}" class="@if($page === 'home') font-extrabold @endif block py-3.5">Home</a>
 
     <a href="{{ route('productEn') }}" class="@if($page === 'product') font-extrabold @endif block py-3.5">Product</a>

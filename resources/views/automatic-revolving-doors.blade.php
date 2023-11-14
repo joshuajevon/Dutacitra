@@ -27,14 +27,14 @@
     <h1 class="font-ttRamillas text-center font-extrabold">Our Product</h1>
 </div>
 
-<div class="c-container flex justify-center items-center py-8 sm:py-10 md:py-12">
+<div class="c-container flex justify-center items-center py-6 sm:py-7 md:py-8">
     <div class="flex flex-col justify-center items-center gap-4 max-w-5xl">
         <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold text-center">Automatic Revolving Doors</h1>
         <p class="text-paragraph text-custom-dark-blue/90 text-center font-light"><span class="italic">Automatic Swing Door</span> dirancang untuk dapat disesuaikan dengan berbagai jenis proyek, dan menjamin efisiensi energi maksimal serta kualitas yang tinggi.</p>
     </div>
 </div>
 
-<div class="w-full h-8 sm:h-10 md:h-12 lg:h-14 xl:h-16 bg-custom-darker-blue"></div>
+<div class="w-full h-4 sm:h-5 md:h-6 lg:h-7 xl:h-8 bg-custom-darker-blue"></div>
 
 <div class="c-container pb-8 sm:pb-12 md:pb-16 flex flex-col">
     <div class="product-type">
@@ -44,7 +44,7 @@
             </div>
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-10">
-                <div class="col-span-1 pb-2 xl:pb-8">
+                <div class="col-span-1 pb-2 xl:pb-8 flex items-center">
                     <div class="swiper mySwiper product-swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-revolving-doors/revolving-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="revolving 1"></div>
@@ -101,9 +101,8 @@
 
 <div class="c-container pb-8 sm:pb-10 md:pb-12">
     <div class="grid grid-cols-1 xl:grid-cols-2 gap-6 xl:gap-14">
-        <div class="col-span-1 py-4 sm:py-6 md:py-8 pl-4 sm:pl-6 md:pl-8 relative">
-            <div class="absolute h-full top-0 left-0 w-11/12 bg-custom-light-gray -z-10 rounded-3xl">
-
+        <div class="col-span-1 pt-4 sm:pt-6 md:pt-8 pl-4 sm:pl-6 md:pl-8 relative">
+            <div class="absolute top-0 left-0 w-[95%] h-[95%] bg-custom-light-gray -z-10 rounded-3xl">
             </div>
 
             <img src="{{asset('assets/product/automatic-revolving-doors/project.jpg')}}?t={{ env('VERSION_TIME') }}" alt="project" style="box-shadow: 15px 20px 30px 0px rgba(0, 0, 0, 0.15);" class="rounded-3xl w-full">

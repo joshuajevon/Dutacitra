@@ -12,7 +12,7 @@
     <h1 class="font-ttRamillas text-center font-extrabold">Our Project</h1>
 </div>
 
-<div class="c-container text-paragraph py-10 sm:py-12 md:py-16 flex flex-col gap-8">
+<div class="c-container text-paragraph py-10 sm:py-12 md:py-16 flex flex-col gap-6 sm:gap-7 md:gap-8">
     <div class="bg-custom-lighter-blue px-6 sm:px-7 md:px-8 pt-4 sm:pt-5 md:pt-6 pb-2 sm:pb-2.5 md:pb-3 relative">
         <h1 class="text-custom-dark-blue font-ttRamillas font-extrabold absolute -top-4 sm:-top-[1.125rem] md:-top-5 text-heading">Photos</h1>
         <p class="text-custom-dark-blue/90">Beberapa foto dari hasil proyek Automatic Door yang telah kami kerjakan</p>
@@ -182,7 +182,7 @@
         </div>
     </div>
 
-    <div class="bg-custom-lighter-blue px-6 sm:px-7 md:px-8 pt-4 sm:pt-5 md:pt-6 pb-2 sm:pb-2.5 md:pb-3 relative mt-16">
+    <div class="bg-custom-lighter-blue px-6 sm:px-7 md:px-8 pt-4 sm:pt-5 md:pt-6 pb-2 sm:pb-2.5 md:pb-3 relative mt-2 sm:mt-3 md:mt-4">
         <h1 class="text-custom-dark-blue font-ttRamillas font-extrabold absolute -top-4 sm:-top-[1.125rem] md:-top-5 text-heading">Project Reference</h1>
         <p class="text-custom-dark-blue/90">Daftar pelanggan dan proyek yang telah kami selesaikan</p>
     </div>

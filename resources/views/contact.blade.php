@@ -21,7 +21,7 @@
 
     <div class="z-20 flex flex-col xl:flex-row items-center gap-8 sm:gap-10 md:gap-12 text-custom-dark-blue">
         <div class="w-full xl:w-[500px] flex-none">
-            <div class="flex flex-col gap-8 sm:gap-10 md:gap-10 bg-custom-light-yellow rounded-3xl p-8 sm:p-12 md:p-16 h-full text-paragraph" style="box-shadow: 10px 10px 20px 3px rgba(0, 0, 0, 0.25);">
+            <div class="flex flex-col gap-6 sm:gap-8 md:gap-10 bg-custom-light-yellow rounded-3xl p-8 sm:p-12 h-full text-paragraph" style="box-shadow: 10px 10px 20px 3px rgba(0, 0, 0, 0.25);">
                 <h1 class="text-heading font-ttRamillas font-extrabold">
                     Contact Us
                 </h1>
@@ -102,7 +102,7 @@
                     <div class="flex flex-col gap-2 w-full">
                         <div class="flex flex-col gap-3 w-full">
                             <label for="message" class="px-2">Message</label>
-                            <textarea name="message" id="message" rows="10" class="p-4 rounded-xl text-custom-dark-blue resize-none"></textarea>
+                            <textarea name="message" id="message" rows="5" class="p-4 rounded-xl text-custom-dark-blue resize-none"></textarea>
                         </div>
                         <p id="error-message" class="hidden text-subparagraph text-red-500 px-2"></p>
                     </div>
@@ -117,7 +117,7 @@
                         </button>
                     </div>
 
-                    <p id="contact-validation-message" class="text-subparagraph text-center">
+                    <p id="contact-validation-message" class="hidden text-subparagraph text-center">
                     </p>
                 </form>
             </div>

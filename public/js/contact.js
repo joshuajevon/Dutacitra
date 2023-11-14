@@ -174,7 +174,8 @@ function validateContact(e) {
                     // Display a success message to the user
                     contactValidationMessage
                         .text(response.message)
-                        .css("color", "rgb(34, 197, 94");
+                        .css("color", "rgb(34, 197, 94")
+                        .css("display", "block");
 
                     // Change submit button to default
                     contactSubmitButton
@@ -188,7 +189,8 @@ function validateContact(e) {
                         .text(
                             "An error occurred while submitting the form, please try again."
                         )
-                        .css("color", "rgb(239, 68, 68)");
+                        .css("color", "rgb(239, 68, 68)")
+                        .css("display", "block");
 
                     // Change submit button to default
                     contactSubmitButton
@@ -204,7 +206,8 @@ function validateContact(e) {
                     .text(
                         "An error occurred while submitting the form, please try again."
                     )
-                    .css("color", "rgb(239, 68, 68)");
+                    .css("color", "rgb(239, 68, 68)")
+                    .css("display", "block");
 
                 // Change submit button to default
                 contactSubmitButton

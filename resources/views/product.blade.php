@@ -12,7 +12,7 @@
     <h1 class="font-ttRamillas text-center font-extrabold">Our Product</h1>
 </div>
 
-<div class="c-container text-paragraph py-8 sm:py-12 md:py-16 flex flex-col gap-6 sm:gap-7 md:gap-8 justify-center items-center">
+<div class="c-container text-paragraph pb-8 sm:pb-12 md:pb-16 pt-6 sm:pt-8 md:pt-10 flex flex-col gap-6 sm:gap-7 md:gap-8 justify-center items-center">
     <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold text-center">Product Category</h1>
 
     <div class="grid grid-cols-2 lg:grid-cols-4 w-full gap-4 sm:gap-5 md:gap-6 text-custom-darker-blue">

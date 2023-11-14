@@ -63,7 +63,7 @@
 </div>
 
 {{-- Carousel + Why Us? --}}
-<div class="py-8 sm:py-12 md:py-16 flex flex-col gap-4 sm:gap-6 md:gap-8">
+<div class="py-8 sm:py-12 md:py-16 flex flex-col gap-4">
     <div class="swiper mySwiper">
         <div class="swiper-wrapper pb-12">
             <div class="swiper-slide"><img src="{{ asset('assets/home/home-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-1"></div>
@@ -81,15 +81,7 @@
     <div class="c-container flex flex-col justify-center items-center gap-4 text-center">
         <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold italic">Why PT. Dutacitra Nusa Jaya?</h1>
         <p class="text-custom-dark-blue text-paragraph">Perusahaan kami telah beroperasi sejak tahun 2000 dan men-Specialisasikan diri dalam industri Automatic Door. Tentunya dengan perjalanan yang cukup panjang dan luas ini,
-            kami memiliki pengalaman dan kemampuan untuk membantu dalam menentukan Automatic Door yang sesuai dengan kebutuhan Anda. Kami juga memiliki tim Pemasangan dan Layanan Purna Jual yang sangat kompeten untuk mendukung Anda dalam hal ini. 18px</p>
-        <p class="text-custom-dark-blue text-subparagraph">Perusahaan kami telah beroperasi sejak tahun 2000 dan men-Specialisasikan diri dalam industri Automatic Door. Tentunya dengan perjalanan yang cukup panjang dan luas ini,
-            kami memiliki pengalaman dan kemampuan untuk membantu dalam menentukan Automatic Door yang sesuai dengan kebutuhan Anda. Kami juga memiliki tim Pemasangan dan Layanan Purna Jual yang sangat kompeten untuk mendukung Anda dalam hal ini. 16px</p>
-        <p class="text-custom-dark-blue text-sm">Perusahaan kami telah beroperasi sejak tahun 2000 dan men-Specialisasikan diri dalam industri Automatic Door. Tentunya dengan perjalanan yang cukup panjang dan luas ini,
-            kami memiliki pengalaman dan kemampuan untuk membantu dalam menentukan Automatic Door yang sesuai dengan kebutuhan Anda. Kami juga memiliki tim Pemasangan dan Layanan Purna Jual yang sangat kompeten untuk mendukung Anda dalam hal ini. 14px</p>
-        <p class="text-custom-dark-blue text-xs">Perusahaan kami telah beroperasi sejak tahun 2000 dan men-Specialisasikan diri dalam industri Automatic Door. Tentunya dengan perjalanan yang cukup panjang dan luas ini,
-            kami memiliki pengalaman dan kemampuan untuk membantu dalam menentukan Automatic Door yang sesuai dengan kebutuhan Anda. Kami juga memiliki tim Pemasangan dan Layanan Purna Jual yang sangat kompeten untuk mendukung Anda dalam hal ini. 12px</p>
-        <p class="text-custom-dark-blue text-[10px]">Perusahaan kami telah beroperasi sejak tahun 2000 dan men-Specialisasikan diri dalam industri Automatic Door. Tentunya dengan perjalanan yang cukup panjang dan luas ini,
-            kami memiliki pengalaman dan kemampuan untuk membantu dalam menentukan Automatic Door yang sesuai dengan kebutuhan Anda. Kami juga memiliki tim Pemasangan dan Layanan Purna Jual yang sangat kompeten untuk mendukung Anda dalam hal ini. 10px</p>
+            kami memiliki pengalaman dan kemampuan untuk membantu dalam menentukan Automatic Door yang sesuai dengan kebutuhan Anda. Kami juga memiliki tim Pemasangan dan Layanan Purna Jual yang sangat kompeten untuk mendukung Anda dalam hal ini.</p>
 
         <a href="{{ route('aboutEn') }}" class="flex items-center gap-3 sm:gap-3.5 md:gap-4 text-custom-dark-blue border border-custom-dark-blue rounded-full px-8 sm:px-9 md:px-10 py-1 sm:py-1.5 md:py-2 w-fit hover:bg-custom-dark-blue hover:text-custom-white transition bg-custom-white mt-2 sm:mt-3 md:mt-4">
             <p class="text-paragraph font-bold">Find more about us </p><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 sm:w-7 md:w-8 aspect-square">
@@ -252,7 +244,7 @@
 
         </div>
 
-        <div class="flex flex-col items-end gap-4 pr-4 sm:pr-8 md:pr-12 lg:pr-16 xl:pr-20 2xl:pr-24 pl-4 sm:pl-8 md:pl-0 text-end">
+        <div class="flex flex-col items-end md:items-start gap-4 pr-4 sm:pr-8 md:pr-12 lg:pr-16 xl:pr-20 2xl:pr-24 pl-4 sm:pl-8 md:pl-0 text-end md:text-start">
             <h1 class="text-subheading text-custom-dark-blue font-ttRamillas font-extrabold">Our Distinctive Projects</h1>
             <p class="text-custom-dark-blue text-paragraph">Kami telah melayani berbagai pelanggan dan menyediakan pintu otomatis untuk beragam perusahaan di seluruh Indonesia. Sudah banyak proyek dan perusahaan yang mempercayakan layanan kami.</p>
 

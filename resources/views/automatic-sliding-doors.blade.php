@@ -27,18 +27,18 @@
     <h1 class="font-ttRamillas text-center font-extrabold">Our Product</h1>
 </div>
 
-<div class="c-container flex justify-center items-center py-8 sm:py-12 md:py-16">
+<div class="c-container flex justify-center items-center py-6 sm:py-7 md:py-8">
     <div class="flex flex-col justify-center items-center gap-4 max-w-5xl">
         <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold text-center">Automatic Sliding Doors</h1>
         <p class="text-paragraph text-custom-dark-blue/90 text-center font-light"><span class="italic">Automatic Sliding Door</span> adalah pintu yang dapat membuka dan menutup dengan cara bergeser. <span class="italic">Automatic Sliding Door</span> dirancang untuk membuka dan menutup secara otomatis dengan kecepatan tinggi, menggabungkan teknologi canggih untuk memastikan keamanan bagi tempat usaha dan penggunanya.</p>
     </div>
 </div>
 
-<div class="px-2 sm:px-4 md:px-6 lg:px-8 xl:px-10 2xl:px-12 flex flex-col justify-center items-center gap-6 sm:gap-7 md:gap-8 pt-8 bg-custom-darker-blue text-custom-white sticky top-0">
+<div class="px-2 sm:px-4 md:px-6 lg:px-8 xl:px-10 2xl:px-12 flex flex-col justify-center items-center gap-4 sm:gap-5 md:gap-6 pt-4 sm:pt-6 md:pt-8 bg-custom-darker-blue text-custom-white sticky top-0">
     <h1 class="text-title font-ttRamillas font-bold text-center w-full">Product Type</h1>
 
     <div class="w-full">
-        <div class="flex gap-4 sm:gap-6 md:gap-8 text-paragraph leading-none overflow-auto w-full pb-8">
+        <div class="flex gap-4 sm:gap-6 md:gap-8 text-paragraph leading-none overflow-auto w-full pb-4 sm:pb-6 md:pb-8">
             <a href="#automatic-standard" class="product-type-selector flex w-44 sm:w-52 md:w-64 lg:w-auto flex-none lg:flex-1 justify-center items-center text-center border border-custom-white rounded-full px-5 sm:px-6 md:px-7 py-2 sm:py-3 md:py-4 cursor-pointer transition hover:bg-custom-light-blue hover:text-custom-dark-blue">Standard</a>
             <a href="#automatic-telescopic" class="product-type-selector flex w-44 sm:w-52 md:w-64 lg:w-auto flex-none lg:flex-1 justify-center items-center text-center border border-custom-white rounded-full px-5 sm:px-6 md:px-7 py-2 sm:py-3 md:py-4 cursor-pointer transition hover:bg-custom-light-blue hover:text-custom-dark-blue">Telescopic</a>
             <a href="#automatic-curved" class="product-type-selector flex w-44 sm:w-52 md:w-64 lg:w-auto flex-none lg:flex-1 justify-center items-center text-center border border-custom-white rounded-full px-5 sm:px-6 md:px-7 py-2 sm:py-3 md:py-4 cursor-pointer transition hover:bg-custom-light-blue hover:text-custom-dark-blue">Curved & Semicircular</a>
@@ -57,7 +57,7 @@
             </div>
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-10">
-                <div class="col-span-1 pb-2 xl:pb-8">
+                <div class="col-span-1 pb-2 xl:pb-8 flex items-center">
                     <div class="swiper mySwiper product-swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 1"></div>
@@ -116,7 +116,7 @@
             </div>
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12">
-                <div class="col-span-1 pb-2 xl:pb-8 order-1 xl:order-2">
+                <div class="col-span-1 pb-2 xl:pb-8 order-1 xl:order-2 flex items-center">
                     <div class="swiper mySwiper product-swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/telescopic/sliding-telescopic-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding telescopic 1"></div>
@@ -172,7 +172,7 @@
             </div>
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-10">
-                <div class="col-span-1 pb-2 xl:pb-8">
+                <div class="col-span-1 pb-2 xl:pb-8 flex items-center">
                     <div class="swiper mySwiper product-swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 1"></div>
@@ -220,7 +220,7 @@
             </div>
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-10">
-                <div class="col-span-1 pb-2 xl:pb-8">
+                <div class="col-span-1 pb-2 xl:pb-8 flex items-center">
                     <div class="swiper mySwiper product-swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 1"></div>
@@ -277,7 +277,7 @@
             </div>
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-10">
-                <div class="col-span-1 pb-2 xl:pb-8 order-1 xl:order-2">
+                <div class="col-span-1 pb-2 xl:pb-8 order-1 xl:order-2 flex items-center">
                     <div class="swiper mySwiper product-swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/fire/sliding-fire-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding fire 1"></div>
@@ -356,9 +356,8 @@
 
 <div class="c-container pb-8 sm:pb-10 md:pb-12">
     <div class="grid grid-cols-1 xl:grid-cols-2 gap-6 xl:gap-14">
-        <div class="col-span-1 py-4 sm:py-6 md:py-8 pl-4 sm:pl-6 md:pl-8 relative">
-            <div class="absolute h-full top-0 left-0 w-11/12 bg-custom-light-gray -z-10 rounded-3xl">
-
+        <div class="col-span-1 pt-4 sm:pt-6 md:pt-8 pl-4 sm:pl-6 md:pl-8 relative">
+            <div class="absolute top-0 left-0 w-[95%] h-[95%] bg-custom-light-gray -z-10 rounded-3xl">
             </div>
 
             <img src="{{asset('assets/product/automatic-sliding-doors/project.jpg')}}?t={{ env('VERSION_TIME') }}" alt="project" style="box-shadow: 15px 20px 30px 0px rgba(0, 0, 0, 0.15);" class="rounded-3xl w-full">

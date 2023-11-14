@@ -93,6 +93,6 @@ input:-webkit-autofill {
     }
 
     .product-type {
-        @apply pt-12 xl:pt-16;
+        @apply pt-8 sm:pt-10 xl:pt-12;
     }
 }
