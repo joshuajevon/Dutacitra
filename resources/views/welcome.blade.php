@@ -200,7 +200,7 @@
 <div class="grid grid-cols-1 md:grid-cols-2 gap-16 pb-12 sm:pb-16 md:pb-20 lg:pb-24 xl:pb-28 2xl:pb-32 pt-6 sm:pt-8 md:pt-10">
     {{-- Left --}}
     <div class="col-span-1 flex flex-col gap-8 md:pt-8">
-        <div class="flex flex-col items-end gap-4 pl-4 sm:pl-8 md:pl-12 lg:pl-16 xl:pl-20 2xl:pl-24 pr-4 sm:pr-8 md:pr-0 text-end order-2 md:order-1">
+        <div class="flex flex-col md:items-end gap-4 pl-4 sm:pl-8 md:pl-12 lg:pl-16 xl:pl-20 2xl:pl-24 pr-4 sm:pr-8 md:pr-0 md:text-end order-2 md:order-1">
             <h1 class="text-subheading text-custom-dark-blue font-ttRamillas font-extrabold">Strive to provide best product</h1>
             <p class="text-custom-dark-blue text-paragraph">Kami menawarkan beragam produk pintu otomatis yang dapat menjadi solusi untuk kebutuhan Anda. Mulai dari sliding doors, swing doors, revolving doors, dan access control.</p>
 
@@ -244,7 +244,7 @@
 
         </div>
 
-        <div class="flex flex-col md:items-start gap-4 pr-4 sm:pr-8 md:pr-12 lg:pr-16 xl:pr-20 2xl:pr-24 pl-4 sm:pl-8 md:pl-0 text-start">
+        <div class="flex flex-col items-end md:items-start gap-4 pr-4 sm:pr-8 md:pr-12 lg:pr-16 xl:pr-20 2xl:pr-24 pl-4 sm:pl-8 md:pl-0 text-end md:text-start">
             <h1 class="text-subheading text-custom-dark-blue font-ttRamillas font-extrabold">Our Distinctive Projects</h1>
             <p class="text-custom-dark-blue text-paragraph">Kami telah melayani berbagai pelanggan dan menyediakan pintu otomatis untuk beragam perusahaan di seluruh Indonesia. Sudah banyak proyek dan perusahaan yang mempercayakan layanan kami.</p>
 
