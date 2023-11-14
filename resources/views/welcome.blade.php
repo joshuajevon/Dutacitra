@@ -63,7 +63,7 @@
 </div>
 
 {{-- Carousel + Why Us? --}}
-<div class="py-8 sm:py-12 md:py-16 flex flex-col gap-4">
+<div class="py-8 sm:py-12 md:py-16 flex flex-col gap-4 bg-no-repeat bg-[center_bottom_-14rem] sm:bg-[center_bottom_-16rem] md:bg-[center_bottom_-12rem] lg:bg-[center_bottom_-14rem]" style="background-image: url({{asset('assets/home/bg-circle.png')}}); ">
     <div class="swiper mySwiper">
         <div class="swiper-wrapper pb-12">
             <div class="swiper-slide"><img src="{{ asset('assets/home/home-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-1"></div>
@@ -83,7 +83,7 @@
         <p class="text-custom-dark-blue text-paragraph">Perusahaan kami telah beroperasi sejak tahun 2000 dan men-Specialisasikan diri dalam industri Automatic Door. Tentunya dengan perjalanan yang cukup panjang dan luas ini,
             kami memiliki pengalaman dan kemampuan untuk membantu dalam menentukan Automatic Door yang sesuai dengan kebutuhan Anda. Kami juga memiliki tim Pemasangan dan Layanan Purna Jual yang sangat kompeten untuk mendukung Anda dalam hal ini.</p>
 
-        <a href="{{ route('aboutEn') }}" class="flex items-center gap-3 sm:gap-3.5 md:gap-4 text-custom-dark-blue border border-custom-dark-blue rounded-full px-8 sm:px-9 md:px-10 py-1 sm:py-1.5 md:py-2 w-fit hover:bg-custom-dark-blue hover:text-custom-white transition bg-custom-white mt-2 sm:mt-3 md:mt-4">
+        <a href="{{ route('aboutEn') }}" class="flex items-center gap-3 sm:gap-3.5 md:gap-4 text-custom-dark-blue border border-custom-dark-blue rounded-full px-8 sm:px-9 md:px-10 py-1 sm:py-1.5 md:py-2 w-fit hover:bg-custom-dark-blue hover:text-custom-white transition bg-transparent mt-2 sm:mt-3 md:mt-4">
             <p class="text-paragraph font-bold">Find more about us </p><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 sm:w-7 md:w-8 aspect-square">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
         </a>
