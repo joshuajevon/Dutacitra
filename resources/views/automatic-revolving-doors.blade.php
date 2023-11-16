@@ -66,7 +66,7 @@
 
                         <div class="grid grid-cols-1">
                             <div class="col-span-1 flex flex-col gap-3">
-                                <div class="flex items-center gap-4">
+                                <div class="flex items-center gap-4 h-full">
                                     <img src="{{asset('assets/product/revolving-icon.png')}}" alt="bi-parting" class="flex-none aspect-square w-20 sm:w-auto">
 
                                     <p class="text-subparagraph text-custom-dark-blue/90 font-light"><span class="italic">Automatic Revolving Door</span> ini terdiri dari beberapa daun pintu yang berputar mengelilingi central axis. Terdapat opsi untuk menggunakan 4 daun pintu atau 3 daun pintu dan menggunakan night shield pada pintu atau menerapkan mekanisme bookshield.
@@ -81,12 +81,12 @@
     </div>
 </div>
 
-<div class="c-container pb-8 sm:pb-10 md:pb-12">
+<div class="c-container pb-8 sm:pb-10 md:pb-12 text-subparagraph">
     <div class="px-10 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-32 bg-custom-dark-blue flex flex-col items-center rounded-3xl py-8 text-custom-white gap-6">
         <h1 class="font-ttRamillas font-extrabold text-subtitle">Downloads</h1>
 
-        <div class="border-b border-b-custom-white flex flex-col gap-4 sm:gap-5 md:gap-6 w-full pb-2 sm:pb-3 md:pb-4 px-4 sm:px-6 md:px-8">
-            <div class="w-full flex justify-between items-center gap-6 sm:gap-9 md:gap-12">
+        <div class="flex flex-col gap-4 sm:gap-5 md:gap-6 w-full">
+            <div class="w-full flex justify-between items-center gap-6 sm:gap-9 md:gap-12 border-b border-b-custom-white pb-2 px-4 sm:px-6 md:px-8">
                 <p>Brosure Revolving Door</p>
 
                 <a href="{{asset('assets/brosure/revolving/BROSUR MANUSA REVOLVING DOOR TYPE MGA-ST.pdf')}}?t={{ env('VERSION_TIME') }}" download>

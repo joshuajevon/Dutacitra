@@ -90,7 +90,7 @@
                     </li>
 
                     <li>
-                        <a href="{{ route('projectEn') }}" class="text-custom-white/70 hover:text-custom-white transition">
+                        <a href="{{ route('aboutEn') }}" class="text-custom-white/70 hover:text-custom-white transition">
                             About Us
                         </a>
                     </li>

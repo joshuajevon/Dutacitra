@@ -17,7 +17,7 @@
 
                 <a href="{{ route('contactEn') }}" class="@if($page === 'contact') font-extrabold @endif border border-custom-white rounded-full px-6 py-1 hover:bg-custom-white hover:text-custom-darker-blue transition">Contact</a>
 
-                <div class="relative cursor-pointer" onclick="toggleWebLanguageDropdown()">
+                <div class="relative cursor-pointer z-50" onclick="toggleWebLanguageDropdown()">
                     <div class="inline-flex items-center overflow-hidden">
                         <p>
                             @if($lang === 'en')
