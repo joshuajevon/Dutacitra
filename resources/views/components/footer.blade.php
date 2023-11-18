@@ -52,25 +52,25 @@
 
                 <ul class="mt-6 space-y-4">
                     <li>
-                        <a class="text-custom-white/70 hover:text-custom-white transition" href="{{ route('automaticSlidingDoors', ['lang' => $lang]) }}">
+                        <a class="text-custom-white/70 hover:text-custom-white transition" href="{{ route('automatic-sliding-doors', ['lang' => $lang]) }}">
                             Sliding Doors
                         </a>
                     </li>
 
                     <li>
-                        <a class="text-custom-white/70 hover:text-custom-white transition" href="{{ route('automaticSwingDoors', ['lang' => $lang]) }}">
+                        <a class="text-custom-white/70 hover:text-custom-white transition" href="{{ route('automatic-swing-doors', ['lang' => $lang]) }}">
                             Swing Doors
                         </a>
                     </li>
 
                     <li>
-                        <a class="text-custom-white/70 hover:text-custom-white transition" href="{{ route('automaticRevolvingDoors', ['lang' => $lang]) }}">
+                        <a class="text-custom-white/70 hover:text-custom-white transition" href="{{ route('automatic-revolving-doors', ['lang' => $lang]) }}">
                             Revolving Doors
                         </a>
                     </li>
 
                     <li>
-                        <a class="text-custom-white/70 hover:text-custom-white transition" href="{{ route('automaticHermeticDoors', ['lang' => $lang]) }}">
+                        <a class="text-custom-white/70 hover:text-custom-white transition" href="{{ route('automatic-hermetic-doors', ['lang' => $lang]) }}">
                             Hermetic Doors
                         </a>
                     </li>

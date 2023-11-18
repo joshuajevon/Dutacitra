@@ -15,17 +15,17 @@ use App\Http\Controllers\ContactController;
 |
 */
 
-Route::get('/', [HomeController::class, 'welcome'])->name('home');
+Route::get('/', [HomeController::class, 'home'])->name('home');
 
 Route::get('/project', [HomeController::class, 'project'])->name('project');
 
 Route::get('/product', [HomeController::class, 'product'])->name('product');
 
 Route::prefix('/product')->group(function () {
-    Route::get('/automatic-sliding-doors', [HomeController::class, 'automaticSlidingDoors'])->name('automaticSlidingDoors');
-    Route::get('/automatic-swing-doors', [HomeController::class, 'automaticSwingDoors'])->name('automaticSwingDoors');
-    Route::get('/automatic-revolving-doors', [HomeController::class, 'automaticRevolvingDoors'])->name('automaticRevolvingDoors');
-    Route::get('/automatic-hermetic-doors', [HomeController::class, 'automaticHermeticDoors'])->name('automaticHermeticDoors');
+    Route::get('/automatic-sliding-doors', [HomeController::class, 'automaticSlidingDoors'])->name('automatic-sliding-doors');
+    Route::get('/automatic-swing-doors', [HomeController::class, 'automaticSwingDoors'])->name('automatic-swing-doors');
+    Route::get('/automatic-revolving-doors', [HomeController::class, 'automaticRevolvingDoors'])->name('automatic-revolving-doors');
+    Route::get('/automatic-hermetic-doors', [HomeController::class, 'automaticHermeticDoors'])->name('automatic-hermetic-doors');
 });
 
 

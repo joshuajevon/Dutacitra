@@ -19,9 +19,9 @@ class HomeController extends Controller
         return view($page, ['lang' => $lang]);
     }
 
-    public function welcome(Request $request)
+    public function home(Request $request)
     {
-        return $this->handleLanguageRedirect('welcome', $request);
+        return $this->handleLanguageRedirect('home', $request);
     }
 
     public function project(Request $request)
