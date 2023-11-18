@@ -1,4 +1,4 @@
-@extends('template.template-en')
+@extends('template.template')
 
 @section('head')
 {{-- css --}}
@@ -6,7 +6,7 @@
 @endsection
 
 @section('body')
-<x-navbar :page="'project'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" :bgColor="'blue'" />
+<x-navbar :page="'project'" :lang="$lang" :bgColor="'blue'" />
 
 <div class="header" style="background-image: url({{asset('assets/header/project-header.jpg')}}?t={{ env('VERSION_TIME') }});">
     <h1 class="font-ttRamillas text-center font-extrabold">Our Project</h1>
@@ -15,7 +15,13 @@
 <div class="c-container text-paragraph py-10 sm:py-12 md:py-16 flex flex-col gap-6 sm:gap-7 md:gap-8">
     <div class="bg-custom-lighter-blue px-6 sm:px-7 md:px-8 pt-4 sm:pt-5 md:pt-6 pb-2 sm:pb-2.5 md:pb-3 relative">
         <h1 class="text-custom-dark-blue font-ttRamillas font-extrabold absolute -top-4 sm:-top-[1.125rem] md:-top-5 text-heading">Photos</h1>
-        <p class="text-custom-dark-blue/90">Beberapa foto dari hasil proyek Automatic Door yang telah kami kerjakan</p>
+        <p class="text-custom-dark-blue/90">
+            @if($lang == 'id')
+            Beberapa foto dari hasil proyek Automatic Door yang telah kami kerjakan
+            @else
+            Here are some images showcasing the successful outcomes of our completed Automatic Door projects
+            @endif
+        </p>
     </div>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 md:gap-12 text-center">
@@ -184,7 +190,13 @@
 
     <div class="bg-custom-lighter-blue px-6 sm:px-7 md:px-8 pt-4 sm:pt-5 md:pt-6 pb-2 sm:pb-2.5 md:pb-3 relative mt-2 sm:mt-3 md:mt-4">
         <h1 class="text-custom-dark-blue font-ttRamillas font-extrabold absolute -top-4 sm:-top-[1.125rem] md:-top-5 text-heading">Project Reference</h1>
-        <p class="text-custom-dark-blue/90">Daftar pelanggan dan proyek yang telah kami selesaikan</p>
+        <p class="text-custom-dark-blue/90">
+            @if($lang == 'id')
+            Daftar pelanggan dan proyek yang telah kami selesaikan
+            @else
+            List of customers and projects we have successfully completed.
+            @endif
+        </p>
     </div>
 
     <div class="px-10 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-32 bg-custom-dark-blue flex flex-col items-center rounded-3xl py-8 text-custom-white gap-6">
@@ -204,5 +216,5 @@
     </div>
 </div>
 
-<x-footer />
+<x-footer :lang="$lang" />
 @endsection

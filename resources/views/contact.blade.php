@@ -1,4 +1,4 @@
-@extends('template.template-en')
+@extends('template.template')
 
 @section('head')
 {{-- css --}}
@@ -6,7 +6,7 @@
 @endsection
 
 @section('body')
-<x-navbar :page="'contact'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" :bgColor="'blue'" />
+<x-navbar :page="'contact'" :lang="$lang" :bgColor="'blue'" />
 
 <div class="relative c-container flex flex-col text-custom-white pt-12 sm:pt-16 md:pt-20 pb-8 sm:pb-12 md:pb-16 gap-8">
     <div class="z-10 absolute top-0 left-0 w-full h-[22rem] sm:h-[28rem] md:h-[30rem] lg:h-[32rem] xl:h-[48rem] bg-center bg-cover" style="background-image: url('{{asset('assets/contact/header.jpg')}}?t={{ env('VERSION_TIME') }}')">
@@ -15,7 +15,11 @@
     <div class="z-20 flex flex-col gap-4 max-w-4xl">
         <h1 class="font-ttRamillas text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-custom-white">Get In Touch</h1>
         <p class="text-paragraph">
+            @if($lang == 'id')
             Untuk informasi lebih lanjut atau konsultasi mengenai Automatic door jangan ragu untuk menghubungi kami. Kami siap membantu Anda dalam merencanakan solusi yang sesuai dengan kebutuhan Anda.
+            @else
+            For further information or consultations regarding Automatic Doors, feel free to contact us. We are ready to assist you in planning a solution that aligns with your needs.
+            @endif
         </p>
     </div>
 
@@ -47,7 +51,7 @@
                         </svg>
                     </a>
 
-                    <a href="" target="_blank" rel="noopener noreferrer" class="bg-custom-lighter-blue w-12 sm:w-14 md:w-[3.75rem] lg:w-16 aspect-square p-3 md:p-3.5 flex justify-center items-center rounded-full">
+                    <a href="https://www.tiktok.com/@automaticdoordutacitra" target="_blank" rel="noopener noreferrer" class="bg-custom-lighter-blue w-12 sm:w-14 md:w-[3.75rem] lg:w-16 aspect-square p-3 md:p-3.5 flex justify-center items-center rounded-full">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-full aspect-square" fill="currentColor" viewBox="0 0 16 16">
                             <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z" />
                         </svg>
@@ -68,7 +72,7 @@
                     Send Message
                 </h1>
 
-                <form id="form-contact" action="{{ route('contact') }}" method="POST" class="text-paragraph text-custom-white flex flex-col gap-8" onsubmit="validateContact(event)">
+                <form id="form-contact" action="{{ route('contact-form') }}" method="POST" class="text-paragraph text-custom-white flex flex-col gap-8" onsubmit="validateContact(event)">
                     @csrf
                     <div class="flex gap-6 sm:gap-7 md:gap-8 w-full">
                         <div class="flex flex-col gap-2 w-full">
@@ -155,7 +159,7 @@
     </div>
 </div>
 
-<x-footer />
+<x-footer :lang="$lang" />
 
 {{-- JS --}}
 <script src="{{ asset('js/contact.js') }}?t={{ env('VERSION_TIME') }}"></script>

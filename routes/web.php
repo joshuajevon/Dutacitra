@@ -15,26 +15,23 @@ use App\Http\Controllers\ContactController;
 |
 */
 
-Route::get('/', [HomeController::class, 'index'])->name('homeEn');
+Route::get('/', [HomeController::class, 'welcome'])->name('home');
 
+Route::get('/project', [HomeController::class, 'project'])->name('project');
 
-Route::get('/project', [HomeController::class, 'project'])->name('projectEn');
-
-Route::get('/product', [HomeController::class, 'product'])->name('productEn');
+Route::get('/product', [HomeController::class, 'product'])->name('product');
 
 Route::prefix('/product')->group(function () {
-    Route::get('/automatic-sliding-doors', [HomeController::class, 'automaticSlidingDoors'])->name('automaticSlidingDoorsEn');
-    Route::get('/automatic-swing-doors', [HomeController::class, 'automaticSwingDoors'])->name('automaticSwingDoorsEn');
-    Route::get('/automatic-revolving-doors', [HomeController::class, 'automaticRevolvingDoors'])->name('automaticRevolvingDoorsEn');
-    Route::get('/automatic-hermetic-doors', [HomeController::class, 'automaticHermeticDoors'])->name('automaticHermeticDoorsEn');
+    Route::get('/automatic-sliding-doors', [HomeController::class, 'automaticSlidingDoors'])->name('automaticSlidingDoors');
+    Route::get('/automatic-swing-doors', [HomeController::class, 'automaticSwingDoors'])->name('automaticSwingDoors');
+    Route::get('/automatic-revolving-doors', [HomeController::class, 'automaticRevolvingDoors'])->name('automaticRevolvingDoors');
+    Route::get('/automatic-hermetic-doors', [HomeController::class, 'automaticHermeticDoors'])->name('automaticHermeticDoors');
 });
 
 
-Route::get('/about', [HomeController::class, 'about'])->name('aboutEn');
-Route::get('/about/id', [HomeController::class, 'aboutId'])->name('aboutId');
+Route::get('/about', [HomeController::class, 'about'])->name('about');
 
-
-Route::get('/contact', [HomeController::class, 'contact'])->name('contactEn');
+Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 
 // Contact Form
-Route::post('/contact-form', [ContactController::class, 'contact'])->name('contact');
+Route::post('/contact-form', [ContactController::class, 'contact'])->name('contact-form');

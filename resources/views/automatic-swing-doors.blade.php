@@ -1,4 +1,4 @@
-@extends('template.template-en')
+@extends('template.template')
 
 @section('head')
 {{-- css --}}
@@ -21,7 +21,7 @@
 @endsection
 
 @section('body')
-<x-navbar :page="'product'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" :bgColor="'blue'" />
+<x-navbar :page="'product'" :lang="$lang" :bgColor="'blue'" />
 
 <div class="header" style="background-image: url({{asset('assets/header/product-header.jpg')}});">
     <h1 class="font-ttRamillas text-center font-extrabold">Our Product</h1>
@@ -30,7 +30,13 @@
 <div class="c-container flex justify-center items-center py-6 sm:py-7 md:py-8">
     <div class="flex flex-col justify-center items-center gap-4 max-w-5xl">
         <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold text-center">Automatic Swing Doors</h1>
-        <p class="text-paragraph text-custom-dark-blue/90 text-center font-light"><span class="italic">Automatic Swing Door</span> meningkatkan efisiensi penggunaan ruang dengan memfasilitasi aliran lalu lintas manusia. Mereka memberikan fungsionalitas, keamanan, dan menawarkan desain yang sangat baik. <span class="italic">Automatic Swing Door</span> ini dapat dengan mudah diintegrasikan dengan lingkungan tempat pemasangannya.</p>
+        <p class="text-paragraph text-custom-dark-blue/90 text-center font-light">
+            @if($lang == 'id')
+            <span class="italic">Automatic Swing Door</span> meningkatkan efisiensi penggunaan ruang dengan memfasilitasi aliran lalu lintas manusia. Mereka memberikan fungsionalitas, keamanan, dan menawarkan desain yang sangat baik. <span class="italic">Automatic Swing Door</span> ini dapat dengan mudah diintegrasikan dengan lingkungan tempat pemasangannya.
+            @else
+            Automatic Swing Door enhances space utilization efficiency by facilitating the flow of human traffic. Providing functionality, security, and an excellent design, these doors can be seamlessly integrated into their installation environment.
+            @endif
+        </p>
     </div>
 </div>
 
@@ -60,7 +66,12 @@
                     </div>
                 </div>
                 <div class="col-span-1 flex flex-col justify-center gap-6">
-                    <p class="text-paragraph text-custom-dark-blue/90 font-light"><span class="italic">Automatic Swing Door</span> menggunakan operator bernama vector. Operator vector ini memungkinkan otomasi swing door apapun, baik baru maupun yang sudah ada. <span class="italic">Automatic Swing Doors</span> memberikan efisiensi tinggi, kinerja yang unggul, dan cocok untuk area lalu lintas yang padat. Operator Vector juga dapat digunakan pada pintu hermetic.
+                    <p class="text-paragraph text-custom-dark-blue/90 font-light">
+                        @if($lang == 'id')
+                        <span class="italic">Automatic Swing Door</span> menggunakan operator bernama Vector. Operator Vector ini memungkinkan otomasi swing door apapun, baik baru maupun yang sudah ada. <span class="italic">Automatic Swing Doors</span> memberikan efisiensi tinggi, kinerja yang unggul, dan cocok untuk area lalu lintas yang padat. Operator Vector juga dapat digunakan pada pintu hermetic.
+                        @else
+                        The Automatic Swing Door utilizes an operator called Vector. The Vector operator enables automation for any swing door, whether it is a new installation or an existing one. Automatic Swing Doors offer high efficiency, superior performance, and are suitable for areas with dense traffic. The Vector operator can also be applied to hermetic doors.
+                        @endif
                     </p>
                 </div>
             </div>
@@ -100,7 +111,7 @@
                 Kami telah melayani berbagai pelanggan dan menyediakan pintu otomatis untuk beragam perusahaan di seluruh Indonesia. Sudah banyak proyek dan perusahaan yang mempercayakan layanan kami.
             </p>
 
-            <a href="{{ route('projectEn') }}" class="flex items-center gap-3 sm:gap-3.5 md:gap-4 text-custom-dark-blue border border-custom-dark-blue rounded-full px-8 sm:px-9 md:px-10 py-1 sm:py-1.5 md:py-2 w-fit hover:bg-custom-dark-blue hover:text-custom-white transition">
+            <a href="{{ route('project', ['lang' => $lang]) }}" class="flex items-center gap-3 sm:gap-3.5 md:gap-4 text-custom-dark-blue border border-custom-dark-blue rounded-full px-8 sm:px-9 md:px-10 py-1 sm:py-1.5 md:py-2 w-fit hover:bg-custom-dark-blue hover:text-custom-white transition">
                 <p class="text-paragraph font-bold">
                     Our Project
                 </p>
@@ -113,7 +124,7 @@
     </div>
 </div>
 
-<x-footer />
+<x-footer :lang="$lang" />
 
 {{-- Swiper JS --}}
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>

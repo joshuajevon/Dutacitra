@@ -2,7 +2,7 @@
     <div class="grid gap-16 grid-cols-1 xl:grid-cols-9">
         <div class="flex flex-col gap-4 col-span-1 xl:col-span-3">
             <div class="flex justify-center sm:justify-start mb-4">
-                <a href="{{ route('homeEn') }}" class="flex items-center gap-4">
+                <a href="{{ route('home', ['lang' => $lang]) }}" class="flex items-center gap-4">
                     <img src="{{asset('assets/logo/logo-icon-text.png')}}?t={{ env('VERSION_TIME') }}" alt="logo" class="h-10 sm:h-12 xl:h-auto xl:max-h-14">
                 </a>
             </div>
@@ -52,25 +52,25 @@
 
                 <ul class="mt-6 space-y-4">
                     <li>
-                        <a class="text-custom-white/70 hover:text-custom-white transition" href="{{ route('automaticSlidingDoorsEn') }}">
+                        <a class="text-custom-white/70 hover:text-custom-white transition" href="{{ route('automaticSlidingDoors', ['lang' => $lang]) }}">
                             Sliding Doors
                         </a>
                     </li>
 
                     <li>
-                        <a class="text-custom-white/70 hover:text-custom-white transition" href="{{ route('automaticSwingDoorsEn') }}">
+                        <a class="text-custom-white/70 hover:text-custom-white transition" href="{{ route('automaticSwingDoors', ['lang' => $lang]) }}">
                             Swing Doors
                         </a>
                     </li>
 
                     <li>
-                        <a class="text-custom-white/70 hover:text-custom-white transition" href="{{ route('automaticRevolvingDoorsEn') }}">
+                        <a class="text-custom-white/70 hover:text-custom-white transition" href="{{ route('automaticRevolvingDoors', ['lang' => $lang]) }}">
                             Revolving Doors
                         </a>
                     </li>
 
                     <li>
-                        <a class="text-custom-white/70 hover:text-custom-white transition" href="{{ route('automaticHermeticDoorsEn') }}">
+                        <a class="text-custom-white/70 hover:text-custom-white transition" href="{{ route('automaticHermeticDoors', ['lang' => $lang]) }}">
                             Hermetic Doors
                         </a>
                     </li>
@@ -84,19 +84,19 @@
 
                 <ul class="mt-6 space-y-4">
                     <li>
-                        <a href="{{ route('projectEn') }}" class="text-custom-white/70 hover:text-custom-white transition">
+                        <a href="{{ route('project', ['lang' => $lang]) }}" class="text-custom-white/70 hover:text-custom-white transition">
                             Projects
                         </a>
                     </li>
 
                     <li>
-                        <a href="{{ route('aboutEn') }}" class="text-custom-white/70 hover:text-custom-white transition">
+                        <a href="{{ route('about', ['lang' => $lang]) }}" class="text-custom-white/70 hover:text-custom-white transition">
                             About Us
                         </a>
                     </li>
 
                     <li>
-                        <a href="{{ route('contactEn') }}" class="text-custom-white/70 hover:text-custom-white transition">
+                        <a href="{{ route('contact', ['lang' => $lang]) }}" class="text-custom-white/70 hover:text-custom-white transition">
                             Contact
                         </a>
                     </li>

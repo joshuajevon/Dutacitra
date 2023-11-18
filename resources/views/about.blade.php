@@ -1,4 +1,4 @@
-@extends('template.template-en')
+@extends('template.template')
 
 @section('head')
 {{-- css --}}
@@ -6,7 +6,7 @@
 @endsection
 
 @section('body')
-<x-navbar :page="'about'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" :bgColor="'blue'" />
+<x-navbar :page="'about'" :lang="$lang" :bgColor="'blue'" />
 
 <div class="header" style="background-image: url({{asset('assets/header/product-header.jpg')}}?t={{ env('VERSION_TIME') }});">
     <h1 class="font-ttRamillas text-center font-extrabold">About Us</h1>
@@ -15,17 +15,26 @@
 {{-- About Us --}}
 <div class="c-container grid grid-cols-1 lg:grid-cols-2 py-8 sm:py-12 md:py-16 gap-8 sm:gap-10 md:gap-12">
     <div class="col-span-1 bg-gray-300 rounded-3xl h-72 sm:h-80 md:h-96 lg:h-full bg-cover bg-no-repeat bg-center" style="background-image: url({{asset('assets/about/about-us.jpg')}}?t={{ env('VERSION_TIME') }});">
-        {{-- <img src="{{asset('assets/about/about-us.jpg')}}" alt="about-us" class=""> --}}
     </div>
     <div class="col-span-1 text-custom-dark-blue flex flex-col gap-4 sm:gap-5 md:gap-6 lg:py-4">
         <h1 class="text-heading font-ttRamillas font-extrabold">
             About Us
         </h1>
-        <p class="text-justify text-custom-dark-blue/90 text-paragraph">Perusahaan kami awalnya berfokus pada Automatic Gate dan Rolling Shutter, mewakili beberapa merek dari Italia, Jepang, dan China ketika pertama kali didirikan.
+        <p class="text-justify text-custom-dark-blue/90 text-paragraph">
+            @if($lang == 'id')
+            Perusahaan kami awalnya berfokus pada Automatic Gate dan Rolling Shutter, mewakili beberapa merek dari Italia, Jepang, dan China ketika pertama kali didirikan.
             <br><br>
             Pada tahun 2003, Manusa Door Systems SL dari Barcelona, Spanyol, menunjuk kami sebagai Distributor Tunggal untuk Manusa Automatic Door di seluruh Indonesia. Sejak saat itu, kami telah menekankan spesialisasi kami dalam bidang Automatic Door.
             <br><br>
-            Dengan pengalaman yang luas, kami siap membantu Anda memenuhi kebutuhan Automatic Door Anda. Selain menjual dan memasang produk, kami juga menyediakan layanan purna jual, perawatan, dan kontrak perawatan lengkap dengan penyediaan sparepart yang komprehensif.</p>
+            Dengan pengalaman yang luas, kami siap membantu Anda memenuhi kebutuhan Automatic Door Anda. Selain menjual dan memasang produk, kami juga menyediakan layanan purna jual, perawatan, dan kontrak perawatan lengkap dengan penyediaan sparepart yang komprehensif.
+            @else
+            Our company initially focused on Automatic Gates and Rolling Shutters, representing several brands from Italy, Japan, and China when first established.
+            <br><br>
+            In 2003, Manusa Door Systems SL from Barcelona, Spain, appointed us as the Sole Distributor for Manusa Automatic Doors throughout Indonesia. Since then, we have emphasized our specialization in the field of Automatic Doors.
+            <br><br>
+            With extensive experience, we are ready to assist you in meeting your Automatic Door needs. In addition to selling and installing products, we also provide after-sales service, maintenance, and complete maintenance contracts with comprehensive spare part provisions.
+            @endif
+        </p>
     </div>
 </div>
 
@@ -42,7 +51,11 @@
             <div class="w-5 md:w-6 aspect-square rounded-full bg-custom-white"></div>
             <p class="text-title font-ttRamillas font-extrabold text-center">2000</p>
             <p class="text-paragraph text-center font-light">
+                @if($lang == 'id')
                 PT. Dutacitra Nusa Jaya didirikan dan bergerak pada bidang Automatic Gate dan Rolling Shutter
+                @else
+                PT. Dutacitra Nusa Jaya was established and specializes in the field of Automatic Gates and Rolling Shutters
+                @endif
             </p>
         </div>
 
@@ -52,7 +65,11 @@
             <div class="w-5 md:w-6 aspect-square rounded-full bg-custom-white"></div>
             <p class="text-title font-ttRamillas font-extrabold text-center">2003</p>
             <p class="text-paragraph text-center font-light">
+                @if($lang == 'id')
                 PT. Dutacitra Nusa Jaya ditunjuk sebgai Sole Distributor Manusa Automatic Door
+                @else
+                PT. Dutacitra Nusa Jaya appointed as the Sole Distributor of Manusa Automatic Doors
+                @endif
             </p>
         </div>
 
@@ -62,7 +79,11 @@
             <div class="w-5 md:w-6 aspect-square rounded-full bg-custom-white"></div>
             <p class="text-title font-ttRamillas font-extrabold text-center">2015</p>
             <p class="text-paragraph text-center font-light">
+                @if($lang == 'id')
                 PT. Dutacitra Nusa Jaya menspesialisasikan diri dalam bidang Automatic Door
+                @else
+                PT. Dutacitra Nusa Jaya specializing in the field of Automatic Doors
+                @endif
             </p>
         </div>
 
@@ -72,7 +93,11 @@
             <div class="w-5 md:w-6 aspect-square rounded-full bg-custom-white"></div>
             <p class="text-title font-ttRamillas font-extrabold text-center">Present</p>
             <p class="text-paragraph text-center font-light">
-                Siap membantu Anda dalam memenuhi kebutuhan dalam Automatic Door
+                @if($lang == 'id')
+                PT. Dutacitra Nusa Jaya siap membantu Anda dalam memenuhi kebutuhan dalam Automatic Door
+                @else
+                PT. Dutacitra Nusa Jaya is ready to assist you in fulfilling your Automatic Door needs.
+                @endif
             </p>
         </div>
     </div>
@@ -83,10 +108,18 @@
     <div class="px-4 sm:px-6 md:px-8">
         <div class="flex flex-col gap-2 sm:gap-3 md:gap-4 justify-center items-center bg-custom-light-yellow rounded-3xl p-8 sm:p-10 md:p-12 h-full">
             <h1 class="text-heading font-ttRamillas font-extrabold text-center">
+                @if($lang == 'id')
+                Visi
+                @else
                 Vision
+                @endif
             </h1>
             <p class="text-paragraph text-center">
+                @if($lang == 'id')
                 Menjadikan PT Dutacitra Nusa Jaya sebagai destinasi utama untuk memenuhi segala kebutuhan akan Automatic Door dengan komprehensif.
+                @else
+                To establish PT Dutacitra Nusa Jaya as the ultimate destination for comprehensive Automatic Door solutions.
+                @endif
             </p>
         </div>
 
@@ -95,16 +128,41 @@
     <div class="px-4 sm:px-6 md:px-8">
         <div class="flex flex-col gap-2 sm:gap-3 md:gap-4 justify-center items-center bg-custom-lighter-blue rounded-3xl py-8 sm:py-10 md:py-12 px-16 sm:px-20 md:px-24">
             <h1 class="text-heading font-ttRamillas font-extrabold text-center">
+                @if($lang == 'id')
+                Misi
+                @else
                 Mission
+                @endif
             </h1>
             <p class="text-paragraph text-center">
+                @if($lang == 'id')
                 <ol class="list-decimal text-paragraph">
-                    <li>Memberikan konsultasi dan solusi yang tepat terkait kebutuhan Automatic Door.</li>
+                    <li>
+                        Memberikan konsultasi dan solusi yang tepat terkait kebutuhan Automatic Door.
+                    </li>
                     <br>
-                    <li>Meningkatkan kompetensi karyawan agar mampu memberikan kepuasan pelanggan.</li>
+                    <li>
+                        Meningkatkan kompetensi karyawan agar mampu memberikan kepuasan pelanggan.
+                    </li>
                     <br>
-                    <li>Menyediakan beragam produk dengan ketersediaan sparepart yang mencukupi, melaksanakan pemasangan yang profesional, dan memberikan pelayanan purna jual yang unggul.</li>
+                    <li>
+                        Menyediakan beragam produk dengan ketersediaan sparepart yang mencukupi, melaksanakan pemasangan yang profesional, dan memberikan pelayanan purna jual yang unggul.
+                    </li>
                 </ol>
+                @else
+                <ol class="list-decimal text-paragraph">
+                    <li>
+                        To provide precise consultations and solutions for Automatic Door requirements. </li>
+                    <br>
+                    <li>
+                        To enhance employee competencies for customer satisfaction.
+                    </li>
+                    <br>
+                    <li>
+                        To offer a diverse range of products with ample spare part availability, execute professional installations, and deliver superior after-sales services.
+                    </li>
+                </ol>
+                @endif
             </p>
         </div>
     </div>
@@ -153,5 +211,5 @@
 </div>
 
 
-<x-footer />
+<x-footer :lang="$lang" />
 @endsection

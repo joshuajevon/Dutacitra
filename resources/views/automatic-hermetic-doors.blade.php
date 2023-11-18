@@ -1,4 +1,4 @@
-@extends('template.template-en')
+@extends('template.template')
 
 @section('head')
 {{-- css --}}
@@ -21,7 +21,7 @@
 @endsection
 
 @section('body')
-<x-navbar :page="'product'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" :bgColor="'blue'" />
+<x-navbar :page="'product'" :lang="$lang" :bgColor="'blue'" />
 
 <div class="header" style="background-image: url({{asset('assets/header/product-header.jpg')}});">
     <h1 class="font-ttRamillas text-center font-extrabold">Our Product</h1>
@@ -30,7 +30,13 @@
 <div class="c-container flex justify-center items-center py-6 sm:py-7 md:py-8">
     <div class="flex flex-col justify-center items-center gap-4 max-w-5xl">
         <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold text-center">Automatic Hermetic Doors</h1>
-        <p class="text-paragraph text-custom-dark-blue/90 text-center font-light"><span class="italic">Automatic Hermetic Door</span> memenuhi kebutuhan fungsional, estetika, dan higienis yang diperlukan. Pintu ini sangat cocok untuk rumah sakit karena dapat meningkatkan tingkat kebersihan di lingkungan rumah sakit.</p>
+        <p class="text-paragraph text-custom-dark-blue/90 text-center font-light">
+            @if($lang == 'id')
+            <span class="italic">Automatic Hermetic Door</span> memenuhi kebutuhan fungsional, estetika, dan higienis yang diperlukan. Pintu ini sangat cocok untuk rumah sakit karena dapat meningkatkan tingkat kebersihan di lingkungan rumah sakit.
+            @else
+            Automatic Hermetic Door meets the functional, aesthetic, and hygienic requirements. This door is particularly suitable for hospitals as it can enhance cleanliness levels within the hospital environment.
+            @endif
+        </p>
     </div>
 </div>
 
@@ -61,7 +67,12 @@
                                         <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none aspect-square w-20 sm:w-auto">
 
 
-                                        <p class="text-subparagraph text-custom-dark-blue/90 font-light">Dilengkapi untuk menutup secara hermetis.
+                                        <p class="text-subparagraph text-custom-dark-blue/90 font-light">
+                                            @if($lang == 'id')
+                                            Dilengkapi untuk menutup secara hermetis.
+                                            @else
+                                            Equipped to close hermetically.
+                                            @endif
                                         </p>
                                     </div>
 
@@ -82,7 +93,12 @@
                                     <div class="flex items-center gap-4">
                                         <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none aspect-square w-20 sm:w-auto">
 
-                                        <p class="text-subparagraph text-custom-dark-blue/90 font-light">Memberikan visibilitas yang luas ke dalam ruangan. Pilihan terbaik untuk area observasi dalam bangunan.
+                                        <p class="text-subparagraph text-custom-dark-blue/90 font-light">
+                                            @if($lang == 'id')
+                                            Memberikan visibilitas yang luas ke dalam ruangan. Pilihan terbaik untuk area observasi dalam bangunan.
+                                            @else
+                                            Provides expansive visibility into the room. The optimal choice for observation areas within a building.
+                                            @endif
                                         </p>
                                     </div>
 
@@ -103,7 +119,12 @@
                                     <div class="flex items-center gap-4">
                                         <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none aspect-square w-20 sm:w-auto">
 
-                                        <p class="text-subparagraph text-custom-dark-blue/90 font-light">Untuk ruang radiologi, dengan pilihan panel visi berlapis timah (ketebalan standar lapisan timah sekitar 2-3 mm) untuk mencegah lepasnya sinar-X. Tersedia sebagai pintu hermetis atau non-hermetis.
+                                        <p class="text-subparagraph text-custom-dark-blue/90 font-light">
+                                            @if($lang == 'id')
+                                            Untuk ruang radiologi, dengan pilihan panel visi berlapis timah (ketebalan standar lapisan timah sekitar 2-3 mm) untuk mencegah lepasnya sinar-X. Tersedia sebagai pintu hermetis atau non-hermetis.
+                                            @else
+                                            For radiology rooms, it comes with the option of lead-lined vision panels (with a standard lead thickness of around 2-3 mm) to prevent the leakage of X-rays. Available as both hermetic and non-hermetic doors.
+                                            @endif
                                         </p>
                                     </div>
 
@@ -136,7 +157,12 @@
                     </div>
 
                     <div>
-                        <p class="text-paragraph text-custom-dark-blue/90 font-light xl:text-end"><span class="italic">Hermetic Door</span> ideal digunakan untuk lingkungan ruangan yang harus bersih dan higienis karena mampu menjaga tekanan, kebersihan, suhu, dan kondisi kelembaban yang diinginkan. Seluruh perakitan pintu dirancang untuk menjamin kebersihan, termasuk <span class="italic">vision panel</span>, pegangan pintu, dan bahan mudah dibersihkan. Pintu ini juga menjamin kedap udara maksimum berkat segel hermetis di sekitar tepinya saat pintu tertutup. Pintu ini memiliki klasifikasi kedap udara tertinggi yang diuji sesuai dengan standar UNE 85170:2016 dan UNE-EN 121207:2017.
+                        <p class="text-paragraph text-custom-dark-blue/90 font-light xl:text-end">
+                            @if($lang == 'id')
+                            <span class="italic">Hermetic Door</span> ideal digunakan untuk lingkungan ruangan yang harus bersih dan higienis karena mampu menjaga tekanan, kebersihan, suhu, dan kondisi kelembaban yang diinginkan. Seluruh perakitan pintu dirancang untuk menjamin kebersihan, termasuk <span class="italic">vision panel</span>, pegangan pintu, dan bahan mudah dibersihkan. Pintu ini juga menjamin kedap udara maksimum berkat segel hermetis di sekitar tepinya saat pintu tertutup. Pintu ini memiliki klasifikasi kedap udara tertinggi yang diuji sesuai dengan standar UNE 85170:2016 dan UNE-EN 121207:2017.
+                            @else
+                            The Hermetic Door is ideally suited for environments that demand cleanliness and hygiene, as it effectively maintains desired pressure, cleanliness, temperature, and humidity levels. The entire assembly of the door is designed to ensure cleanliness, including the vision panel, door handles, and easily cleanable materials. Additionally, this door ensures maximum air tightness due to the hermetic seals around its edges when closed. It holds the highest air tightness classification, tested according to the UNE 85170:2016 and UNE-EN 121207:2017 standards.
+                            @endif
                         </p>
                     </div>
                 </div>
@@ -178,7 +204,7 @@
                 Kami telah melayani berbagai pelanggan dan menyediakan pintu otomatis untuk beragam perusahaan di seluruh Indonesia. Sudah banyak proyek dan perusahaan yang mempercayakan layanan kami.
             </p>
 
-            <a href="{{ route('projectEn') }}" class="flex items-center gap-3 sm:gap-3.5 md:gap-4 text-custom-dark-blue border border-custom-dark-blue rounded-full px-8 sm:px-9 md:px-10 py-1 sm:py-1.5 md:py-2 w-fit hover:bg-custom-dark-blue hover:text-custom-white transition">
+            <a href="{{ route('project', ['lang' => $lang]) }}" class="flex items-center gap-3 sm:gap-3.5 md:gap-4 text-custom-dark-blue border border-custom-dark-blue rounded-full px-8 sm:px-9 md:px-10 py-1 sm:py-1.5 md:py-2 w-fit hover:bg-custom-dark-blue hover:text-custom-white transition">
                 <p class="text-paragraph font-bold">
                     Our Project
                 </p>
@@ -191,7 +217,7 @@
     </div>
 </div>
 
-<x-footer />
+<x-footer :lang="$lang" />
 
 {{-- Swiper JS --}}
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>

@@ -6,48 +6,61 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function index()
+    private function handleLanguageRedirect($page, Request $request)
     {
-        return view('welcome');
+        $lang = $request->input('lang');
+
+        // If 'lang' is not present or not valid, redirect with 'lang' set to 'id'
+        if (!$lang || !in_array($lang, ['en', 'id'])) {
+            return redirect()->route($page, ['lang' => 'id']);
+        }
+
+        // Pass the language variable to the view
+        return view($page, ['lang' => $lang]);
     }
 
-    public function project()
+    public function welcome(Request $request)
     {
-        return view('project');
+        return $this->handleLanguageRedirect('welcome', $request);
     }
 
-    public function product()
+    public function project(Request $request)
     {
-        return view('product');
-    }
-    public function automaticSlidingDoors()
-    {
-        return view('automatic-sliding-doors');
-    }
-    public function automaticSwingDoors()
-    {
-        return view('automatic-swing-doors');
-    }
-    public function automaticRevolvingDoors()
-    {
-        return view('automatic-revolving-doors');
-    }
-    public function automaticHermeticDoors()
-    {
-        return view('automatic-hermetic-doors');
+        return $this->handleLanguageRedirect('project', $request);
     }
 
-    public function about()
+    public function product(Request $request)
     {
-        return view('about');
-    }
-    public function aboutId()
-    {
-        return view('id/about');
+        return $this->handleLanguageRedirect('product', $request);
     }
 
-    public function contact()
+    public function automaticSlidingDoors(Request $request)
     {
-        return view('contact');
+        return $this->handleLanguageRedirect('automatic-sliding-doors', $request);
+    }
+
+    public function automaticSwingDoors(Request $request)
+    {
+        return $this->handleLanguageRedirect('automatic-swing-doors', $request);
+    }
+
+    public function automaticRevolvingDoors(Request $request)
+    {
+        return $this->handleLanguageRedirect('automatic-revolving-doors', $request);
+    }
+
+    public function automaticHermeticDoors(Request $request)
+    {
+        return $this->handleLanguageRedirect('automatic-hermetic-doors', $request);
+    }
+
+    public function about(Request $request)
+    {
+        return $this->handleLanguageRedirect('about', $request);
+    }
+
+    public function contact(Request $request)
+    {
+        return $this->handleLanguageRedirect('contact', $request);
     }
 }

@@ -1,4 +1,4 @@
-@extends('template.template-en')
+@extends('template.template')
 
 @section('head')
 {{-- css --}}
@@ -21,7 +21,7 @@
 @endsection
 
 @section('body')
-<x-navbar :page="'product'" :lang="'en'" :enRoute="'aboutEn'" :idRoute="'aboutId'" :bgColor="'blue'" />
+<x-navbar :page="'product'" :lang="$lang" :bgColor="'blue'" />
 
 <div class="header" style="background-image: url({{asset('assets/header/product-header.jpg')}});">
     <h1 class="font-ttRamillas text-center font-extrabold">Our Product</h1>
@@ -30,7 +30,13 @@
 <div class="c-container flex justify-center items-center py-6 sm:py-7 md:py-8">
     <div class="flex flex-col justify-center items-center gap-4 max-w-5xl">
         <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold text-center">Automatic Revolving Doors</h1>
-        <p class="text-paragraph text-custom-dark-blue/90 text-center font-light"><span class="italic">Automatic Swing Door</span> dirancang untuk dapat disesuaikan dengan berbagai jenis proyek, dan menjamin efisiensi energi maksimal serta kualitas yang tinggi.</p>
+        <p class="text-paragraph text-custom-dark-blue/90 text-center font-light">
+            @if($lang == 'id')
+            <span class="italic">Automatic Swing Door</span> dirancang untuk dapat disesuaikan dengan berbagai jenis proyek, dan menjamin efisiensi energi maksimal serta kualitas yang tinggi.
+            @else
+            Automatic Swing Door is designed to be adaptable to various project requirements, ensuring maximum energy efficiency and high-quality performance.
+            @endif
+        </p>
     </div>
 </div>
 
@@ -58,7 +64,12 @@
                     </div>
                 </div>
                 <div class="col-span-1 flex flex-col justify-center gap-6">
-                    <p class="text-paragraph text-custom-dark-blue/90 font-light"><span class="italic">Automatic Revolving Door</span> dirancang khusus untuk menjaga sistem pengkondisian udara di dalam bangunan dan memenuhi standar tertinggi dalam hal fungsionalitas, kebersihan, dan keselamatan. Pintu ini menjamin isolasi termal dan akustik yang sempurna dengan mencegah aliran udara dan fluktuasi suhu. Selain itu, dilengkapi dengan sistem darurat untuk keluar yang terintegrasi, meningkatkan keamanan pengguna. Pintu ini dapat disesuaikan dengan proyek arsitektur tingkat tinggi, memberikan jaminan efisiensi energi maksimal, estetika yang elegan, dan kualitas unggul.
+                    <p class="text-paragraph text-custom-dark-blue/90 font-light">
+                        @if($lang == 'id')
+                        <span class="italic">Automatic Revolving Door</span> dirancang khusus untuk menjaga sistem pengkondisian udara di dalam bangunan dan memenuhi standar tertinggi dalam hal fungsionalitas, kebersihan, dan keselamatan. Pintu ini menjamin isolasi termal dan akustik yang sempurna dengan mencegah aliran udara dan fluktuasi suhu. Selain itu, dilengkapi dengan sistem darurat untuk keluar yang terintegrasi, meningkatkan keamanan pengguna. Pintu ini dapat disesuaikan dengan proyek arsitektur tingkat tinggi, memberikan jaminan efisiensi energi maksimal, estetika yang elegan, dan kualitas unggul.
+                        @else
+                        The Automatic Revolving Door is specially designed to maintain the building's air conditioning system and adheres to the highest standards of functionality, cleanliness, and safety. This door ensures perfect thermal and acoustic insulation by preventing airflow and temperature fluctuations. Additionally, it features an integrated emergency exit system, enhancing user safety. The door can be tailored to high-level architectural projects, providing a guarantee of maximum energy efficiency, elegant aesthetics, and superior quality.
+                        @endif
                     </p>
 
                     <div class="flex flex-col gap-4 bg-custom-lighter-blue text-custom-dark-blue/90 p-6 rounded-2xl">
@@ -69,7 +80,12 @@
                                 <div class="flex items-center gap-4 h-full">
                                     <img src="{{asset('assets/product/revolving-icon.png')}}" alt="bi-parting" class="flex-none aspect-square w-20 sm:w-auto">
 
-                                    <p class="text-subparagraph text-custom-dark-blue/90 font-light"><span class="italic">Automatic Revolving Door</span> ini terdiri dari beberapa daun pintu yang berputar mengelilingi central axis. Terdapat opsi untuk menggunakan 4 daun pintu atau 3 daun pintu dan menggunakan night shield pada pintu atau menerapkan mekanisme bookshield.
+                                    <p class="text-subparagraph text-custom-dark-blue/90 font-light">
+                                        @if($lang == 'id')
+                                        <span class="italic">Automatic Revolving Door</span> ini terdiri dari beberapa daun pintu yang berputar mengelilingi central axis. Terdapat opsi untuk menggunakan 4 daun pintu atau 3 daun pintu dan menggunakan night shield pada pintu atau menerapkan mekanisme bookshield.
+                                        @else
+                                        Automatic Revolving Door consists of multiple door leaves that revolve around a central axis. There is an option to use either 4 door leaves or 3 door leaves and to incorporate a night shield on the doors or implement a bookshield mechanism.
+                                        @endif
                                     </p>
                                 </div>
                             </div>
@@ -113,7 +129,7 @@
                 Kami telah melayani berbagai pelanggan dan menyediakan pintu otomatis untuk beragam perusahaan di seluruh Indonesia. Sudah banyak proyek dan perusahaan yang mempercayakan layanan kami.
             </p>
 
-            <a href="{{ route('projectEn') }}" class="flex items-center gap-3 sm:gap-3.5 md:gap-4 text-custom-dark-blue border border-custom-dark-blue rounded-full px-8 sm:px-9 md:px-10 py-1 sm:py-1.5 md:py-2 w-fit hover:bg-custom-dark-blue hover:text-custom-white transition">
+            <a href="{{ route('project', ['lang' => $lang]) }}" class="flex items-center gap-3 sm:gap-3.5 md:gap-4 text-custom-dark-blue border border-custom-dark-blue rounded-full px-8 sm:px-9 md:px-10 py-1 sm:py-1.5 md:py-2 w-fit hover:bg-custom-dark-blue hover:text-custom-white transition">
                 <p class="text-paragraph font-bold">
                     Our Project
                 </p>
@@ -126,7 +142,7 @@
     </div>
 </div>
 
-<x-footer />
+<x-footer :lang="$lang" />
 
 {{-- Swiper JS --}}
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
