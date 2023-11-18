@@ -35,11 +35,11 @@
                     <div id="language-dropdown-web" class="hidden absolute end-0 z-10 mt-2 rounded-md border border-custom-white bg-custom-darker-blue shadow-lg" role="menu">
                         <div class="p-2">
                             <form method="GET">
-                                <button type="submit" name="lang" value="en" class="@if($lang == 'en') bg-custom-white text-custom-darker-blue @endif transition block rounded-lg px-4 py-2 hover:bg-custom-white hover:text-custom-darker-blue" role="menuitem">
+                                <button type="submit" name="lang" value="en" class="@if($lang == 'en') bg-custom-white text-custom-darker-blue @endif transition block rounded-lg px-4 py-2 hover:bg-custom-white hover:text-custom-darker-blue w-full" role="menuitem">
                                     EN
                                 </button>
 
-                                <button type="submit" name="lang" value="id" class="@if($lang == 'id') bg-custom-white text-custom-darker-blue @endif transition block rounded-lg px-4 py-2 hover:bg-custom-white hover:text-custom-darker-blue" role="menuitem">
+                                <button type="submit" name="lang" value="id" class="@if($lang == 'id') bg-custom-white text-custom-darker-blue @endif transition block rounded-lg px-4 py-2 hover:bg-custom-white hover:text-custom-darker-blue w-full" role="menuitem">
                                     ID
                                 </button>
                             </form>
@@ -90,11 +90,11 @@
         <div id="language-dropdown-mobile" class="hidden absolute start-0 z-10 mt-2 rounded-md border border-custom-white bg-custom-darker-blue shadow-lg" role="menu">
             <div class="p-2">
                 <form method="GET">
-                    <button type="submit" name="lang" value="en" class="@if($lang == 'en') bg-custom-white text-custom-darker-blue @endif transition block rounded-lg px-4 py-2 hover:bg-custom-white hover:text-custom-darker-blue" role="menuitem">
+                    <button type="submit" name="lang" value="en" class="@if($lang == 'en') bg-custom-white text-custom-darker-blue @endif transition block rounded-lg px-4 py-2 hover:bg-custom-white hover:text-custom-darker-blue w-full" role="menuitem">
                         EN
                     </button>
 
-                    <button type="submit" name="lang" value="id" class="@if($lang == 'id') bg-custom-white text-custom-darker-blue @endif transition block rounded-lg px-4 py-2 hover:bg-custom-white hover:text-custom-darker-blue" role="menuitem">
+                    <button type="submit" name="lang" value="id" class="@if($lang == 'id') bg-custom-white text-custom-darker-blue @endif transition block rounded-lg px-4 py-2 hover:bg-custom-white hover:text-custom-darker-blue w-full" role="menuitem">
                         ID
                     </button>
                 </form>
