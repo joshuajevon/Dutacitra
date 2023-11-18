@@ -108,7 +108,11 @@
         <div class="col-span-1 flex flex-col justify-center gap-4 sm:gap-5 md:gap-6">
             <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold">Automatic Door Projects</h1>
             <p class="text-paragraph text-custom-dark-blue">
+                @if($lang == 'id')
                 Kami telah melayani berbagai pelanggan dan menyediakan pintu otomatis untuk beragam perusahaan di seluruh Indonesia. Sudah banyak proyek dan perusahaan yang mempercayakan layanan kami.
+                @else
+                We have served various customers and provided automatic doors for various companies throughout Indonesia. Many projects and companies have entrusted our services.
+                @endif
             </p>
 
             <a href="{{ route('project', ['lang' => $lang]) }}" class="flex items-center gap-3 sm:gap-3.5 md:gap-4 text-custom-dark-blue border border-custom-dark-blue rounded-full px-8 sm:px-9 md:px-10 py-1 sm:py-1.5 md:py-2 w-fit hover:bg-custom-dark-blue hover:text-custom-white transition">
