@@ -24,7 +24,8 @@
         }
     }
 
-    .swiper-slide img {
+    .swiper-slide img,
+    .swiper-slide iframe {
         display: block;
         width: 100%;
         height: 100%;
@@ -36,7 +37,8 @@
         transition-duration: 150ms;
     }
 
-    .swiper-slide-active img {
+    .swiper-slide-active img,
+    .swiper-slide-active iframe {
         transform: scale(1);
         transition:
     }
@@ -66,14 +68,33 @@
 <div class="py-8 sm:py-12 md:py-16 flex flex-col gap-4 bg-no-repeat bg-[center_bottom_-14rem] sm:bg-[center_bottom_-16rem] md:bg-[center_bottom_-12rem] lg:bg-[center_bottom_-14rem]" style="background-image: url({{asset('assets/home/bg-circle.png')}}?t={{ env('VERSION_TIME') }}); ">
     <div class="swiper mySwiper">
         <div class="swiper-wrapper pb-12">
-            <div class="swiper-slide"><img src="{{ asset('assets/home/home-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-1"></div>
-            <div class="swiper-slide"><img src="{{ asset('assets/home/home-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-2"></div>
-            <div class="swiper-slide"><img src="{{ asset('assets/home/home-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-3"></div>
-            <div class="swiper-slide"><img src="{{ asset('assets/home/home-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-4"></div>
-            <div class="swiper-slide"><img src="{{ asset('assets/home/home-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-5"></div>
-            <div class="swiper-slide"><img src="{{ asset('assets/home/home-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-6"></div>
-            <div class="swiper-slide"><img src="{{ asset('assets/home/home-7.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-7"></div>
-            <div class="swiper-slide"><img src="{{ asset('assets/home/home-8.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-8"></div>
+            <div class="swiper-slide">
+                <iframe src="https://www.youtube.com/embed/GdjNieQ8Vuo?si=-tzk3-G4vnaeihv7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('assets/home/home-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-1">
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('assets/home/home-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-2">
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('assets/home/home-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-3">
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('assets/home/home-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-4">
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('assets/home/home-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-5">
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('assets/home/home-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-6">
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('assets/home/home-7.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-7">
+            </div>
+            <div class="swiper-slide">
+                <img src="{{ asset('assets/home/home-8.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-8">
+            </div>
         </div>
         <div class="swiper-pagination"></div>
     </div>
