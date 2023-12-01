@@ -3,6 +3,8 @@ var swiper = new Swiper(".mySwiper", {
     centeredSlides: true,
     spaceBetween: 0,
 
+    initialSlide: 4,
+
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
