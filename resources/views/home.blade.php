@@ -69,7 +69,7 @@
     <div class="swiper mySwiper">
         <div class="swiper-wrapper pb-12">
             <div class="swiper-slide">
-                <iframe src="https://www.youtube.com/embed/GdjNieQ8Vuo?si=-tzk3-G4vnaeihv7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/b6gbxnT_S2w?si=Kv3vd4djOezgtm0J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="swiper-slide">
                 <img src="{{ asset('assets/home/home-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-1">
