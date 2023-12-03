@@ -7,13 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
 
+    {{-- Browser Configuration --}}
+    <meta name="msapplication-config" content="/browserconfig.xml?t={{ env('VERSION_TIME') }}">
+
     <title>PT Dutacitra Nusa Jaya</title>
 
-    {{-- favicon --}}
+    {{-- Favicon --}}
     <link rel="icon" href="/favicon.ico?t={{ env('VERSION_TIME') }}" sizes="48x48">
 
     {{-- Web App Manifest --}}
     <link rel="manifest" href="/manifest.webmanifest?t={{ env('VERSION_TIME') }}">
+
+    {{-- Apple Touch Icon --}}
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
     {{-- Build CSS --}}
     {{-- <link rel="stylesheet" href="{{ asset('css/build.css') }}?t={{ env('VERSION_TIME') }}"> --}}
