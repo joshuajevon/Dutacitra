@@ -12,6 +12,9 @@
     {{-- favicon --}}
     <link rel="icon" href="/favicon.ico?t={{ env('VERSION_TIME') }}" sizes="48x48">
 
+    {{-- Web App Manifest --}}
+    <link rel="manifest" href="/manifest.webmanifest?t={{ env('VERSION_TIME') }}">
+
     {{-- Build CSS --}}
     {{-- <link rel="stylesheet" href="{{ asset('css/build.css') }}?t={{ env('VERSION_TIME') }}"> --}}
 
