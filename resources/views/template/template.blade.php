@@ -9,20 +9,21 @@
 
     {{-- Browser Configuration --}}
     <meta name="msapplication-config" content="/browserconfig.xml?t={{ env('VERSION_TIME') }}">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
 
-    <title>PT Dutacitra Nusa Jaya</title>
+    <title>PT. Dutacitra Nusa Jaya</title>
+
+    {{-- Web App Manifest --}}
+    <link rel="manifest" href="/site.webmanifest?t={{ env('VERSION_TIME') }}">
 
     {{-- Favicon --}}
     <link rel="icon" href="/favicon.ico?t={{ env('VERSION_TIME') }}" sizes="48x48">
-
-    {{-- Web App Manifest --}}
-    <link rel="manifest" href="/manifest.webmanifest?t={{ env('VERSION_TIME') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
     {{-- Apple Touch Icon --}}
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?t={{ env('VERSION_TIME') }}">
-
-    {{-- Build CSS --}}
-    {{-- <link rel="stylesheet" href="{{ asset('css/build.css') }}?t={{ env('VERSION_TIME') }}"> --}}
 
     <!-- vite-->
     @vite('resources/css/app.css')
