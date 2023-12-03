@@ -10,7 +10,7 @@
     <title>PT Dutacitra Nusa Jaya</title>
 
     {{-- favicon --}}
-    <link rel="icon" href="/favicon.ico" sizes="48x48">
+    <link rel="icon" href="/favicon.ico?t={{ env('VERSION_TIME') }}" sizes="48x48">
 
     {{-- Build CSS --}}
     {{-- <link rel="stylesheet" href="{{ asset('css/build.css') }}?t={{ env('VERSION_TIME') }}"> --}}
