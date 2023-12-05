@@ -48,7 +48,7 @@
         <div class="flex flex-col items-center gap-4 relative px-4 sm:px-6 md:px-8">
             <div class="absolute h-1 bg-custom-white w-full top-2 md:top-2.5"></div>
 
-            <div class="w-5 md:w-6 aspect-square rounded-full bg-custom-white"></div>
+            <div class="w-5 md:w-6 h-5 md:h-6 rounded-full bg-custom-white"></div>
             <p class="text-title font-ttRamillas font-extrabold text-center">2000</p>
             <p class="text-paragraph text-center font-light">
                 @if($lang == 'id')
@@ -62,7 +62,7 @@
         <div class="flex flex-col items-center gap-4 relative px-4 sm:px-6 md:px-8">
             <div class="absolute h-1 bg-custom-white w-full top-2 md:top-2.5"></div>
 
-            <div class="w-5 md:w-6 aspect-square rounded-full bg-custom-white"></div>
+            <div class="w-5 md:w-6 h-5 md:h-6 rounded-full bg-custom-white"></div>
             <p class="text-title font-ttRamillas font-extrabold text-center">2003</p>
             <p class="text-paragraph text-center font-light">
                 @if($lang == 'id')
@@ -76,7 +76,7 @@
         <div class="flex flex-col items-center gap-4 relative px-4 sm:px-6 md:px-8">
             <div class="absolute h-1 bg-custom-white w-full top-2 md:top-2.5"></div>
 
-            <div class="w-5 md:w-6 aspect-square rounded-full bg-custom-white"></div>
+            <div class="w-5 md:w-6 h-5 md:h-6 rounded-full bg-custom-white"></div>
             <p class="text-title font-ttRamillas font-extrabold text-center">2015</p>
             <p class="text-paragraph text-center font-light">
                 @if($lang == 'id')
@@ -90,7 +90,7 @@
         <div class="flex flex-col items-center gap-4 relative px-4 sm:px-6 md:px-8">
             <div class="absolute h-1 bg-custom-white w-full top-2 md:top-2.5"></div>
 
-            <div class="w-5 md:w-6 aspect-square rounded-full bg-custom-white"></div>
+            <div class="w-5 md:w-6 h-5 md:h-6 rounded-full bg-custom-white"></div>
             <p class="text-title font-ttRamillas font-extrabold text-center">Present</p>
             <p class="text-paragraph text-center font-light">
                 @if($lang == 'id')

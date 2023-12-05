@@ -66,15 +66,33 @@
                 <div class="col-span-1 pb-2 xl:pb-8 flex items-center">
                     <div class="swiper mySwiper product-swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 1"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 2"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 3"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 4"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 5"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 6"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-7.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 7"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-8.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 8"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-9.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 9"></div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 1">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 2">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 3">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 4">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 5">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 6">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-7.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 7">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-8.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 8">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/standard/sliding-standard-9.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding standard 9">
+                            </div>
                         </div>
 
                         <div class="swiper-pagination"></div>
@@ -96,7 +114,7 @@
                             <div class="col-span-1 flex flex-col gap-3">
                                 <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Bi-Parting</p>
                                 <div class="flex items-center gap-4 h-full">
-                                    <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none aspect-square w-20 sm:w-auto">
+                                    <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
                                     <p class="text-subparagraph text-custom-dark-blue/90 font-light">
                                         @if($lang == 'id')
@@ -111,7 +129,7 @@
                             <div class="col-span-1 flex flex-col gap-3">
                                 <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Single</p>
                                 <div class="flex items-center gap-4 h-full">
-                                    <img src="{{asset('assets/product/single-icon.png')}}" alt="single" class="flex-none aspect-square w-20 sm:w-auto">
+                                    <img src="{{asset('assets/product/single-icon.png')}}" alt="single" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
                                     <p class="text-subparagraph text-custom-dark-blue/90 font-light">
                                         @if($lang == 'id')
@@ -140,11 +158,21 @@
                 <div class="col-span-1 pb-2 xl:pb-8 order-1 xl:order-2 flex items-center">
                     <div class="swiper mySwiper product-swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/telescopic/sliding-telescopic-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding telescopic 1"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/telescopic/sliding-telescopic-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding telescopic 2"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/telescopic/sliding-telescopic-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding telescopic 3"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/telescopic/sliding-telescopic-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding telescopic 4"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/telescopic/sliding-telescopic-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding telescopic 5"></div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/telescopic/sliding-telescopic-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding telescopic 1">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/telescopic/sliding-telescopic-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding telescopic 2">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/telescopic/sliding-telescopic-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding telescopic 3">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/telescopic/sliding-telescopic-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding telescopic 4">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/telescopic/sliding-telescopic-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding telescopic 5">
+                            </div>
                         </div>
 
                         <div class="swiper-pagination"></div>
@@ -167,7 +195,7 @@
                             <div class="col-span-1 flex flex-col gap-3">
                                 <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Bi-Parting</p>
                                 <div class="flex items-center gap-4 h-full">
-                                    <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none aspect-square w-20 sm:w-auto">
+                                    <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
                                     <p class="text-subparagraph text-custom-dark-blue/90 font-light">
                                         @if($lang == 'id')
@@ -184,7 +212,7 @@
                             <div class="col-span-1 flex flex-col gap-3">
                                 <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Single</p>
                                 <div class="flex items-center gap-4 h-full">
-                                    <img src="{{asset('assets/product/single-icon.png')}}" alt="single" class="flex-none aspect-square w-20 sm:w-auto">
+                                    <img src="{{asset('assets/product/single-icon.png')}}" alt="single" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
                                     <p class="text-subparagraph text-custom-dark-blue/90 font-light">
                                         @if($lang == 'id')
@@ -215,14 +243,30 @@
                 <div class="col-span-1 pb-2 xl:pb-8 flex items-center">
                     <div class="swiper mySwiper product-swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 1"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 2"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 3"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 4"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 5"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 6"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-7.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 7"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-8.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 8"></div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 1">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 2">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 3">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 4">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 5">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 6">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-7.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 7">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/curved/sliding-curved-8.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding curved 8">
+                            </div>
                         </div>
 
                         <div class="swiper-pagination"></div>
@@ -244,7 +288,7 @@
                         <div class="grid grid-cols-1">
                             <div class="col-span-1 flex flex-col gap-3">
                                 <div class="flex items-center gap-4 h-full">
-                                    <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none aspect-square w-20 sm:w-auto">
+                                    <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
                                     <p class="text-subparagraph text-custom-dark-blue/90 font-light">
                                         @if($lang == 'id')
@@ -273,10 +317,18 @@
                 <div class="col-span-1 pb-2 xl:pb-8 order-1 xl:order-2 flex items-center">
                     <div class="swiper mySwiper product-swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/fire/sliding-fire-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding fire 1"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/fire/sliding-fire-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding fire 2"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/fire/sliding-fire-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding fire 3"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/fire/sliding-fire-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding fire 4"></div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/fire/sliding-fire-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding fire 1">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/fire/sliding-fire-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding fire 2">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/fire/sliding-fire-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding fire 3">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/fire/sliding-fire-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding fire 4">
+                            </div>
                         </div>
 
                         <div class="swiper-pagination"></div>
@@ -299,7 +351,7 @@
                             <div class="col-span-1 flex flex-col gap-3">
                                 <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Bi-Parting</p>
                                 <div class="flex items-center gap-4 h-full">
-                                    <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none aspect-square w-20 sm:w-auto">
+                                    <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
                                     <p class="text-subparagraph text-custom-dark-blue/90 font-light">
                                         @if($lang == 'id')
@@ -314,7 +366,7 @@
                             <div class="col-span-1 flex flex-col gap-3">
                                 <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Single</p>
                                 <div class="flex items-center gap-4 h-full">
-                                    <img src="{{asset('assets/product/single-icon.png')}}" alt="single" class="flex-none aspect-square w-20 sm:w-auto">
+                                    <img src="{{asset('assets/product/single-icon.png')}}" alt="single" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
                                     <p class="text-subparagraph text-custom-dark-blue/90 font-light">
                                         @if($lang == 'id')
@@ -343,12 +395,24 @@
                 <div class="col-span-1 pb-2 xl:pb-8 flex items-center">
                     <div class="swiper mySwiper product-swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 1"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 2"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 3"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 4"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 5"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 6"></div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 1">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 2">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 3">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 4">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 5">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-sliding-doors/panic/sliding-panic-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="sliding panic 6">
+                            </div>
                         </div>
 
                         <div class="swiper-pagination"></div>
@@ -371,7 +435,7 @@
                             <div class="col-span-1 flex flex-col gap-3">
                                 <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Normal Event</p>
                                 <div class="flex items-center gap-4 h-full">
-                                    <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none aspect-square w-20 sm:w-auto">
+                                    <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
                                     <p class="text-subparagraph text-custom-dark-blue/90 font-light">
                                         @if($lang == 'id')
@@ -386,7 +450,7 @@
                             <div class="col-span-1 flex flex-col gap-3">
                                 <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Emergency Event</p>
                                 <div class="flex items-center gap-4 h-full">
-                                    <img src="{{asset('assets/product/emergency-icon.png')}}" alt="emergency" class="flex-none aspect-square w-20 sm:w-auto">
+                                    <img src="{{asset('assets/product/emergency-icon.png')}}" alt="emergency" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
                                     <p class="text-subparagraph text-custom-dark-blue/90 font-light">
                                         @if($lang == 'id')
@@ -457,7 +521,7 @@
                     Our Project
                 </p>
 
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 sm:w-7 md:w-8 aspect-square">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 sm:w-7 md:w-8 h-6 sm:h-7 md:h-8">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
             </a>

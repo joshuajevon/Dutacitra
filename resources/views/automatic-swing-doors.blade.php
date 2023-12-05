@@ -53,13 +53,27 @@
                 <div class="col-span-1 pb-2 xl:pb-8 flex items-center">
                     <div class="swiper mySwiper product-swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-swing-doors/swing-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 1"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-swing-doors/swing-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 2"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-swing-doors/swing-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 3"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-swing-doors/swing-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 4"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-swing-doors/swing-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 5"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-swing-doors/swing-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 6"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-swing-doors/swing-7.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 7"></div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-swing-doors/swing-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 1">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-swing-doors/swing-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 2">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-swing-doors/swing-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 3">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-swing-doors/swing-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 4">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-swing-doors/swing-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 5">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-swing-doors/swing-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 6">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-swing-doors/swing-7.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 7">
+                            </div>
                         </div>
 
                         <div class="swiper-pagination"></div>
@@ -120,7 +134,7 @@
                     Our Project
                 </p>
 
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 sm:w-7 md:w-8 aspect-square">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 sm:w-7 md:w-8 h-6 sm:h-7 md:h-8">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
             </a>

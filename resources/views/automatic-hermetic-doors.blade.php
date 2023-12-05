@@ -58,13 +58,13 @@
                             <div class="col-span-1 flex flex-col gap-3">
                                 <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Hermetic Door</p>
 
-                                <div class="flex-none">
-                                    <img src="{{asset('assets/product/automatic-hermetic-doors/type-hermetic.jpg')}}" alt="type-hermetic" class="h-32 rounded-xl aspect-[3/2] sm:hidden">
+                                <div class="flex-none sm:hidden">
+                                    <img src="{{asset('assets/product/automatic-hermetic-doors/type-hermetic.jpg')}}" alt="type-hermetic" class="h-32 w-48 rounded-xl">
                                 </div>
 
                                 <div class="flex items-center justify-between sm:gap-8">
                                     <div class="flex items-center gap-4">
-                                        <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none aspect-square w-20 sm:w-auto">
+                                        <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
 
                                         <p class="text-subparagraph text-custom-dark-blue/90 font-light">
@@ -76,8 +76,8 @@
                                         </p>
                                     </div>
 
-                                    <div class="flex-none">
-                                        <img src="{{asset('assets/product/automatic-hermetic-doors/type-hermetic.jpg')}}" alt="type-hermetic" class="h-32 rounded-xl aspect-[3/2] hidden sm:block">
+                                    <div class="flex-none hidden sm:block">
+                                        <img src="{{asset('assets/product/automatic-hermetic-doors/type-hermetic.jpg')}}" alt="type-hermetic" class="h-32 w-48 rounded-xl">
                                     </div>
                                 </div>
                             </div>
@@ -85,13 +85,13 @@
                             <div class="col-span-1 flex flex-col gap-3">
                                 <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Glass Hermetic Door</p>
 
-                                <div class="flex-none">
-                                    <img src="{{asset('assets/product/automatic-hermetic-doors/type-glass-hermetic.jpg')}}" alt="type-glass-hermetic" class="h-32 rounded-xl aspect-[3/2] sm:hidden">
+                                <div class="flex-none sm:hidden">
+                                    <img src="{{asset('assets/product/automatic-hermetic-doors/type-glass-hermetic.jpg')}}" alt="type-glass-hermetic" class="h-32 w-48 rounded-xl sm:hidden">
                                 </div>
 
                                 <div class="flex items-center justify-between sm:gap-8">
                                     <div class="flex items-center gap-4">
-                                        <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none aspect-square w-20 sm:w-auto">
+                                        <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
                                         <p class="text-subparagraph text-custom-dark-blue/90 font-light">
                                             @if($lang == 'id')
@@ -102,8 +102,8 @@
                                         </p>
                                     </div>
 
-                                    <div class="flex-none">
-                                        <img src="{{asset('assets/product/automatic-hermetic-doors/type-glass-hermetic.jpg')}}" alt="type-glass-hermetic" class="h-32 rounded-xl aspect-[3/2] hidden sm:block">
+                                    <div class="flex-none hidden sm:block">
+                                        <img src="{{asset('assets/product/automatic-hermetic-doors/type-glass-hermetic.jpg')}}" alt="type-glass-hermetic" class="h-32 w-48 rounded-xl">
                                     </div>
                                 </div>
                             </div>
@@ -111,13 +111,13 @@
                             <div class="col-span-1 flex flex-col gap-3">
                                 <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Lead Lined Door</p>
 
-                                <div class="flex-none" s>
-                                    <img src="{{asset('assets/product/automatic-hermetic-doors/type-lead-lined.jpg')}}" alt="type-lead-lined" class="h-32 rounded-xl aspect-[3/2] sm:hidden">
+                                <div class="flex-none sm:hidden">
+                                    <img src="{{asset('assets/product/automatic-hermetic-doors/type-lead-lined.jpg')}}" alt="type-lead-lined" class="h-32 w-48 rounded-xl">
                                 </div>
 
                                 <div class="flex items-center justify-between sm:gap-8">
                                     <div class="flex items-center gap-4">
-                                        <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none aspect-square w-20 sm:w-auto">
+                                        <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
                                         <p class="text-subparagraph text-custom-dark-blue/90 font-light">
                                             @if($lang == 'id')
@@ -128,8 +128,8 @@
                                         </p>
                                     </div>
 
-                                    <div class="flex-none">
-                                        <img src="{{asset('assets/product/automatic-hermetic-doors/type-lead-lined.jpg')}}" alt="type-lead-lined" class="h-32 rounded-xl aspect-[3/2] hidden sm:block">
+                                    <div class="flex-none hidden sm:block">
+                                        <img src="{{asset('assets/product/automatic-hermetic-doors/type-lead-lined.jpg')}}" alt="type-lead-lined" class="h-32 w-48 rounded-xl">
                                     </div>
                                 </div>
                             </div>
@@ -140,17 +140,39 @@
                 <div class="col-span-1 flex flex-col items-center gap-16 order-1 xl:order-2">
                     <div class="swiper mySwiper product-swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 1"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 2"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 3"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 4"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 5"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 6"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-7.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 7"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-8.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 8"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-9.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 9"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-10.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 10"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-11.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 11"></div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 1">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 2">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 3">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 4">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 5">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 6">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-7.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 7">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-8.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 8">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-9.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 9">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-10.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 10">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-hermetic-doors/hermetic-11.jpg') }}?t={{ env('VERSION_TIME') }}" alt="hermetic 11">
+                            </div>
                         </div>
 
                         <div class="swiper-pagination"></div>
@@ -213,7 +235,7 @@
                     Our Project
                 </p>
 
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 sm:w-7 md:w-8 aspect-square">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 sm:w-7 md:w-8 h-6 sm:h-7 md:h-8">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
             </a>

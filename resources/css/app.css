@@ -28,7 +28,10 @@ input:-webkit-autofill {
     @apply xl:w-11/12 w-4/5;
 }
 .product-swiper-slide {
-    @apply flex justify-center items-center w-full aspect-[5/3] rounded-2xl xl:rounded-3xl;
+    @apply flex justify-center items-center w-full pb-3/5 rounded-2xl xl:rounded-3xl relative;
+}
+.product-swiper-slide img {
+    @apply absolute w-full h-full object-cover object-center;
 }
 
 @layer base {

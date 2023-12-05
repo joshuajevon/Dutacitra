@@ -53,11 +53,21 @@
                 <div class="col-span-1 pb-2 xl:pb-8 flex items-center">
                     <div class="swiper mySwiper product-swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-revolving-doors/revolving-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="revolving 1"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-revolving-doors/revolving-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="revolving 2"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-revolving-doors/revolving-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="revolving 3"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-revolving-doors/revolving-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="revolving 4"></div>
-                            <div class="swiper-slide product-swiper-slide"><img src="{{ asset('assets/product/automatic-revolving-doors/revolving-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="revolving 5"></div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-revolving-doors/revolving-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="revolving 1">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-revolving-doors/revolving-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="revolving 2">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-revolving-doors/revolving-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="revolving 3">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-revolving-doors/revolving-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="revolving 4">
+                            </div>
+                            <div class="swiper-slide product-swiper-slide">
+                                <img src="{{ asset('assets/product/automatic-revolving-doors/revolving-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="revolving 5">
+                            </div>
                         </div>
 
                         <div class="swiper-pagination"></div>
@@ -78,7 +88,7 @@
                         <div class="grid grid-cols-1">
                             <div class="col-span-1 flex flex-col gap-3">
                                 <div class="flex items-center gap-4 h-full">
-                                    <img src="{{asset('assets/product/revolving-icon.png')}}" alt="bi-parting" class="flex-none aspect-square w-20 sm:w-auto">
+                                    <img src="{{asset('assets/product/revolving-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
                                     <p class="text-subparagraph text-custom-dark-blue/90 font-light">
                                         @if($lang == 'id')
@@ -138,7 +148,7 @@
                     Our Project
                 </p>
 
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 sm:w-7 md:w-8 aspect-square">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 sm:w-7 md:w-8 h-6 sm:h-7 md:h-8">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
             </a>
