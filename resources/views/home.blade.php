@@ -21,7 +21,7 @@
         padding-bottom: 39.375%;
     }
 
-    .swiper-slide img loading="lazy",
+    .swiper-slide img,
     .swiper-slide iframe {
         position: absolute;
         width: 100%;
@@ -32,7 +32,7 @@
         transform: scale(0.85);
     }
 
-    .swiper-slide-active img loading="lazy",
+    .swiper-slide-active img,
     .swiper-slide-active iframe {
         transform: scale(1);
     }
