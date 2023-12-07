@@ -67,7 +67,7 @@
                                         <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
 
-                                        <p class="text-subparagraph text-custom-dark-blue/90 font-light">
+                                        <p class="text-subsubparagraph text-custom-dark-blue/90 font-light">
                                             @if($lang == 'id')
                                             Dilengkapi untuk menutup secara hermetis.
                                             @else
@@ -93,7 +93,7 @@
                                     <div class="flex items-center gap-4">
                                         <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
-                                        <p class="text-subparagraph text-custom-dark-blue/90 font-light">
+                                        <p class="text-subsubparagraph text-custom-dark-blue/90 font-light">
                                             @if($lang == 'id')
                                             Memberikan visibilitas yang luas ke dalam ruangan. Pilihan terbaik untuk area observasi dalam bangunan.
                                             @else
@@ -119,7 +119,7 @@
                                     <div class="flex items-center gap-4">
                                         <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
-                                        <p class="text-subparagraph text-custom-dark-blue/90 font-light">
+                                        <p class="text-subsubparagraph text-custom-dark-blue/90 font-light">
                                             @if($lang == 'id')
                                             Untuk ruang radiologi, dengan pilihan panel visi berlapis timah (ketebalan standar lapisan timah sekitar 2-3 mm) untuk mencegah lepasnya sinar-X. Tersedia sebagai pintu hermetis atau non-hermetis.
                                             @else

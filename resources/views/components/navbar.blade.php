@@ -1,12 +1,12 @@
 <nav class="text-subparagraph block @if($bgColor === 'blue') bg-custom-darker-blue @elseif ($bgColor === 'transparent') bg-transparent @endif c-container z-50 w-full text-custom-white">
     <div class="flex justify-between items-center py-3">
         <a href="{{ route('home') }}">
-            <img src="{{asset('assets/logo/logo-icon-text.png')}}?t={{ env('VERSION_TIME') }}" alt="logo" class="hidden 2xl:block h-10  ">
-            <img src="{{asset('assets/logo/logo-icon.png')}}?t={{ env('VERSION_TIME') }}" alt="logo" class="2xl:hidden block h-10">
+            <img src="{{asset('assets/logo/logo-icon-text.png')}}?t={{ env('VERSION_TIME') }}" alt="logo" class="hidden xl:block h-10  ">
+            <img src="{{asset('assets/logo/logo-icon.png')}}?t={{ env('VERSION_TIME') }}" alt="logo" class="xl:hidden block h-10">
         </a>
 
         <span class="hidden xl:flex justify-center items-center gap-16">
-            <span class="flex justify-center items-center gap-8 sm:gap-16 md:gap-20">
+            <span class="flex justify-center items-center gap-20">
                 <a href="{{ route('home', ['lang' => $lang]) }}" class="@if($page === 'home') font-extrabold @endif ">Home</a>
 
                 <a href="{{ route('product', ['lang' => $lang]) }}" class="@if($page === 'product') font-extrabold @endif">Product</a>

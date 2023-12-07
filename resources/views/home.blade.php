@@ -201,7 +201,7 @@
                 </div>
 
                 <div class="flex flex-col gap-1">
-                    <div class="grid grid-cols-1 2xl:grid-cols-3 gap-2 right-0">
+                    <div class="grid grid-cols-1 xl:grid-cols-3 gap-2 right-0">
                         <div class="col-span-1 flex items-center gap-2 text-custom-dark-blue bg-custom-light-blue p-4">
                             <span>
                                 <h1 class="text-heading font-semibold">
@@ -209,7 +209,7 @@
                                 </h1>
                             </span>
                             <span>
-                                <p class="text-paragraph font-light leading-none">Manusa present in over 90 countries</p>
+                                <p class="text-subparagraph font-light leading-none">Manusa present in over 90 countries</p>
                             </span>
                         </div>
 
@@ -220,7 +220,7 @@
                                 </h1>
                             </span>
                             <span>
-                                <p class="text-paragraph font-light leading-none">Automatic doors are manufactured and installed each year</p>
+                                <p class="text-subparagraph font-light leading-none">Automatic doors are manufactured and installed each year</p>
                             </span>
                         </div>
 
@@ -231,7 +231,7 @@
                                 </h1>
                             </span>
                             <span>
-                                <p class="text-paragraph font-light leading-none">Highly qualified professionals</p>
+                                <p class="text-subparagraph font-light leading-none">Highly qualified professionals</p>
                             </span>
                         </div>
                     </div>

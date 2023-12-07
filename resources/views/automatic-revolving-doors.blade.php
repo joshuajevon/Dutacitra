@@ -90,7 +90,7 @@
                                 <div class="flex items-center gap-4 h-full">
                                     <img src="{{asset('assets/product/revolving-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
-                                    <p class="text-subparagraph text-custom-dark-blue/90 font-light">
+                                    <p class="text-subsubparagraph text-custom-dark-blue/90 font-light">
                                         @if($lang == 'id')
                                         <span class="italic">Automatic Revolving Door</span> ini terdiri dari beberapa daun pintu yang berputar mengelilingi central axis. Terdapat opsi untuk menggunakan 4 daun pintu atau 3 daun pintu dan menggunakan night shield pada pintu atau menerapkan mekanisme bookshield.
                                         @else

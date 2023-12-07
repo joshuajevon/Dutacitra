@@ -44,7 +44,7 @@
     <h1 class="text-title font-ttRamillas font-bold text-center w-full">Product Type</h1>
 
     <div class="w-full">
-        <div class="flex gap-4 sm:gap-6 md:gap-8 text-paragraph leading-none overflow-auto w-full pb-4 sm:pb-6 md:pb-8">
+        <div class="flex gap-4 sm:gap-6 md:gap-8 text-subparagraph leading-none overflow-auto w-full pb-4 sm:pb-6 md:pb-8">
             <a href="#automatic-standard" class="product-type-selector flex w-44 sm:w-52 md:w-64 lg:w-auto flex-none lg:flex-1 justify-center items-center text-center border border-custom-white rounded-full px-5 sm:px-6 md:px-7 py-2 sm:py-3 md:py-4 cursor-pointer transition hover:bg-custom-light-blue hover:text-custom-dark-blue">Standard</a>
             <a href="#automatic-telescopic" class="product-type-selector flex w-44 sm:w-52 md:w-64 lg:w-auto flex-none lg:flex-1 justify-center items-center text-center border border-custom-white rounded-full px-5 sm:px-6 md:px-7 py-2 sm:py-3 md:py-4 cursor-pointer transition hover:bg-custom-light-blue hover:text-custom-dark-blue">Telescopic</a>
             <a href="#automatic-curved" class="product-type-selector flex w-44 sm:w-52 md:w-64 lg:w-auto flex-none lg:flex-1 justify-center items-center text-center border border-custom-white rounded-full px-5 sm:px-6 md:px-7 py-2 sm:py-3 md:py-4 cursor-pointer transition hover:bg-custom-light-blue hover:text-custom-dark-blue">Curved & Semicircular</a>
@@ -110,13 +110,13 @@
                     <div class="flex flex-col gap-4 bg-custom-lighter-blue text-custom-dark-blue/90 p-6 rounded-2xl">
                         <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-extrabold">Jenis Standard Sliding Door</p>
 
-                        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-1 2xl:grid-cols-2 gap-6 2xl:gap-4">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 2xl:gap-4">
                             <div class="col-span-1 flex flex-col gap-3">
                                 <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Bi-Parting</p>
-                                <div class="flex items-center gap-4 h-full">
+                                <div class="flex gap-4 h-full">
                                     <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
-                                    <p class="text-subparagraph text-custom-dark-blue/90 font-light">
+                                    <p class="text-subsubparagraph text-custom-dark-blue/90 font-light">
                                         @if($lang == 'id')
                                         Dua daun pintu bergerak ke arah berlawanan, meninggalkan ruang bukaan yang luas.
                                         @else
@@ -128,10 +128,10 @@
 
                             <div class="col-span-1 flex flex-col gap-3">
                                 <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Single</p>
-                                <div class="flex items-center gap-4 h-full">
+                                <div class="flex gap-4 h-full">
                                     <img src="{{asset('assets/product/single-icon.png')}}" alt="single" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
-                                    <p class="text-subparagraph text-custom-dark-blue/90 font-light">
+                                    <p class="text-subsubparagraph text-custom-dark-blue/90 font-light">
                                         @if($lang == 'id')
                                         Daun pintu tunggal bergerak ke kanan atau kiri, meninggalkan ruang bukaan di sisi yang sesuai.
                                         @else
@@ -191,13 +191,13 @@
                     <div class="flex flex-col gap-4 bg-custom-lighter-blue text-custom-dark-blue/90 p-6 rounded-2xl">
                         <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-extrabold">Jenis Telescopic Sliding Door</p>
 
-                        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-1 2xl:grid-cols-2 gap-6 2xl:gap-4">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 2xl:gap-4">
                             <div class="col-span-1 flex flex-col gap-3">
                                 <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Bi-Parting</p>
-                                <div class="flex items-center gap-4 h-full">
+                                <div class="flex gap-4 h-full">
                                     <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
-                                    <p class="text-subparagraph text-custom-dark-blue/90 font-light">
+                                    <p class="text-subsubparagraph text-custom-dark-blue/90 font-light">
                                         @if($lang == 'id')
 
                                         @else
@@ -211,10 +211,10 @@
 
                             <div class="col-span-1 flex flex-col gap-3">
                                 <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Single</p>
-                                <div class="flex items-center gap-4 h-full">
+                                <div class="flex gap-4 h-full">
                                     <img src="{{asset('assets/product/single-icon.png')}}" alt="single" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
-                                    <p class="text-subparagraph text-custom-dark-blue/90 font-light">
+                                    <p class="text-subsubparagraph text-custom-dark-blue/90 font-light">
                                         @if($lang == 'id')
 
                                         @else
@@ -290,7 +290,7 @@
                                 <div class="flex items-center gap-4 h-full">
                                     <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
-                                    <p class="text-subparagraph text-custom-dark-blue/90 font-light">
+                                    <p class="text-subsubparagraph text-custom-dark-blue/90 font-light">
                                         @if($lang == 'id')
                                         Pintu terdiri dari pintu otomatis tunggal atau dua daun pintu geser yang bergerak secara radial.
                                         @else
@@ -347,13 +347,13 @@
                     <div class="flex flex-col gap-4 bg-custom-lighter-blue text-custom-dark-blue/90 p-6 rounded-2xl">
                         <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-extrabold">Jenis Fire Resistant Door</p>
 
-                        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-1 2xl:grid-cols-2 gap-6 2xl:gap-4">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 2xl:gap-4">
                             <div class="col-span-1 flex flex-col gap-3">
                                 <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Bi-Parting</p>
-                                <div class="flex items-center gap-4 h-full">
+                                <div class="flex gap-4 h-full">
                                     <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
-                                    <p class="text-subparagraph text-custom-dark-blue/90 font-light">
+                                    <p class="text-subsubparagraph text-custom-dark-blue/90 font-light">
                                         @if($lang == 'id')
                                         Empat daun pintu bergerak berpasangan ke arah berlawanan, meninggalkan ruang bukaan yang luas.
                                         @else
@@ -365,10 +365,10 @@
 
                             <div class="col-span-1 flex flex-col gap-3">
                                 <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Single</p>
-                                <div class="flex items-center gap-4 h-full">
+                                <div class="flex gap-4 h-full">
                                     <img src="{{asset('assets/product/single-icon.png')}}" alt="single" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
-                                    <p class="text-subparagraph text-custom-dark-blue/90 font-light">
+                                    <p class="text-subsubparagraph text-custom-dark-blue/90 font-light">
                                         @if($lang == 'id')
                                         Dua daun pintu bergerak ke kanan atau kiri, meninggalkan ruang bukaan di sisi yang sesuai.
                                         @else
@@ -431,13 +431,13 @@
                     <div class="flex flex-col gap-4 bg-custom-lighter-blue text-custom-dark-blue/90 p-6 rounded-2xl">
                         <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-extrabold">Panic Break-Out Door Mechanism</p>
 
-                        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-1 2xl:grid-cols-2 gap-6 2xl:gap-4">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 2xl:gap-4">
                             <div class="col-span-1 flex flex-col gap-3">
                                 <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Normal Event</p>
-                                <div class="flex items-center gap-4 h-full">
+                                <div class="flex gap-4 h-full">
                                     <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
-                                    <p class="text-subparagraph text-custom-dark-blue/90 font-light">
+                                    <p class="text-subsubparagraph text-custom-dark-blue/90 font-light">
                                         @if($lang == 'id')
                                         Pintu ini beroperasi dalam mode normal, dengan bergeser membuka/menutup secara otomatis.
                                         @else
@@ -449,10 +449,10 @@
 
                             <div class="col-span-1 flex flex-col gap-3">
                                 <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Emergency Event</p>
-                                <div class="flex items-center gap-4 h-full">
+                                <div class="flex gap-4 h-full">
                                     <img src="{{asset('assets/product/emergency-icon.png')}}" alt="emergency" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
-                                    <p class="text-subparagraph text-custom-dark-blue/90 font-light">
+                                    <p class="text-subsubparagraph text-custom-dark-blue/90 font-light">
                                         @if($lang == 'id')
                                         Saat situasi darurat, daun pintu akan melipat ke arah luar saat ditekan secara manual.
                                         @else

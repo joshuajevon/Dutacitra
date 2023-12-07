@@ -1,9 +1,9 @@
-<footer class="text-subparagraph bg-custom-darker-blue text-custom-white c-container py-8 sm:py-9 md:py-10">
+<footer class="text-subsubparagraph bg-custom-darker-blue text-custom-white c-container py-8 sm:py-9 md:py-10">
     <div class="grid gap-16 grid-cols-1 xl:grid-cols-9">
         <div class="flex flex-col gap-4 col-span-1 xl:col-span-3">
             <div class="flex justify-center sm:justify-start mb-4">
                 <a href="{{ route('home', ['lang' => $lang]) }}" class="flex items-center gap-4">
-                    <img src="{{asset('assets/logo/logo-icon-text.png')}}?t={{ env('VERSION_TIME') }}" alt="logo" class="h-10 sm:h-12 xl:h-auto xl:max-h-14">
+                    <img src="{{asset('assets/logo/logo-icon-text.png')}}?t={{ env('VERSION_TIME') }}" alt="logo" class="h-10 sm:h-12">
                 </a>
             </div>
 
