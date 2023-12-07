@@ -68,7 +68,7 @@ input:-webkit-autofill {
     }
 
     .text-subsubparagraph {
-        @apply text-xs sm:text-sm;
+        @apply text-xs sm:text-sm
     }
 
     .text-subparagraph {
