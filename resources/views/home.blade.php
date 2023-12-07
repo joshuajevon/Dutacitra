@@ -63,31 +63,31 @@
     <div class="swiper mySwiper">
         <div class="swiper-wrapper pb-12">
             <div class="swiper-slide">
-                <img loading="lazy" src="{{ asset('assets/home/home-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-1">
+                <img src="{{ asset('assets/home/home-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-1">
             </div>
             <div class="swiper-slide">
-                <img loading="lazy" src="{{ asset('assets/home/home-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-2">
+                <img src="{{ asset('assets/home/home-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-2">
             </div>
             <div class="swiper-slide">
-                <img loading="lazy" src="{{ asset('assets/home/home-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-3">
+                <img src="{{ asset('assets/home/home-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-3">
             </div>
             <div class="swiper-slide">
-                <img loading="lazy" src="{{ asset('assets/home/home-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-4">
+                <img src="{{ asset('assets/home/home-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-4">
             </div>
             <div class="swiper-slide">
                 <div id="player"></div>
             </div>
             <div class="swiper-slide">
-                <img loading="lazy" src="{{ asset('assets/home/home-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-5">
+                <img src="{{ asset('assets/home/home-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-5">
             </div>
             <div class="swiper-slide">
-                <img loading="lazy" src="{{ asset('assets/home/home-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-6">
+                <img src="{{ asset('assets/home/home-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-6">
             </div>
             <div class="swiper-slide">
-                <img loading="lazy" src="{{ asset('assets/home/home-7.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-7">
+                <img src="{{ asset('assets/home/home-7.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-7">
             </div>
             <div class="swiper-slide">
-                <img loading="lazy" src="{{ asset('assets/home/home-8.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-8">
+                <img src="{{ asset('assets/home/home-8.jpg') }}?t={{ env('VERSION_TIME') }}" alt="home-8">
             </div>
         </div>
         <div class="swiper-pagination"></div>
@@ -175,7 +175,7 @@
         <div class="flex flex-col xl:flex-row gap-6 sm:gap-7 md:gap-8 pl-4 sm:pl-8 md:pl-12 lg:pl-16 xl:pl-20 2xl:pl-24">
             <div class="flex-none w-full xl:w-5/12 max-w-xs xl:max-w-none">
                 <div class="w-full pb-full relative overflow-hidden">
-                    <img loading="lazy" src="{{asset('assets/home/MANUSA.jpg')}}?t={{ env('VERSION_TIME') }}" alt="Manusa" class="absolute w-full h-full rounded-xl sm:rounded-2xl md:rounded-3xl object-cover object-center">
+                    <img src="{{asset('assets/home/MANUSA.jpg')}}?t={{ env('VERSION_TIME') }}" alt="Manusa" class="absolute w-full h-full rounded-xl sm:rounded-2xl md:rounded-3xl object-cover object-center">
                 </div>
             </div>
 
@@ -268,9 +268,9 @@
         <div class="order-1 md:order-2">
             <div class="pl-4 sm:pl-8 md:pl-12 lg:pl-16 xl:pl-20 2xl:pl-24 pr-4 sm:pr-8 md:pr-0 relative">
                 <div class="w-full pb-2/3 relative">
-                    <img loading="lazy" src="{{asset('assets/home/best-product-1.jpg')}}?t={{ env('VERSION_TIME') }}" alt="best-product-1" class="absolute w-full h-full rounded-xl sm:rounded-2xl md:rounded-3xl z-10" style="box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.15);">
+                    <img src="{{asset('assets/home/best-product-1.jpg')}}?t={{ env('VERSION_TIME') }}" alt="best-product-1" class="absolute w-full h-full rounded-xl sm:rounded-2xl md:rounded-3xl z-10" style="box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.15);">
 
-                    <img loading="lazy" src="{{asset('assets/home/best-product-2.jpg')}}?t={{ env('VERSION_TIME') }}" alt="best-product-2" class="absolute w-full h-full rounded-xl sm:rounded-2xl md:rounded-3xl -translate-x-2 sm:-translate-x-4 md:-translate-x-6 lg:-translate-x-8 xl:-translate-x-10 2xl:-translate-x-12 translate-y-3 sm:translate-y-4 md:translate-y-6 lg:translate-y-8 xl:translate-y-10 2xl:translate-y-12 -z-10" style="box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.15);">
+                    <img src="{{asset('assets/home/best-product-2.jpg')}}?t={{ env('VERSION_TIME') }}" alt="best-product-2" class="absolute w-full h-full rounded-xl sm:rounded-2xl md:rounded-3xl -translate-x-2 sm:-translate-x-4 md:-translate-x-6 lg:-translate-x-8 xl:-translate-x-10 2xl:-translate-x-12 translate-y-3 sm:translate-y-4 md:translate-y-6 lg:translate-y-8 xl:translate-y-10 2xl:translate-y-12 -z-10" style="box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.15);">
 
                     <div class="absolute w-full h-full rounded-e-xl sm:rounded-e-2xl md:rounded-e-3xl -translate-x-8 sm:-translate-x-12 md:-translate-x-16 lg:-translate-x-20 xl:-translate-x-24 2xl:-translate-x-28 translate-y-6 sm:translate-y-7 md:translate-y-10 lg:translate-y-12 xl:translate-y-16 2xl:translate-y-20 -z-20 bg-custom-light-gray"></div>
                 </div>
@@ -282,9 +282,9 @@
     <div class="col-span-1 flex flex-col gap-4 sm:gap-6 md:gap-8">
         <div class="pr-4 sm:pr-8 md:pr-12 lg:pr-16 xl:pr-20 2xl:pr-24 pl-4 sm:pl-8 md:pl-0 relative">
             <div class="w-full pb-2/3 relative">
-                <img loading="lazy" src="{{asset('assets/home/distinctive-projects-1.jpg')}}?t={{ env('VERSION_TIME') }}" alt="distinctive-projects-1" class="absolute w-full h-full rounded-xl sm:rounded-2xl md:rounded-3xl z-10" style="box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.15);">
+                <img src="{{asset('assets/home/distinctive-projects-1.jpg')}}?t={{ env('VERSION_TIME') }}" alt="distinctive-projects-1" class="absolute w-full h-full rounded-xl sm:rounded-2xl md:rounded-3xl z-10" style="box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.15);">
 
-                <img loading="lazy" src="{{asset('assets/home/distinctive-projects-2.jpg')}}?t={{ env('VERSION_TIME') }}" alt="distinctive-projects-2" class="absolute w-full h-full rounded-xl sm:rounded-2xl md:rounded-3xl -z-10 translate-x-2 sm:translate-x-4 md:translate-x-6 lg:translate-x-8 xl:translate-x-10 2xl:translate-x-12 -translate-y-3 sm:-translate-y-4 md:-translate-y-5 lg:-translate-y-6 xl:-translate-y-7 2xl:-translate-y-8" style="box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.15);">
+                <img src="{{asset('assets/home/distinctive-projects-2.jpg')}}?t={{ env('VERSION_TIME') }}" alt="distinctive-projects-2" class="absolute w-full h-full rounded-xl sm:rounded-2xl md:rounded-3xl -z-10 translate-x-2 sm:translate-x-4 md:translate-x-6 lg:translate-x-8 xl:translate-x-10 2xl:translate-x-12 -translate-y-3 sm:-translate-y-4 md:-translate-y-5 lg:-translate-y-6 xl:-translate-y-7 2xl:-translate-y-8" style="box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.15);">
 
                 <div class="absolute w-full h-full pr-4 sm:pr-8 md:pr-12 lg:pr-16 xl:pr-20 2xl:pr-24 pl-4 sm:pl-8 md:pl-0 right-0 top-0 -translate-y-6 sm:-translate-y-8 md:-translate-y-10 lg:-translate-y-12 xl:-translate-y-14 2xl:-translate-y-16 translate-x-8 sm:translate-x-12 md:translate-x-16 lg:translate-x-20 xl:translate-x-24 2xl:translate-x-28 bg-custom-light-gray rounded-l-xl sm:rounded-l-2xl md:rounded-l-3xl -z-20">
                 </div>
