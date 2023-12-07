@@ -54,19 +54,19 @@
                     <div class="swiper mySwiper product-swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide product-swiper-slide">
-                                <img src="{{ asset('assets/product/automatic-revolving-doors/revolving-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="revolving 1">
+                                <img loading="lazy" src="{{ asset('assets/product/automatic-revolving-doors/revolving-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="revolving 1">
                             </div>
                             <div class="swiper-slide product-swiper-slide">
-                                <img src="{{ asset('assets/product/automatic-revolving-doors/revolving-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="revolving 2">
+                                <img loading="lazy" src="{{ asset('assets/product/automatic-revolving-doors/revolving-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="revolving 2">
                             </div>
                             <div class="swiper-slide product-swiper-slide">
-                                <img src="{{ asset('assets/product/automatic-revolving-doors/revolving-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="revolving 3">
+                                <img loading="lazy" src="{{ asset('assets/product/automatic-revolving-doors/revolving-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="revolving 3">
                             </div>
                             <div class="swiper-slide product-swiper-slide">
-                                <img src="{{ asset('assets/product/automatic-revolving-doors/revolving-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="revolving 4">
+                                <img loading="lazy" src="{{ asset('assets/product/automatic-revolving-doors/revolving-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="revolving 4">
                             </div>
                             <div class="swiper-slide product-swiper-slide">
-                                <img src="{{ asset('assets/product/automatic-revolving-doors/revolving-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="revolving 5">
+                                <img loading="lazy" src="{{ asset('assets/product/automatic-revolving-doors/revolving-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="revolving 5">
                             </div>
                         </div>
 
@@ -88,7 +88,7 @@
                         <div class="grid grid-cols-1">
                             <div class="col-span-1 flex flex-col gap-3">
                                 <div class="flex items-center gap-4 h-full">
-                                    <img src="{{asset('assets/product/revolving-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
+                                    <img loading="lazy" src="{{asset('assets/product/revolving-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
                                     <p class="text-subsubparagraph text-custom-dark-blue/90 font-light">
                                         @if($lang == 'id')
@@ -131,7 +131,7 @@
             <div class="absolute top-0 left-0 w-[95%] h-[95%] bg-custom-light-gray -z-10 rounded-3xl">
             </div>
 
-            <img src="{{asset('assets/product/automatic-revolving-doors/project.jpg')}}?t={{ env('VERSION_TIME') }}" alt="project" style="box-shadow: 15px 20px 30px 0px rgba(0, 0, 0, 0.15);" class="rounded-3xl w-full">
+            <img loading="lazy" src="{{asset('assets/product/automatic-revolving-doors/project.jpg')}}?t={{ env('VERSION_TIME') }}" alt="project" style="box-shadow: 15px 20px 30px 0px rgba(0, 0, 0, 0.15);" class="rounded-3xl w-full">
         </div>
         <div class="col-span-1 flex flex-col justify-center gap-4 sm:gap-5 md:gap-6">
             <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold">Automatic Door Projects</h1>
