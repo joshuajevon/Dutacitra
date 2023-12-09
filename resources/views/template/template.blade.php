@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    @if($lang == 'id')
+    <meta name="description" content="PT. Dutacitra Nusa Jaya: Ahli Pintu Otomatis Anda sejak tahun 2000. Spesialis dalam teknologi Manusa. Dipercaya sebagai pemimpin global dalam solusi pintu.">
+    @else
+    <meta name="description" content="PT. Dutacitra Nusa Jaya: Your Automatic Door experts since 2000. Specializing in cutting-edge Manusa technology. Trusted global leaders in door solutions.">
+    @endif
 
     {{-- Browser Configuration --}}
     <meta name="msapplication-config" content="/browserconfig.xml?t={{ env('VERSION_TIME') }}">
