@@ -189,21 +189,21 @@
             <div class="col-span-1 flex flex-col items-center gap-2 lg:gap-8">
                 <p class="text-subtitle font-ttRamillas font-extrabold text-center">Certificates Distributor</p>
 
-                <img loading="lazy" src="{{asset('assets/about/certificates-distributor.jpg')}}?t={{ env('VERSION_TIME') }}" alt="certificates distributor" class="border border-black">
+                <img src="{{asset('assets/about/certificates-distributor.jpg')}}?t={{ env('VERSION_TIME') }}" alt="certificates distributor" class="border border-black">
 
             </div>
 
             <div class="col-span-1 flex flex-col items-center gap-2 lg:gap-8">
                 <p class="text-subtitle font-ttRamillas font-extrabold text-center">Notice of Testing</p>
 
-                <img loading="lazy" src="{{asset('assets/about/notice-of-testing.jpg')}}?t={{ env('VERSION_TIME') }}" alt="notice of testing" class="border border-black">
+                <img src="{{asset('assets/about/notice-of-testing.jpg')}}?t={{ env('VERSION_TIME') }}" alt="notice of testing" class="border border-black">
 
             </div>
 
             <div class="col-span-1 flex flex-col items-center gap-2 lg:gap-8">
                 <p class="text-subtitle font-ttRamillas font-extrabold text-center">Certificates of Origins</p>
 
-                <img loading="lazy" src="{{asset('assets/about/certificates-of-origin.jpg')}}?t={{ env('VERSION_TIME') }}" alt="certificates of origins" class="border border-black">
+                <img src="{{asset('assets/about/certificates-of-origin.jpg')}}?t={{ env('VERSION_TIME') }}" alt="certificates of origins" class="border border-black">
 
             </div>
         </div>

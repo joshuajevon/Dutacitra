@@ -54,25 +54,25 @@
                     <div class="swiper mySwiper product-swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide product-swiper-slide">
-                                <img loading="lazy" src="{{ asset('assets/product/automatic-swing-doors/swing-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 1">
+                                <img src="{{ asset('assets/product/automatic-swing-doors/swing-1.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 1">
                             </div>
                             <div class="swiper-slide product-swiper-slide">
-                                <img loading="lazy" src="{{ asset('assets/product/automatic-swing-doors/swing-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 2">
+                                <img src="{{ asset('assets/product/automatic-swing-doors/swing-2.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 2">
                             </div>
                             <div class="swiper-slide product-swiper-slide">
-                                <img loading="lazy" src="{{ asset('assets/product/automatic-swing-doors/swing-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 3">
+                                <img src="{{ asset('assets/product/automatic-swing-doors/swing-3.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 3">
                             </div>
                             <div class="swiper-slide product-swiper-slide">
-                                <img loading="lazy" src="{{ asset('assets/product/automatic-swing-doors/swing-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 4">
+                                <img src="{{ asset('assets/product/automatic-swing-doors/swing-4.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 4">
                             </div>
                             <div class="swiper-slide product-swiper-slide">
-                                <img loading="lazy" src="{{ asset('assets/product/automatic-swing-doors/swing-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 5">
+                                <img src="{{ asset('assets/product/automatic-swing-doors/swing-5.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 5">
                             </div>
                             <div class="swiper-slide product-swiper-slide">
-                                <img loading="lazy" src="{{ asset('assets/product/automatic-swing-doors/swing-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 6">
+                                <img src="{{ asset('assets/product/automatic-swing-doors/swing-6.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 6">
                             </div>
                             <div class="swiper-slide product-swiper-slide">
-                                <img loading="lazy" src="{{ asset('assets/product/automatic-swing-doors/swing-7.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 7">
+                                <img src="{{ asset('assets/product/automatic-swing-doors/swing-7.jpg') }}?t={{ env('VERSION_TIME') }}" alt="swing 7">
                             </div>
                         </div>
 
@@ -117,7 +117,7 @@
             <div class="absolute top-0 left-0 w-[95%] h-[95%] bg-custom-light-gray -z-10 rounded-3xl">
             </div>
 
-            <img loading="lazy" src="{{asset('assets/product/automatic-swing-doors/project.jpg')}}?t={{ env('VERSION_TIME') }}" alt="project" style="box-shadow: 15px 20px 30px 0px rgba(0, 0, 0, 0.15);" class="rounded-3xl w-full">
+            <img src="{{asset('assets/product/automatic-swing-doors/project.jpg')}}?t={{ env('VERSION_TIME') }}" alt="project" style="box-shadow: 15px 20px 30px 0px rgba(0, 0, 0, 0.15);" class="rounded-3xl w-full">
         </div>
         <div class="col-span-1 flex flex-col justify-center gap-4 sm:gap-5 md:gap-6">
             <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold">Automatic Door Projects</h1>
