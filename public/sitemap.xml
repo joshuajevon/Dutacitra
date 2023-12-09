@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage URL -->
+  <url>
+    <loc>https://automaticdoordutacitra.com</loc>
+  </url>
+
+  <!-- Product URLs -->
+  <url>
+    <loc>https://automaticdoordutacitra.com/product</loc>
+  </url>
+  <url>
+    <loc>https://automaticdoordutacitra.com/product/automatic-sliding-doors</loc>
+  </url>
+  <url>
+    <loc>https://automaticdoordutacitra.com/product/automatic-swing-doors</loc>
+  </url>
+  <url>
+    <loc>https://automaticdoordutacitra.com/product/automatic-revolving-doors</loc>
+  </url>
+  <url>
+    <loc>https://automaticdoordutacitra.com/product/automatic-hermetic-doors</loc>
+  </url>
+
+  <!-- Project URL -->
+  <url>
+    <loc>https://automaticdoordutacitra.com/project</loc>
+  </url>
+
+  <!-- About URL -->
+  <url>
+    <loc>https://automaticdoordutacitra.com/about</loc>
+  </url>
+
+  <!-- Contact URL -->
+  <url>
+    <loc>https://automaticdoordutacitra.com/contact</loc>
+  </url>
+
+</urlset>
