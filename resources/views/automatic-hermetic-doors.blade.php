@@ -56,7 +56,7 @@
 
                         <div class="grid grid-cols-1 gap-6">
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Hermetic Door</p>
+                                <p class="text-paragraph text-custom-dark-blue/90 font-ttRamillas font-bold">Hermetic Door</p>
 
                                 <div class="flex-none sm:hidden">
                                     <img src="{{asset('assets/product/automatic-hermetic-doors/type-hermetic.jpg')}}" alt="type-hermetic" class="h-32 w-48 rounded-xl">
@@ -83,7 +83,7 @@
                             </div>
 
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Glass Hermetic Door</p>
+                                <p class="text-paragraph text-custom-dark-blue/90 font-ttRamillas font-bold">Glass Hermetic Door</p>
 
                                 <div class="flex-none sm:hidden">
                                     <img src="{{asset('assets/product/automatic-hermetic-doors/type-glass-hermetic.jpg')}}" alt="type-glass-hermetic" class="h-32 w-48 rounded-xl sm:hidden">
@@ -109,7 +109,7 @@
                             </div>
 
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Lead Lined Door</p>
+                                <p class="text-paragraph text-custom-dark-blue/90 font-ttRamillas font-bold">Lead Lined Door</p>
 
                                 <div class="flex-none sm:hidden">
                                     <img src="{{asset('assets/product/automatic-hermetic-doors/type-lead-lined.jpg')}}" alt="type-lead-lined" class="h-32 w-48 rounded-xl">

@@ -112,8 +112,8 @@
 
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 2xl:gap-4">
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Bi-Parting</p>
-                                <div class="flex gap-4 h-full">
+                                <p class="text-paragraph text-custom-dark-blue/90 font-ttRamillas font-bold">Bi-Parting</p>
+                                <div class="flex items-center md:items-start gap-4 h-full">
                                     <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
                                     <p class="text-subsubparagraph text-custom-dark-blue/90 font-light">
@@ -127,8 +127,8 @@
                             </div>
 
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Single</p>
-                                <div class="flex gap-4 h-full">
+                                <p class="text-paragraph text-custom-dark-blue/90 font-ttRamillas font-bold">Single</p>
+                                <div class="flex items-center md:items-start gap-4 h-full">
                                     <img src="{{asset('assets/product/single-icon.png')}}" alt="single" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
                                     <p class="text-subsubparagraph text-custom-dark-blue/90 font-light">
@@ -193,35 +193,32 @@
 
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 2xl:gap-4">
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Bi-Parting</p>
-                                <div class="flex gap-4 h-full">
+                                <p class="text-paragraph text-custom-dark-blue/90 font-ttRamillas font-bold">Bi-Parting</p>
+                                <div class="flex items-center md:items-start gap-4 h-full">
                                     <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
                                     <p class="text-subsubparagraph text-custom-dark-blue/90 font-light">
                                         @if($lang == 'id')
-
-                                        @else
-
-                                        @endif
-
                                         Empat daun pintu bergerak berpasangan ke arah berlawanan, meninggalkan ruang bukaan yang luas.
+                                        @else
+                                        Two door leaves move in opposite directions, creating a spacious opening.
+                                        @endif
                                     </p>
                                 </div>
                             </div>
 
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Single</p>
-                                <div class="flex gap-4 h-full">
+                                <p class="text-paragraph text-custom-dark-blue/90 font-ttRamillas font-bold">Single</p>
+                                <div class="flex items-center md:items-start gap-4 h-full">
                                     <img src="{{asset('assets/product/single-icon.png')}}" alt="single" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
                                     <p class="text-subsubparagraph text-custom-dark-blue/90 font-light">
                                         @if($lang == 'id')
-
+                                        Dua daun pintu bergerak ke kanan atau kiri, meninggalkan ruang bukaan di sisi yang sesuai.
                                         @else
-
+                                        Single door leaf moves either to the right or left, leaving an opening on the corresponding side.
                                         @endif
 
-                                        Dua daun pintu bergerak ke kanan atau kiri, meninggalkan ruang bukaan di sisi yang sesuai.
                                     </p>
                                 </div>
                             </div>
@@ -349,8 +346,8 @@
 
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 2xl:gap-4">
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Bi-Parting</p>
-                                <div class="flex gap-4 h-full">
+                                <p class="text-paragraph text-custom-dark-blue/90 font-ttRamillas font-bold">Bi-Parting</p>
+                                <div class="flex items-center md:items-start gap-4 h-full">
                                     <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
                                     <p class="text-subsubparagraph text-custom-dark-blue/90 font-light">
@@ -364,8 +361,8 @@
                             </div>
 
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Single</p>
-                                <div class="flex gap-4 h-full">
+                                <p class="text-paragraph text-custom-dark-blue/90 font-ttRamillas font-bold">Single</p>
+                                <div class="flex items-center md:items-start gap-4 h-full">
                                     <img src="{{asset('assets/product/single-icon.png')}}" alt="single" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
                                     <p class="text-subsubparagraph text-custom-dark-blue/90 font-light">
@@ -433,8 +430,8 @@
 
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 2xl:gap-4">
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Normal Event</p>
-                                <div class="flex gap-4 h-full">
+                                <p class="text-paragraph text-custom-dark-blue/90 font-ttRamillas font-bold">Normal Event</p>
+                                <div class="flex items-center md:items-start gap-4 h-full">
                                     <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
                                     <p class="text-subsubparagraph text-custom-dark-blue/90 font-light">
@@ -448,8 +445,8 @@
                             </div>
 
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-bold">Emergency Event</p>
-                                <div class="flex gap-4 h-full">
+                                <p class="text-paragraph text-custom-dark-blue/90 font-ttRamillas font-bold">Emergency Event</p>
+                                <div class="flex items-center md:items-start gap-4 h-full">
                                     <img src="{{asset('assets/product/emergency-icon.png')}}" alt="emergency" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
                                     <p class="text-subsubparagraph text-custom-dark-blue/90 font-light">
