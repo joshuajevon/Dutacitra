@@ -32,9 +32,9 @@
         <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold text-center">Automatic Revolving Doors</h1>
         <p class="text-paragraph text-custom-dark-blue/90 text-center font-light">
             @if($lang == 'id')
-            <span class="italic">Automatic Swing Door</span> dirancang untuk dapat disesuaikan dengan berbagai jenis proyek, dan menjamin efisiensi energi maksimal serta kualitas yang tinggi.
+            <span class="italic">Automatic Revolving Door</span> dirancang untuk dapat disesuaikan dengan berbagai jenis proyek, dan menjamin efisiensi energi maksimal serta kualitas yang tinggi.
             @else
-            Automatic Swing Door is designed to be adaptable to various project requirements, ensuring maximum energy efficiency and high-quality performance.
+            Automatic Revolving Door is designed to be adaptable to various project requirements, ensuring maximum energy efficiency and high-quality performance.
             @endif
         </p>
     </div>
