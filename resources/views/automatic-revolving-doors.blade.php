@@ -24,12 +24,12 @@
 <x-navbar :page="'product'" :lang="$lang" :bgColor="'blue'" />
 
 <div class="header" style="background-image: url({{asset('assets/header/product-header.jpg')}});">
-    <h1 class="font-ttRamillas text-center font-extrabold">Our Product</h1>
+    <h1 class="font-playfair text-center font-extrabold">Our Product</h1>
 </div>
 
 <div class="c-container flex justify-center items-center py-6 sm:py-7 md:py-8">
     <div class="flex flex-col justify-center items-center gap-4 max-w-5xl">
-        <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold text-center">Automatic Revolving Doors</h1>
+        <h1 class="text-heading text-custom-dark-blue font-playfair font-extrabold text-center">Automatic Revolving Doors</h1>
         <p class="text-paragraph text-custom-dark-blue/90 text-center font-light">
             @if($lang == 'id')
             <span class="italic">Automatic Revolving Door</span> dirancang untuk dapat disesuaikan dengan berbagai jenis proyek, dan menjamin efisiensi energi maksimal serta kualitas yang tinggi.
@@ -46,7 +46,7 @@
     <div class="product-type">
         <div class="flex flex-col gap-6 xl:gap-8">
             <div>
-                <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold italic">Automatic Revolving Doors</h1>
+                <h1 class="text-heading text-custom-dark-blue font-playfair font-extrabold italic">Automatic Revolving Doors</h1>
             </div>
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-10">
@@ -83,7 +83,7 @@
                     </p>
 
                     <div class="flex flex-col gap-4 bg-custom-lighter-blue text-custom-dark-blue/90 p-6 rounded-2xl">
-                        <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-extrabold">Revolving Door</p>
+                        <p class="text-subtitle text-custom-dark-blue/90 font-playfair font-extrabold">Revolving Door</p>
 
                         <div class="grid grid-cols-1">
                             <div class="col-span-1 flex flex-col gap-3">
@@ -109,7 +109,7 @@
 
 <div class="c-container pb-8 sm:pb-10 md:pb-12 text-subparagraph">
     <div class="px-10 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-32 bg-custom-dark-blue flex flex-col items-center rounded-3xl py-8 text-custom-white gap-6">
-        <h1 class="font-ttRamillas font-extrabold text-subtitle">Downloads</h1>
+        <h1 class="font-playfair font-extrabold text-subtitle">Downloads</h1>
 
         <div class="flex flex-col gap-4 sm:gap-5 md:gap-6 w-full">
             <div class="w-full flex justify-between items-center gap-6 sm:gap-9 md:gap-12 border-b border-b-custom-white pb-2 px-4 sm:px-6 md:px-8">
@@ -134,7 +134,7 @@
             <img src="{{asset('assets/product/automatic-revolving-doors/project.jpg')}}?t={{ env('VERSION_TIME') }}" alt="project" style="box-shadow: 15px 20px 30px 0px rgba(0, 0, 0, 0.15);" class="rounded-3xl w-full">
         </div>
         <div class="col-span-1 flex flex-col justify-center gap-4 sm:gap-5 md:gap-6">
-            <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold">Automatic Door Projects</h1>
+            <h1 class="text-heading text-custom-dark-blue font-playfair font-extrabold">Automatic Door Projects</h1>
             <p class="text-paragraph text-custom-dark-blue">
                 @if($lang == 'id')
                 Kami telah melayani berbagai pelanggan dan menyediakan pintu otomatis untuk beragam perusahaan di seluruh Indonesia. Sudah banyak proyek dan perusahaan yang mempercayakan layanan kami.

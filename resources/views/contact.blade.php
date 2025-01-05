@@ -13,7 +13,7 @@
     </div>
 
     <div class="z-20 flex flex-col gap-4 max-w-4xl">
-        <h1 class="font-ttRamillas text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-custom-white">Get In Touch</h1>
+        <h1 class="font-playfair text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-custom-white">Get In Touch</h1>
         <p class="text-paragraph">
             @if($lang == 'id')
             Untuk informasi lebih lanjut atau konsultasi mengenai Automatic door jangan ragu untuk menghubungi kami. Kami siap membantu Anda dalam merencanakan solusi yang sesuai dengan kebutuhan Anda.
@@ -26,7 +26,7 @@
     <div class="z-20 flex flex-col xl:flex-row items-center gap-8 sm:gap-10 md:gap-12 text-custom-dark-blue">
         <div class="w-full xl:w-[500px] flex-none">
             <div class="flex flex-col gap-6 sm:gap-8 md:gap-10 bg-custom-light-yellow rounded-3xl p-8 sm:p-12 h-full text-paragraph" style="box-shadow: 10px 10px 20px 3px rgba(0, 0, 0, 0.25);">
-                <h1 class="text-heading font-ttRamillas font-extrabold">
+                <h1 class="text-heading font-playfair font-extrabold">
                     Contact Us
                 </h1>
                 <div class="flex items-center gap-4">
@@ -68,7 +68,7 @@
 
         <div class="w-full">
             <div class="flex flex-col gap-6 sm:gap-7 md:gap-8 bg-custom-dark-blue rounded-3xl p-8 sm:p-12 md:p-16 shadow-2xl" style="box-shadow: 10px 10px 20px 3px rgba(0, 0, 0, 0.25);">
-                <h1 class="text-heading font-ttRamillas font-extrabold text-custom-white">
+                <h1 class="text-heading font-playfair font-extrabold text-custom-white">
                     Send Message
                 </h1>
 
@@ -130,7 +130,7 @@
 
     <div class="flex flex-col justify-center items-center gap-6 sm:gap-7 md:gap-8 text-custom-dark-blue pt-8 sm:pt-10 md:pt-12">
         <div class="flex flex-col justify-center items-center gap-2 sm:gap-3 md:gap-4 max-w-3xl">
-            <h1 class="text-heading font-ttRamillas font-extrabold text-center">
+            <h1 class="text-heading font-playfair font-extrabold text-center">
                 Find Us on Google Maps
             </h1>
         </div>

@@ -24,12 +24,12 @@
 <x-navbar :page="'product'" :lang="$lang" :bgColor="'blue'" />
 
 <div class="header" style="background-image: url({{asset('assets/header/product-header.jpg')}}?t={{ env('VERSION_TIME') }});">
-    <h1 class="font-ttRamillas text-center font-extrabold">Our Product</h1>
+    <h1 class="font-playfair text-center font-extrabold">Our Product</h1>
 </div>
 
 <div class="c-container flex justify-center items-center py-6 sm:py-7 md:py-8">
     <div class="flex flex-col justify-center items-center gap-4 max-w-5xl">
-        <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold text-center">Automatic Sliding Doors</h1>
+        <h1 class="text-heading text-custom-dark-blue font-playfair font-extrabold text-center">Automatic Sliding Doors</h1>
         <p class="text-paragraph text-custom-dark-blue/90 text-center font-light">
             @if($lang == 'id')
             <span class="italic">Automatic Sliding Door</span> adalah pintu yang dapat membuka dan menutup dengan cara bergeser. <span class="italic">Automatic Sliding Door</span> dirancang untuk membuka dan menutup secara otomatis dengan kecepatan tinggi, menggabungkan teknologi canggih untuk memastikan keamanan bagi tempat usaha dan penggunanya.
@@ -41,7 +41,7 @@
 </div>
 
 <div class="px-2 sm:px-4 md:px-6 lg:px-8 xl:px-10 2xl:px-12 flex flex-col justify-center items-center gap-4 sm:gap-5 md:gap-6 pt-4 sm:pt-6 md:pt-8 bg-custom-darker-blue text-custom-white sticky top-0">
-    <h1 class="text-title font-ttRamillas font-bold text-center w-full">Product Type</h1>
+    <h1 class="text-title font-playfair font-bold text-center w-full">Product Type</h1>
 
     <div class="w-full">
         <div class="flex gap-4 sm:gap-6 md:gap-8 text-subparagraph leading-none overflow-auto w-full pb-4 sm:pb-6 md:pb-8">
@@ -59,7 +59,7 @@
     <div id="automatic-standard" class="product-type">
         <div class="flex flex-col gap-6 xl:gap-8">
             <div>
-                <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold italic">Standard Automatic Sliding Doors</h1>
+                <h1 class="text-heading text-custom-dark-blue font-playfair font-extrabold italic">Standard Automatic Sliding Doors</h1>
             </div>
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-10">
@@ -108,11 +108,11 @@
                     </p>
 
                     <div class="flex flex-col gap-4 bg-custom-lighter-blue text-custom-dark-blue/90 p-6 rounded-2xl">
-                        <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-extrabold">Jenis Standard Sliding Door</p>
+                        <p class="text-subtitle text-custom-dark-blue/90 font-playfair font-extrabold">Jenis Standard Sliding Door</p>
 
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 2xl:gap-4">
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-paragraph text-custom-dark-blue/90 font-ttRamillas font-bold">Bi-Parting</p>
+                                <p class="text-paragraph text-custom-dark-blue/90 font-playfair font-bold">Bi-Parting</p>
                                 <div class="flex items-center md:items-start gap-4 h-full">
                                     <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
@@ -127,7 +127,7 @@
                             </div>
 
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-paragraph text-custom-dark-blue/90 font-ttRamillas font-bold">Single</p>
+                                <p class="text-paragraph text-custom-dark-blue/90 font-playfair font-bold">Single</p>
                                 <div class="flex items-center md:items-start gap-4 h-full">
                                     <img src="{{asset('assets/product/single-icon.png')}}" alt="single" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
@@ -151,7 +151,7 @@
     <div id="automatic-telescopic" class="product-type">
         <div class="flex flex-col gap-6 xl:gap-8">
             <div>
-                <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold italic xl:text-end">Telescopic Automatic Sliding Doors</h1>
+                <h1 class="text-heading text-custom-dark-blue font-playfair font-extrabold italic xl:text-end">Telescopic Automatic Sliding Doors</h1>
             </div>
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12">
@@ -189,11 +189,11 @@
                     </p>
 
                     <div class="flex flex-col gap-4 bg-custom-lighter-blue text-custom-dark-blue/90 p-6 rounded-2xl">
-                        <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-extrabold">Jenis Telescopic Sliding Door</p>
+                        <p class="text-subtitle text-custom-dark-blue/90 font-playfair font-extrabold">Jenis Telescopic Sliding Door</p>
 
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 2xl:gap-4">
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-paragraph text-custom-dark-blue/90 font-ttRamillas font-bold">Bi-Parting</p>
+                                <p class="text-paragraph text-custom-dark-blue/90 font-playfair font-bold">Bi-Parting</p>
                                 <div class="flex items-center md:items-start gap-4 h-full">
                                     <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
@@ -208,7 +208,7 @@
                             </div>
 
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-paragraph text-custom-dark-blue/90 font-ttRamillas font-bold">Single</p>
+                                <p class="text-paragraph text-custom-dark-blue/90 font-playfair font-bold">Single</p>
                                 <div class="flex items-center md:items-start gap-4 h-full">
                                     <img src="{{asset('assets/product/single-icon.png')}}" alt="single" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
@@ -233,7 +233,7 @@
     <div id="automatic-curved" class="product-type">
         <div class="flex flex-col gap-6 xl:gap-8">
             <div>
-                <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold italic">Curved & Semicurved Automatic Sliding Doors</h1>
+                <h1 class="text-heading text-custom-dark-blue font-playfair font-extrabold italic">Curved & Semicurved Automatic Sliding Doors</h1>
             </div>
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-10">
@@ -280,7 +280,7 @@
                     </p>
 
                     <div class="flex flex-col gap-4 bg-custom-lighter-blue text-custom-dark-blue/90 p-6 rounded-2xl">
-                        <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-extrabold">Curved & Semicurved Door</p>
+                        <p class="text-subtitle text-custom-dark-blue/90 font-playfair font-extrabold">Curved & Semicurved Door</p>
 
                         <div class="grid grid-cols-1">
                             <div class="col-span-1 flex flex-col gap-3">
@@ -307,7 +307,7 @@
     <div id="automatic-fire" class="product-type">
         <div class="flex flex-col gap-6 xl:gap-8">
             <div>
-                <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold italic xl:text-end">Fire Resistant Automatic Sliding Doors</h1>
+                <h1 class="text-heading text-custom-dark-blue font-playfair font-extrabold italic xl:text-end">Fire Resistant Automatic Sliding Doors</h1>
             </div>
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-10">
@@ -342,11 +342,11 @@
                     </p>
 
                     <div class="flex flex-col gap-4 bg-custom-lighter-blue text-custom-dark-blue/90 p-6 rounded-2xl">
-                        <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-extrabold">Jenis Fire Resistant Door</p>
+                        <p class="text-subtitle text-custom-dark-blue/90 font-playfair font-extrabold">Jenis Fire Resistant Door</p>
 
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 2xl:gap-4">
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-paragraph text-custom-dark-blue/90 font-ttRamillas font-bold">Bi-Parting</p>
+                                <p class="text-paragraph text-custom-dark-blue/90 font-playfair font-bold">Bi-Parting</p>
                                 <div class="flex items-center md:items-start gap-4 h-full">
                                     <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
@@ -361,7 +361,7 @@
                             </div>
 
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-paragraph text-custom-dark-blue/90 font-ttRamillas font-bold">Single</p>
+                                <p class="text-paragraph text-custom-dark-blue/90 font-playfair font-bold">Single</p>
                                 <div class="flex items-center md:items-start gap-4 h-full">
                                     <img src="{{asset('assets/product/single-icon.png')}}" alt="single" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
@@ -385,7 +385,7 @@
     <div id="automatic-panic" class="product-type">
         <div class="flex flex-col gap-6 xl:gap-8">
             <div>
-                <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold italic">Panic Break-Out / Emergency Automatic Sliding Doors</h1>
+                <h1 class="text-heading text-custom-dark-blue font-playfair font-extrabold italic">Panic Break-Out / Emergency Automatic Sliding Doors</h1>
             </div>
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-10">
@@ -426,11 +426,11 @@
                     </p>
 
                     <div class="flex flex-col gap-4 bg-custom-lighter-blue text-custom-dark-blue/90 p-6 rounded-2xl">
-                        <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-extrabold">Panic Break-Out Door Mechanism</p>
+                        <p class="text-subtitle text-custom-dark-blue/90 font-playfair font-extrabold">Panic Break-Out Door Mechanism</p>
 
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 2xl:gap-4">
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-paragraph text-custom-dark-blue/90 font-ttRamillas font-bold">Normal Event</p>
+                                <p class="text-paragraph text-custom-dark-blue/90 font-playfair font-bold">Normal Event</p>
                                 <div class="flex items-center md:items-start gap-4 h-full">
                                     <img src="{{asset('assets/product/biparting-icon.png')}}" alt="bi-parting" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
@@ -445,7 +445,7 @@
                             </div>
 
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-paragraph text-custom-dark-blue/90 font-ttRamillas font-bold">Emergency Event</p>
+                                <p class="text-paragraph text-custom-dark-blue/90 font-playfair font-bold">Emergency Event</p>
                                 <div class="flex items-center md:items-start gap-4 h-full">
                                     <img src="{{asset('assets/product/emergency-icon.png')}}" alt="emergency" class="flex-none w-20 sm:w-[100px] h-20 sm:h-[100px]">
 
@@ -469,7 +469,7 @@
 
 <div class="c-container pb-8 sm:pb-10 md:pb-12 text-subparagraph">
     <div class="px-10 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-32 bg-custom-dark-blue flex flex-col items-center rounded-3xl py-8 text-custom-white gap-6">
-        <h1 class="font-ttRamillas font-extrabold text-subtitle">Downloads</h1>
+        <h1 class="font-playfair font-extrabold text-subtitle">Downloads</h1>
 
         <div class="flex flex-col gap-4 sm:gap-5 md:gap-6 w-full">
             <div class="w-full flex justify-between items-center gap-6 sm:gap-9 md:gap-12 border-b border-b-custom-white pb-2 px-4 sm:px-6 md:px-8">
@@ -504,7 +504,7 @@
             <img src="{{asset('assets/product/automatic-sliding-doors/project.jpg')}}?t={{ env('VERSION_TIME') }}" alt="project" style="box-shadow: 15px 20px 30px 0px rgba(0, 0, 0, 0.15);" class="rounded-3xl w-full">
         </div>
         <div class="col-span-1 flex flex-col justify-center gap-4 sm:gap-5 md:gap-6">
-            <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold">Automatic Door Projects</h1>
+            <h1 class="text-heading text-custom-dark-blue font-playfair font-extrabold">Automatic Door Projects</h1>
             <p class="text-paragraph text-custom-dark-blue">
                 @if($lang == 'id')
                 Kami telah melayani berbagai pelanggan dan menyediakan pintu otomatis untuk beragam perusahaan di seluruh Indonesia. Sudah banyak proyek dan perusahaan yang mempercayakan layanan kami.

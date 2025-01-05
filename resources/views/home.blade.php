@@ -46,8 +46,8 @@
     <x-navbar :page="'home'" :lang="$lang" :bgColor="'transparent'" />
 
     <div class="c-container flex flex-col gap-4 z-20 text-custom-white">
-        <h1 class="font-ttRamillas text-heading lg:text-5xl">Paving the way <br>to the <span class="font-ttRamillas font-bold italic">future</span>,
-            with<br><span class="font-ttRamillas font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl italic">Automatic Door</span></h1>
+        <h1 class="font-playfair text-heading lg:text-5xl">Paving the way <br>to the <span class="font-playfair font-bold italic">future</span>,
+            with<br><span class="font-playfair font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl italic">Automatic Door</span></h1>
 
         <p class="text-paragraph">Specialist in Automatic Door</p>
 
@@ -94,7 +94,7 @@
     </div>
 
     <div class="c-container flex flex-col justify-center items-center gap-4 text-center">
-        <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold italic">Why PT. Dutacitra Nusa Jaya?</h1>
+        <h1 class="text-heading text-custom-dark-blue font-dmSerif font-extrabold italic">Why PT. Dutacitra Nusa Jaya?</h1>
         <p class="text-custom-dark-blue text-paragraph">
             @if($lang == 'id')
             Perusahaan kami telah beroperasi sejak tahun 2000 dan men-Specialisasikan diri dalam industri Automatic Door. Tentunya dengan perjalanan yang cukup panjang dan luas ini,
@@ -113,13 +113,13 @@
 
 {{-- Our Service --}}
 <div class="c-container bg-custom-darker-blue text-custom-white flex flex-col gap-8 sm:gap-10 md:gap-12 py-8 sm:py-12 md:py-16">
-    <h1 class="text-heading font-ttRamillas font-extrabold text-center">
+    <h1 class="text-heading font-playfair font-extrabold text-center">
         Our Service
     </h1>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-12 sm:gap-10 md:gap-8">
         <div class="flex flex-col justify-center items-center gap-4 p-6 sm:p-7 md:p-8 rounded-xl sm:rounded-2xl md:rounded-3xl border border-custom-white relative">
-            <p class="text-title font-ttRamillas font-extrabold text-center absolute -top-4 left-0 right-0 mx-auto bg-custom-darker-blue w-44 sm:w-56 xl:w-48 2xl:w-56">Sales</p>
+            <p class="text-title font-playfair font-extrabold text-center absolute -top-4 left-0 right-0 mx-auto bg-custom-darker-blue w-44 sm:w-56 xl:w-48 2xl:w-56">Sales</p>
             <p class="text-paragraph text-center font-light">
                 @if($lang == 'id')
                 Kami menyediakan produk dan solusi berkualitas terbaik yang disesuaikan dengan kebutuhan Anda.
@@ -130,7 +130,7 @@
         </div>
 
         <div class="flex flex-col justify-center items-center gap-4 p-6 sm:p-7 md:p-8 rounded-xl sm:rounded-2xl md:rounded-3xl border border-custom-white relative">
-            <p class="text-title font-ttRamillas font-extrabold text-center absolute -top-4 left-0 right-0 mx-auto bg-custom-darker-blue w-44 sm:w-56 xl:w-48 2xl:w-56">Installation</p>
+            <p class="text-title font-playfair font-extrabold text-center absolute -top-4 left-0 right-0 mx-auto bg-custom-darker-blue w-44 sm:w-56 xl:w-48 2xl:w-56">Installation</p>
             <p class="text-paragraph text-center font-light">
                 @if($lang == 'id')
                 Kami memberikan bantuan ahli dalam pemasangan pintu otomatis.
@@ -141,7 +141,7 @@
         </div>
 
         <div class="flex flex-col justify-center items-center gap-4 p-6 sm:p-7 md:p-8 rounded-xl sm:rounded-2xl md:rounded-3xl border border-custom-white relative">
-            <p class="text-title font-ttRamillas font-extrabold text-center absolute -top-4 left-0 right-0 mx-auto bg-custom-darker-blue w-44 sm:w-56 xl:w-48 2xl:w-56">Spare Parts</p>
+            <p class="text-title font-playfair font-extrabold text-center absolute -top-4 left-0 right-0 mx-auto bg-custom-darker-blue w-44 sm:w-56 xl:w-48 2xl:w-56">Spare Parts</p>
             <p class="text-paragraph text-center font-light">
                 @if($lang == 'id')
                 Kami menyediakan komponen dan aksesoris yang diperlukan.
@@ -152,7 +152,7 @@
         </div>
 
         <div class="flex flex-col justify-center items-center gap-4 p-6 sm:p-7 md:p-8 rounded-xl sm:rounded-2xl md:rounded-3xl border border-custom-white relative">
-            <p class="text-title font-ttRamillas font-extrabold text-center absolute -top-4 left-0 right-0 mx-auto bg-custom-darker-blue w-44 sm:w-56 xl:w-48 2xl:w-56">Maintenance</p>
+            <p class="text-title font-playfair font-extrabold text-center absolute -top-4 left-0 right-0 mx-auto bg-custom-darker-blue w-44 sm:w-56 xl:w-48 2xl:w-56">Maintenance</p>
             <p class="text-paragraph text-center font-light">
                 @if($lang == 'id')
                 Layanan perawatan pasca pemasangan untuk pintu otomatis.
@@ -181,7 +181,7 @@
 
             <div class="flex flex-col gap-8 xl:mt-40">
                 <div class="flex flex-col gap-4 pr-4 sm:pr-8 md:pr-12 lg:pr-16 xl:pr-20 2xl:pr-24">
-                    <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold italic">Why Manusa Automatic Door?</h1>
+                    <h1 class="text-heading text-custom-dark-blue font-dmSerif font-extrabold italic">Why Manusa Automatic Door?</h1>
                     <p class="text-custom-dark-blue text-paragraph">
                         @if($lang == 'id')
                         Manusa adalah salah satu perusahaan terkemuka di dunia dalam industri automatic door. Dengan pengalaman dan keberadaan perusahaan serta distributor tunggal di hampir seluruh dunia, Manusa telah berhasil memimpin pasar automatic door. Prestasi ini didorong oleh teknologi canggih yang dikembangkan sendiri dan tim profesional yang bekerja untuk mencapai kepuasan pelanggan sepenuhnya.
@@ -250,7 +250,7 @@
     {{-- Left --}}
     <div class="col-span-1 flex flex-col gap-10 md:gap-8 md:pt-8">
         <div class="flex flex-col md:items-end gap-4 pl-4 sm:pl-8 md:pl-12 lg:pl-16 xl:pl-20 2xl:pl-24 pr-4 sm:pr-8 md:pr-0 md:text-end order-2 md:order-1">
-            <h1 class="text-subheading text-custom-dark-blue font-ttRamillas font-extrabold">Strive to provide best product</h1>
+            <h1 class="text-subheading text-custom-dark-blue font-playfair font-extrabold">Strive to provide best product</h1>
             <p class="text-custom-dark-blue text-paragraph">
                 @if($lang == 'id')
                 Kami menawarkan beragam produk pintu otomatis yang dapat menjadi solusi untuk kebutuhan Anda. Mulai dari sliding doors, swing doors, revolving doors, dan hermetic doors.
@@ -292,7 +292,7 @@
         </div>
 
         <div class="flex flex-col items-end md:items-start gap-4 pr-4 sm:pr-8 md:pr-12 lg:pr-16 xl:pr-20 2xl:pr-24 pl-4 sm:pl-8 md:pl-0 text-end md:text-start">
-            <h1 class="text-subheading text-custom-dark-blue font-ttRamillas font-extrabold">Our Distinctive Projects</h1>
+            <h1 class="text-subheading text-custom-dark-blue font-playfair font-extrabold">Our Distinctive Projects</h1>
             <p class="text-custom-dark-blue text-paragraph">
                 @if($lang == 'id')
                 Kami telah melayani berbagai pelanggan dan menyediakan pintu otomatis untuk beragam perusahaan di seluruh Indonesia. Sudah banyak proyek dan perusahaan yang mempercayakan layanan kami.

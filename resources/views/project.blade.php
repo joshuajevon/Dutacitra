@@ -9,12 +9,12 @@
 <x-navbar :page="'project'" :lang="$lang" :bgColor="'blue'" />
 
 <div class="header" style="background-image: url({{asset('assets/header/project-header.jpg')}}?t={{ env('VERSION_TIME') }});">
-    <h1 class="font-ttRamillas text-center font-extrabold">Our Project</h1>
+    <h1 class="font-playfair text-center font-extrabold">Our Project</h1>
 </div>
 
 <div class="c-container text-paragraph py-10 sm:py-12 md:py-16 flex flex-col gap-6 sm:gap-7 md:gap-8">
     <div class="bg-custom-lighter-blue px-6 sm:px-7 md:px-8 pt-4 sm:pt-5 md:pt-6 pb-2 sm:pb-2.5 md:pb-3 relative">
-        <h1 class="text-custom-dark-blue font-ttRamillas font-extrabold absolute -top-4 sm:-top-[1.125rem] md:-top-5 text-heading">Photos</h1>
+        <h1 class="text-custom-dark-blue font-playfair font-extrabold absolute -top-4 sm:-top-[1.125rem] md:-top-5 text-heading">Photos</h1>
         <p class="text-custom-dark-blue/90">
             @if($lang == 'id')
             Beberapa foto dari hasil proyek Automatic Door yang telah kami kerjakan
@@ -235,7 +235,7 @@
     </div>
 
     <div class="bg-custom-lighter-blue px-6 sm:px-7 md:px-8 pt-4 sm:pt-5 md:pt-6 pb-2 sm:pb-2.5 md:pb-3 relative mt-2 sm:mt-3 md:mt-4">
-        <h1 class="text-custom-dark-blue font-ttRamillas font-extrabold absolute -top-4 sm:-top-[1.125rem] md:-top-5 text-heading">Project Reference</h1>
+        <h1 class="text-custom-dark-blue font-playfair font-extrabold absolute -top-4 sm:-top-[1.125rem] md:-top-5 text-heading">Project Reference</h1>
         <p class="text-custom-dark-blue/90">
             @if($lang == 'id')
             Daftar pelanggan dan proyek yang telah kami selesaikan
@@ -246,7 +246,7 @@
     </div>
 
     <div class="px-10 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-32 bg-custom-dark-blue flex flex-col items-center rounded-3xl py-8 text-custom-white gap-6">
-        <h1 class="font-ttRamillas font-extrabold text-subtitle">Downloads</h1>
+        <h1 class="font-playfair font-extrabold text-subtitle">Downloads</h1>
 
         <div class="border-b border-b-custom-white flex flex-col gap-4 sm:gap-5 md:gap-6 w-full pb-2 sm:pb-3 md:pb-4 px-4 sm:px-6 md:px-8">
             <div class="w-full flex justify-between items-center gap-6 sm:gap-9 md:gap-12">

@@ -20,7 +20,8 @@ module.exports = {
             },
             fontFamily: {
                 nunito: ["Nunito Sans", "sans-serif"],
-                ttRamillas: ["TT Ramillas", "serif"],
+                playfair: ["Playfair Display", "serif"],
+                dmSerif: ["DM Serif Display", "serif"],
             },
             spacing: {
                 full: "100%",

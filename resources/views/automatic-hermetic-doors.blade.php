@@ -24,12 +24,12 @@
 <x-navbar :page="'product'" :lang="$lang" :bgColor="'blue'" />
 
 <div class="header" style="background-image: url({{asset('assets/header/product-header.jpg')}});">
-    <h1 class="font-ttRamillas text-center font-extrabold">Our Product</h1>
+    <h1 class="font-playfair text-center font-extrabold">Our Product</h1>
 </div>
 
 <div class="c-container flex justify-center items-center py-6 sm:py-7 md:py-8">
     <div class="flex flex-col justify-center items-center gap-4 max-w-5xl">
-        <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold text-center">Automatic Hermetic Doors</h1>
+        <h1 class="text-heading text-custom-dark-blue font-playfair font-extrabold text-center">Automatic Hermetic Doors</h1>
         <p class="text-paragraph text-custom-dark-blue/90 text-center font-light">
             @if($lang == 'id')
             <span class="italic">Automatic Hermetic Door</span> memenuhi kebutuhan fungsional, estetika, dan higienis yang diperlukan. Pintu ini sangat cocok untuk rumah sakit karena dapat meningkatkan tingkat kebersihan di lingkungan rumah sakit.
@@ -46,17 +46,17 @@
     <div class="product-type">
         <div class="flex flex-col gap-6 xl:gap-8">
             <div>
-                <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold italic xl:text-end">Automatic Hermetic Doors</h1>
+                <h1 class="text-heading text-custom-dark-blue font-playfair font-extrabold italic xl:text-end">Automatic Hermetic Doors</h1>
             </div>
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-6 xl:gap-14">
                 <div class="col-span-1 flex flex-col order-2 xl:order-1">
                     <div class="flex flex-col gap-4 bg-custom-lighter-blue text-custom-dark-blue/90 p-6 rounded-2xl">
-                        <p class="text-subtitle text-custom-dark-blue/90 font-ttRamillas font-extrabold">Tipe Hermetic Door</p>
+                        <p class="text-subtitle text-custom-dark-blue/90 font-playfair font-extrabold">Tipe Hermetic Door</p>
 
                         <div class="grid grid-cols-1 gap-6">
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-paragraph text-custom-dark-blue/90 font-ttRamillas font-bold">Hermetic Door</p>
+                                <p class="text-paragraph text-custom-dark-blue/90 font-playfair font-bold">Hermetic Door</p>
 
                                 <div class="flex-none sm:hidden">
                                     <img src="{{asset('assets/product/automatic-hermetic-doors/type-hermetic.jpg')}}" alt="type-hermetic" class="h-32 w-48 rounded-xl">
@@ -83,7 +83,7 @@
                             </div>
 
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-paragraph text-custom-dark-blue/90 font-ttRamillas font-bold">Glass Hermetic Door</p>
+                                <p class="text-paragraph text-custom-dark-blue/90 font-playfair font-bold">Glass Hermetic Door</p>
 
                                 <div class="flex-none sm:hidden">
                                     <img src="{{asset('assets/product/automatic-hermetic-doors/type-glass-hermetic.jpg')}}" alt="type-glass-hermetic" class="h-32 w-48 rounded-xl sm:hidden">
@@ -109,7 +109,7 @@
                             </div>
 
                             <div class="col-span-1 flex flex-col gap-3">
-                                <p class="text-paragraph text-custom-dark-blue/90 font-ttRamillas font-bold">Lead Lined Door</p>
+                                <p class="text-paragraph text-custom-dark-blue/90 font-playfair font-bold">Lead Lined Door</p>
 
                                 <div class="flex-none sm:hidden">
                                     <img src="{{asset('assets/product/automatic-hermetic-doors/type-lead-lined.jpg')}}" alt="type-lead-lined" class="h-32 w-48 rounded-xl">
@@ -196,7 +196,7 @@
 
 <div class="c-container pb-8 sm:pb-10 md:pb-12 text-subparagraph">
     <div class="px-10 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-32 bg-custom-dark-blue flex flex-col items-center rounded-3xl py-8 text-custom-white gap-6">
-        <h1 class="font-ttRamillas font-extrabold text-subtitle">Downloads</h1>
+        <h1 class="font-playfair font-extrabold text-subtitle">Downloads</h1>
 
         <div class="flex flex-col gap-4 sm:gap-5 md:gap-6 w-full">
             <div class="w-full flex justify-between items-center gap-6 sm:gap-9 md:gap-12 border-b border-b-custom-white pb-2 px-4 sm:px-6 md:px-8">
@@ -221,7 +221,7 @@
             <img src="{{asset('assets/product/automatic-hermetic-doors/project.jpg')}}?t={{ env('VERSION_TIME') }}" alt="project" style="box-shadow: 15px 20px 30px 0px rgba(0, 0, 0, 0.15);" class="rounded-3xl w-full">
         </div>
         <div class="col-span-1 flex flex-col justify-center gap-4 sm:gap-5 md:gap-6">
-            <h1 class="text-heading text-custom-dark-blue font-ttRamillas font-extrabold">Automatic Door Projects</h1>
+            <h1 class="text-heading text-custom-dark-blue font-playfair font-extrabold">Automatic Door Projects</h1>
             <p class="text-paragraph text-custom-dark-blue">
                 @if($lang == 'id')
                 Kami telah melayani berbagai pelanggan dan menyediakan pintu otomatis untuk beragam perusahaan di seluruh Indonesia. Sudah banyak proyek dan perusahaan yang mempercayakan layanan kami.
