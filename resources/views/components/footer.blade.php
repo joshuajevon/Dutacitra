@@ -139,6 +139,6 @@
     </div>
 
     <div class="mt-10 sm:mt-11 md:mt-12 border-t border-custom-light-gray pt-6">
-        <p class="text-custom-white/70">© 2023 PT. Dutacitra Nusa Jaya</p>
+        <p class="text-custom-white/70">© {{ now()->year }} PT. Dutacitra Nusa Jaya</p>
     </div>
 </footer>
